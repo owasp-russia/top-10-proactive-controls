@@ -10,14 +10,6 @@ OWASP Top 10 Proactive Controls 2018
 
 *10 Critical Security Areas That Software Developers Must Be Aware Of*
 
-
-PROJECT LEADERS
----------------
-
-* Katy Anton
-* Jim Bird
-* Jim Manico
-
 .. toctree::
    :hidden:
    :maxdepth: 1
