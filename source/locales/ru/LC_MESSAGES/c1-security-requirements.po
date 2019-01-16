@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the OWASP Proactive Controls package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-16 14:27+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -242,7 +246,7 @@ msgstr ""
 # b2e6afe633c64ef395e3eee743e36052
 #: ../../c1-security-requirements.md:60
 msgid "OWASP Application Security Verification Standard (ASVS)"
-msgstr ""
+msgstr "Стандарт подтверждения безопасности приложений OWASP (ASVS)"
 
 # 650df00fb1b240b69c9507f305aa8144
 #: ../../c1-security-requirements.md:61
