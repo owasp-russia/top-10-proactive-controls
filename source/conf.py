@@ -159,3 +159,6 @@ texinfo_documents = [
      author, 'OWASPProactiveControls', 'One line description of project.',
      'Miscellaneous'),
 ]
+    
+gettext_uuid = True
+gettext_compact = False

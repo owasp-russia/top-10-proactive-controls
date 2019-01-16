@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 12:09+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/owasp/teams/95217/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# 81787dce9c594f0eaaaa57be5e3dd4dd
+#: ../../foreword.md:1
+msgid "FOREWORD"
+msgstr ""
+
+# 23c4e4c9135c44b1802934f76dfd8496
+#: ../../foreword.md:3
+msgid ""
+"Insecure software is undermining our financial, healthcare, defense, energy,"
+" and other critical infrastructure worldwide. As our digital, global "
+"infrastructure gets increasingly complex and interconnected, the difficulty "
+"of achieving application security increases exponentially. We can no longer "
+"afford to tolerate relatively simple security problems."
+msgstr ""
+
+# 8631e237979a47bd9aa9c3debd0b60e2
+#: ../../foreword.md:5
+msgid "AIM & OBJECTIF"
+msgstr ""
+
+# 6da2f88d79dc4d96b89192b226793e84
+#: ../../foreword.md:7
+msgid ""
+"The goal of the OWASP Top 10 Proactive Controls project (OPC) is to raise "
+"awareness about application security by describing the most important areas "
+"of concern that software developers must be aware of. We encourage you to "
+"use the OWASP Proactive Controls to get your developers started with "
+"application security. Developers can learn from the mistakes of other "
+"organizations. We hope that the OWASP Proactive Controls is useful to your "
+"efforts in building secure software."
+msgstr ""
+
+# cc7f375aec164a60bd28557763529f68
+#: ../../foreword.md:9
+msgid "CALL TO ACTION"
+msgstr ""
+
+# 87f590c330e54a79a2d3296c52cbd161
+#: ../../foreword.md:11
+msgid ""
+"Please don’t hesitate to contact the OWASP Proactive Control project with "
+"your questions, comments, and ideas, either publicly to our email list or "
+"privately to jim@owasp.org."
+msgstr ""
+
+# 071d59c390474ba4af76ca478d14854d
+#: ../../foreword.md:13
+msgid "COPYRIGHT AND LICENSE"
+msgstr ""
+
+# 8d935f4d57c34b5ba95e9a5654f3c48e
+#: ../../foreword.md:15
+msgid ""
+"This document is released under the Creative Commons Attribution ShareAlike "
+"3.0 license. For any reuse or distribution, you must make it clear to others"
+" the license terms of this work."
+msgstr ""
+
+# 0e62d11c4478447c95ec929c93b7226f
+#: ../../foreword.md:17
+msgid "PROJECT LEADERS"
+msgstr ""
+
+# 7102c6d522ed4debb332ff5e5b062d70
+#: ../../foreword.md:19
+msgid "Katy Anton"
+msgstr ""
+
+# f6cbe3a649834349adcb879e10a0f8f5
+#: ../../foreword.md:20
+msgid "Jim Bird"
+msgstr ""
+
+# 8d3bb24f4b6643038b54ba2d5f21b3ce
+#: ../../foreword.md:21
+msgid "Jim Manico"
+msgstr ""
+
+# 04a46350d4c84f05b4d1c71ffca1dc23
+#: ../../foreword.md:23
+msgid "CONTRIBUTORS"
+msgstr ""
+
+# db5abddbe8204697bbfbef04b4ee94bc
+#: ../../foreword.md:25
+msgid "Chris Romeo"
+msgstr ""
+
+# bcaf7e079be84751be1772cd19e85ad4
+#: ../../foreword.md:26
+msgid "Dan Anderson"
+msgstr ""
+
+# 8a7c884a899b44d2b2530c436710ffc3
+#: ../../foreword.md:27
+msgid "David Cybuck"
+msgstr ""
+
+# 727c42c25dca49f7a1781a39eb3c1923
+#: ../../foreword.md:28
+msgid "Dave Ferguson"
+msgstr ""
+
+# c5890f50ed524f6bb3585c1ea55792a7
+#: ../../foreword.md:29
+msgid "Josh Grossman"
+msgstr ""
+
+# afc0d302803a42599506728e85f31eb1
+#: ../../foreword.md:30
+msgid "Osama Elnaggar"
+msgstr ""
+
+# 81d73477e179464389f942411143f485
+#: ../../foreword.md:31
+msgid "Colin Watson"
+msgstr ""
+
+# a951bfe3719f46518ee7ed3289734a04
+#: ../../foreword.md:32
+msgid "Rick Mitchell"
+msgstr ""
+
+# fa7e8878d4cb40c7967e7064b294518c
+#: ../../foreword.md:33
+msgid "And many more…"
+msgstr ""

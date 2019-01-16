@@ -1,0 +1,311 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 12:09+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/owasp/teams/95217/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# c6e2e1b5923a4fa39900e45212d2948e
+#: ../../c7-enforce-access-controls.md:1
+msgid "C7: Enforce Access Controls"
+msgstr ""
+
+# b816cd9bab0444d183bec667fc2e1ad4
+#: ../../c7-enforce-access-controls.md:3
+msgid "Description"
+msgstr ""
+
+# 58825e6091694bd298dbddb6efa515fc
+#: ../../c7-enforce-access-controls.md:5
+msgid ""
+"Access Control (or Authorization) is the process of granting or denying "
+"specific requests from a user, program, or process. Access control also "
+"involves the act of granting and revoking those privileges."
+msgstr ""
+
+# 3bdc11752e7444ff8d7a5ba1ab5cac26
+#: ../../c7-enforce-access-controls.md:7
+msgid ""
+"It should be noted that authorization (verifying access to specific features"
+" or resources) is not equivalent to authentication (verifying identity)."
+msgstr ""
+
+# e20cad50f4704cdf902994ae876243f8
+#: ../../c7-enforce-access-controls.md:9
+msgid ""
+"Access Control functionality often spans many areas of software depending on"
+" the complexity of the access control system. For example, managing access "
+"control metadata or building caching for scalability purposes are often "
+"additional components in an access control system that need to be built or "
+"managed. There are several different types of access control design that "
+"should be considered."
+msgstr ""
+
+# 1bcbf3c0446647229b576f01a9c5835a
+#: ../../c7-enforce-access-controls.md:12
+msgid ""
+"Discretionary Access Control (DAC) is a means of restricting access to "
+"objects (e.g., files, data entities) based on the identity and need-to-know "
+"of subjects (e.g., users, processes) and/or groups to which the object "
+"belongs."
+msgstr ""
+
+# a29d23aee201458a9380cf628d40577c
+#: ../../c7-enforce-access-controls.md:13
+msgid ""
+"Mandatory Access Control (MAC) is a means of restricting access to system "
+"resources based on the sensitivity (as represented by a label) of the "
+"information contained in the system resource and the formal authorization "
+"(i.e., clearance) of users to access information of such sensitivity."
+msgstr ""
+
+# b81397b9d0cc4bd0a6c3029dbc4aa358
+#: ../../c7-enforce-access-controls.md:14
+msgid ""
+"Role Based Access Control (RBAC) is a model for controlling access to "
+"resources where permitted actions on resources are identified with roles "
+"rather than with individual subject identities."
+msgstr ""
+
+# 242c488adc6248bcbc6fce69c62149e7
+#: ../../c7-enforce-access-controls.md:15
+msgid ""
+"Attribute Based Access Control (ABAC) will grant or deny user requests based"
+" on arbitrary attributes of the user and arbitrary attributes of the object,"
+" and environment conditions that may be globally recognized and more "
+"relevant to the policies at hand."
+msgstr ""
+
+# 779a219bd50540f7adfccf456662a3b0
+#: ../../c7-enforce-access-controls.md:17
+msgid "Access Control Design Principles"
+msgstr ""
+
+# c604ec44d5fc44d68895b77d0fab2627
+#: ../../c7-enforce-access-controls.md:19
+msgid ""
+"The following \"positive\" access control design requirements should be "
+"considered at the initial stages of application development."
+msgstr ""
+
+# d192ceb32d7d4bc7aa82976a934e538b
+#: ../../c7-enforce-access-controls.md:21
+msgid "1) Design Access Control Thoroughly Up Front"
+msgstr ""
+
+# 040238e4424b442286cdc4f0b4ef6d4e
+#: ../../c7-enforce-access-controls.md:23
+msgid ""
+"Once you have chosen a specific access control design pattern, it is often "
+"difficult and time consuming to re-engineer access control in your "
+"application with a new pattern. Access Control is one of the main areas of "
+"application security design that must be thoroughly designed up front, "
+"especially when addressing requirements like multi-tenancy and horizontal "
+"(data dependent) access control."
+msgstr ""
+
+# d5b034e2fa524513b8dd77867f9d2a49
+#: ../../c7-enforce-access-controls.md:25
+msgid ""
+"Access Control design may start simple but can often grow into a complex and"
+" feature-heavy security control. When evaluating access control capability "
+"of software frameworks, ensure that your access control functionality will "
+"allow for customization for your specific access control feature need."
+msgstr ""
+
+# b885380d0f8f4cec8f5b9125daef60a3
+#: ../../c7-enforce-access-controls.md:27
+msgid "2) Force All Requests to Go Through Access Control Checks"
+msgstr ""
+
+# d2b03d4e830b448ea75c419e19d253bc
+#: ../../c7-enforce-access-controls.md:29
+msgid ""
+"Ensure that all request go through some kind of access control verification "
+"layer. Technologies like Java filters or other automatic request processing "
+"mechanisms are ideal programming artifacts that will help ensure that all "
+"requests go through some kind of access control check."
+msgstr ""
+
+# 7c0507cf944c42fa9e26316d77ff2158
+#: ../../c7-enforce-access-controls.md:31
+msgid "3) Deny by Default"
+msgstr ""
+
+# 1692de9a2dfa40798b1bccdc5461ab13
+#: ../../c7-enforce-access-controls.md:33
+msgid ""
+"Deny by default is the principle that if a request is not specifically "
+"allowed, it is denied. There are many ways that this rule will manifest in "
+"application code. Some examples of these are:"
+msgstr ""
+
+# 8cfc1e43b7cf405da8ca41d5225f3065
+#: ../../c7-enforce-access-controls.md:35
+msgid ""
+"Application code may throw an error or exception while processing access "
+"control requests. In these cases access control should always be denied."
+msgstr ""
+
+# ed65c77c16354168bc2a269186846748
+#: ../../c7-enforce-access-controls.md:36
+msgid ""
+"When an administrator creates a new user or a user registers for a new "
+"account, that account should have minimal or no access by default until that"
+" access is configured."
+msgstr ""
+
+# a54513f0938d4a04bee332cd6f6b5d82
+#: ../../c7-enforce-access-controls.md:37
+msgid ""
+"When a new feature is added to an application all users should be denied to "
+"use that feature until it's properly configured."
+msgstr ""
+
+# 4afe1aa849c947dda56098e874a945a3
+#: ../../c7-enforce-access-controls.md:39
+msgid "4) Principle of Least Privilege"
+msgstr ""
+
+# 1292ef10a05847bc941f73eeefd510e9
+#: ../../c7-enforce-access-controls.md:41
+msgid ""
+"Ensure that all users, programs, or processes are only given as least or as "
+"little necessary access as possible. Be wary of systems that do not provide "
+"granular access control configuration capabilities."
+msgstr ""
+
+# 27bfae4569554a58a75d6b0d2766142a
+#: ../../c7-enforce-access-controls.md:43
+msgid "5) Don't Hardcode Roles"
+msgstr ""
+
+# e7c9f854bb304f6297efc5b64c76bdc5
+#: ../../c7-enforce-access-controls.md:45
+msgid ""
+"Many application frameworks default to access control that is role based. It"
+" is common to find application code that is filled with checks of this "
+"nature."
+msgstr ""
+
+# 73e655b17cff4aec9698bda82d810f54
+#: ../../c7-enforce-access-controls.md:53
+msgid ""
+"Be careful about this type of role-based programming in code. It has the "
+"following limitations or dangers."
+msgstr ""
+
+# 9c444b2a097a4e8ea332270c38c5042a
+#: ../../c7-enforce-access-controls.md:55
+msgid ""
+"Role based programming of this nature is fragile. It is easy to create "
+"incorrect or missing role checks in code."
+msgstr ""
+
+# b9b6a14d8cac44fc9cdcbd5e8f7d6385
+#: ../../c7-enforce-access-controls.md:56
+msgid ""
+"Role based programming does not allow for multi-tenancy. Extreme measures "
+"like forking the code or added checks for each customer will be required to "
+"allow role based systems to have different rules for different customers."
+msgstr ""
+
+# ddf6c1d2caaf49fcb8a1e8a0269d55b0
+#: ../../c7-enforce-access-controls.md:57
+msgid ""
+"Role based programming does not allow for data-specific or horizontal access"
+" control rules."
+msgstr ""
+
+# 1e681cc59f314a3f8a8e9c97a37b1b91
+#: ../../c7-enforce-access-controls.md:58
+msgid ""
+"Large codebases with many access control checks can be difficult to audit or"
+" verify the overall application access control policy."
+msgstr ""
+
+# dad1e938adff466998a13f5aa195b6b4
+#: ../../c7-enforce-access-controls.md:60
+msgid ""
+"Instead, please consider the following access control programming "
+"methodology:"
+msgstr ""
+
+# 1e8de3c50bf84dd7bd066b00476bbe04
+#: ../../c7-enforce-access-controls.md:68
+msgid ""
+"Attribute or feature-based access control checks of this nature are the "
+"starting point to building well-designed and feature-rich access control "
+"systems. This type of programming also allows for greater access control "
+"customization capability over time."
+msgstr ""
+
+# 34fcfcbdce7549c7969ba9d0b4e9c879
+#: ../../c7-enforce-access-controls.md:71
+msgid "6) Log All Access Control Events"
+msgstr ""
+
+# 020c33fad57c445b94a67f73296c742d
+#: ../../c7-enforce-access-controls.md:73
+msgid ""
+"All access control failures should be logged as these may be indicative of a"
+" malicious user probing the application for vulnerabilities."
+msgstr ""
+
+# 9dd4a10e2ae54b0a9d36b646f2c5a9ac
+#: ../../c7-enforce-access-controls.md:75
+msgid "Vulnerabilities Prevented"
+msgstr ""
+
+# 1dfb7c5df75b4ca29fb523cd9024a500
+#: ../../c7-enforce-access-controls.md:77
+msgid "OWASP Top 10 2017-A5-Broken Access Control"
+msgstr ""
+
+# 6a163460e4404e1a985d4f41ad67aa0a
+#: ../../c7-enforce-access-controls.md:78
+msgid "OWASP Mobile Top 10 2014-M5 Poor Authorization and Authentication"
+msgstr ""
+
+# 6510f00846944bc7b1a8d35b21238a39
+#: ../../c7-enforce-access-controls.md:80
+msgid "References"
+msgstr ""
+
+# 0acab4707f9a4b02a1d96b4748d0faa4
+#: ../../c7-enforce-access-controls.md:82
+msgid "OWASP Cheat Sheet: Access Control"
+msgstr ""
+
+# d29ef4562ebb4224b2ddaa8781cfa48d
+#: ../../c7-enforce-access-controls.md:83
+msgid ""
+"OWASP Cheat Sheet:  iOS Developer - Poor Authorization and Authentication"
+msgstr ""
+
+# 83be54297dde422286b747c518b1763c
+#: ../../c7-enforce-access-controls.md:84
+msgid "OWASP Testing Guide: Testing for Authorization"
+msgstr ""
+
+# 99f611104e514ea69a773e176345c21c
+#: ../../c7-enforce-access-controls.md:86
+msgid "Tools"
+msgstr ""
+
+# f7419dfa448343f59394a86f5a9e81f5
+#: ../../c7-enforce-access-controls.md:88
+msgid "OWASP ZAP with the optional Access Control Testing add-on"
+msgstr ""

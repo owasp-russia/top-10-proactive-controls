@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 12:09+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/owasp/teams/95217/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# 0a711e381dd14d0d855df2b2b6f255cc
+#: ../../c6-implement-digital-identity.md:1
+msgid "C6: Implement Digital Identity"
+msgstr ""
+
+# 0fd6294927db4ed48d56a9388a023bcb
+#: ../../c6-implement-digital-identity.md:3
+msgid "Description"
+msgstr ""
+
+# 58f108f5dc954c099f9450338b4505d5
+#: ../../c6-implement-digital-identity.md:5
+msgid ""
+"Digital Identity is the unique representation of a user (or other subject) "
+"as they engage in an online transaction. Authentication is the process of "
+"verifying that an individual or entity is who they claim to be. Session "
+"management is a process by which a server maintains the state of the users "
+"authentication so that the user may continue to use the system without re-"
+"authenticating. The NIST Special Publication 800-63B: Digital Identity "
+"Guidelines (Authentication and Lifecycle Management provides solid guidance "
+"on implementing digital identity, authentication and session management "
+"controls."
+msgstr ""
+
+# f617176ab02945b6a6f9f49c1e1f5b95
+#: ../../c6-implement-digital-identity.md:7
+msgid "Below are some recommendations for secure implementation."
+msgstr ""
+
+# 766b3ed1a6454c53926fd1fd5efc601b
+#: ../../c6-implement-digital-identity.md:9
+msgid "Authentication Levels"
+msgstr ""
+
+# 22dfb4ad62024545805b9d0389374979
+#: ../../c6-implement-digital-identity.md:11
+msgid ""
+"NIST 800-63b describes three levels of a authentication assurance called a "
+"authentication assurance level (AAL). AAL level 1 is reserved for lower-risk"
+" applications that do not contain PII or other private data. At AAL level 1 "
+"only single-factor authentication is required, typically through the use of "
+"a password."
+msgstr ""
+
+# ccfba008d362411dacd133d0966adecb
+#: ../../c6-implement-digital-identity.md:13
+msgid "Level 1 : Passwords"
+msgstr ""
+
+# a8b364784afe4555be9a282ec7f43f80
+#: ../../c6-implement-digital-identity.md:15
+msgid ""
+"Passwords are really really important. We need policy, we need to store them"
+" securely, we need to sometimes allow users to reset them."
+msgstr ""
+
+# 07aff991d9074bc7943fa07ba9eaea73
+#: ../../c6-implement-digital-identity.md:17
+msgid "Password Requirements"
+msgstr ""
+
+# fc8544e9671b4c269d07ac7289d7c21c
+#: ../../c6-implement-digital-identity.md:19
+msgid ""
+"Passwords should comply with the following requirements at the very least:"
+msgstr ""
+
+# a0b56a6c18ed46b59087f7c5c4684013
+#: ../../c6-implement-digital-identity.md:21
+msgid ""
+"be at least 8 characters in length if multi-factor authentication (MFA) and "
+"other controls are also used. If MFA is not possible, this should be "
+"increased to at least 10 characters"
+msgstr ""
+
+# f2eec0f4d80c481ab6b73da94eb6b015
+#: ../../c6-implement-digital-identity.md:22
+msgid ""
+"all printing ASCII characters as well as the space character should be "
+"acceptable in memorized secrets"
+msgstr ""
+
+# 7b0401d018ce4bb1bc555dc61648a2d4
+#: ../../c6-implement-digital-identity.md:23
+msgid "encourage the use of long passwords and passphrases"
+msgstr ""
+
+# cd2511afae3c434b9a1b2a27803ebc88
+#: ../../c6-implement-digital-identity.md:24
+msgid ""
+"remove complexity requirements as these have been found to be of limited "
+"effectiveness. Instead, the adoption of MFA or longer password lengths is "
+"recommended"
+msgstr ""
+
+# ddb2e89e3afe4cd6adb7e2e9deace43e
+#: ../../c6-implement-digital-identity.md:25
+msgid ""
+"ensure that passwords used are not commonly used passwords that have been "
+"already been leaked in a previous compromise.  You may choose to block the "
+"top 1000 or 10000 most common passwords which meet the above length "
+"requirements and are found in compromised password lists.  The following "
+"link contains the most commonly found passwords: "
+"https://github.com/danielmiessler/SecLists/tree/master/Passwords"
+msgstr ""
+
+# ee36812d51304a6a994c4746d6d8ab5a
+#: ../../c6-implement-digital-identity.md:27
+msgid "Implement Secure Password Recovery Mechanism"
+msgstr ""
+
+# ce9f2a7470a64defa501694fce28ef77
+#: ../../c6-implement-digital-identity.md:29
+msgid ""
+"It is common for an application to have a mechanism for a user to gain "
+"access to their account in the event they forget their password. A good "
+"design workflow for a password recovery feature will use multi-factor "
+"authentication elements. For example, it may ask a security question - "
+"something they know, and then send a generated token to a device - something"
+" they own."
+msgstr ""
+
+# 94c387e2335b4a04be8e5044813e2e01
+#: ../../c6-implement-digital-identity.md:31
+msgid ""
+"Please see the Forgot_Password_Cheat_Sheet and "
+"Choosing_and_Using_Security_Questions_Cheat_Sheet for further details."
+msgstr ""
+
+# c2393a0626fe41e0899035d5f89d8276
+#: ../../c6-implement-digital-identity.md:33
+msgid "Implement Secure Password Storage"
+msgstr ""
+
+# 30523353ba3542a39b38640774517771
+#: ../../c6-implement-digital-identity.md:35
+msgid ""
+"In order to provide strong authentication controls, an application must "
+"securely store user credentials. Furthermore, cryptographic controls should "
+"be in place such that if a credential (e.g., a password) is compromised, the"
+" attacker does not immediately have access to this information."
+msgstr ""
+
+# 81187004646e4450b274e1cbf3e9705f
+#: ../../c6-implement-digital-identity.md:37
+msgid "PHP Example for Password Storage"
+msgstr ""
+
+# adf3306df55f4170a0ca47bf5352b27f
+#: ../../c6-implement-digital-identity.md:39
+msgid ""
+"Below is an example for secure password hashing in PHP using  function "
+"(available since 5.5.0) which defaults to using the bcrypt algorithm. The "
+"example uses a work factor of 15."
+msgstr ""
+
+# d0fce0cb064c4b2fad909a42f3f828fa
+#: ../../c6-implement-digital-identity.md:48
+msgid "Please see the OWASP Password Storage Cheat Sheet for further details."
+msgstr ""
+
+# eb4bc5d49e9a4c43b13b664939eb3398
+#: ../../c6-implement-digital-identity.md:50
+msgid "Level 2 : Multi-Factor Authentication"
+msgstr ""
+
+# a2df659da8134298a22e75cdd865f350
+#: ../../c6-implement-digital-identity.md:52
+msgid ""
+"NIST 800-63b AAL level 2 is reserved for higher-risk applications that "
+"contain \"self-asserted PII or other personal information made available "
+"online.\" At AAL level 2 multi-factor authentication is required including "
+"OTP or other forms of multi-factor implementation."
+msgstr ""
+
+# dc4afda3de0a49b7967608b34bcd013c
+#: ../../c6-implement-digital-identity.md:54
+msgid ""
+"Multi-factor authentication (MFA) ensures that users are who they claim to "
+"be by requiring them to identify themselves with a combination of:"
+msgstr ""
+
+# 57ec82ddcd554c83b9e78f8db9112a88
+#: ../../c6-implement-digital-identity.md:56
+msgid "Something you know – password or PIN"
+msgstr ""
+
+# cafd642791934542b1c96634ac2e4098
+#: ../../c6-implement-digital-identity.md:57
+msgid "Something you own – token or phone"
+msgstr ""
+
+# 1cc3c32a2cb54baf893101f28ae5fc30
+#: ../../c6-implement-digital-identity.md:58
+msgid "Something you are – biometrics, such as a fingerprint"
+msgstr ""
+
+# 31ceae7b31224a21ac240d4b9120a21e
+#: ../../c6-implement-digital-identity.md:60
+msgid ""
+"Using passwords as a sole factor provides weak security. Multi-factor "
+"solutions provide a more robust solution by requiring an attacker to acquire"
+" more than one element to authenticate with the service."
+msgstr ""
+
+# 2a483a01d3694924a36eaba689df3a52
+#: ../../c6-implement-digital-identity.md:62
+msgid ""
+"It is worth noting that biometrics, when employed as a single factor of "
+"authentication, are not considered acceptable secrets for digital "
+"authentication. They can be obtained online or by taking a picture of "
+"someone with a camera phone (e.g., facial images) with or without their "
+"knowledge, lifted from objects someone touches (e.g., latent fingerprints), "
+"or captured with high resolution images (e.g., iris patterns). Biometrics "
+"must be used only as part of multi-factor authentication with a physical "
+"authenticator (something you own). For example, accessing a multi-factor "
+"one-time password (OTP) device that will generate a one-time password that "
+"the user manually enters for the verifier."
+msgstr ""
+
+# faebabd97a024d589e4168b32dc6c221
+#: ../../c6-implement-digital-identity.md:64
+msgid "Level 3 : Cryptographic Based Authentication"
+msgstr ""
+
+# cd66fb44972446d28470fe4fe1a30445
+#: ../../c6-implement-digital-identity.md:66
+msgid ""
+"NIST 800-63b Authentication Assurance Level 3 (AAL3) is required when the "
+"impact of compromised systems could lead to personal harm, significant "
+"financial loss, harm the public interest or involve civil or criminal "
+"violations. AAL3 requires authentication that is \"based on proof of "
+"possession of a key through a cryptographic protocol.\" This type of "
+"authentication is used to achieve the strongest level of authentication "
+"assurance. This is typically done though hardware cryptographic modules."
+msgstr ""
+
+# 624561ae92604c20b6367911d162ea7a
+#: ../../c6-implement-digital-identity.md:68
+msgid "Session Management"
+msgstr ""
+
+# 6417bac688c8409ca203878029895835
+#: ../../c6-implement-digital-identity.md:70
+msgid ""
+"Once the initial successful user authentication has taken place, an "
+"application may choose to track and maintain this authentication state for a"
+" limited amount of time. This will allow the user to continue using the "
+"application without having to keep re-authentication with each request. "
+"Tracking of this user state is called Session Management."
+msgstr ""
+
+# 5d8788d0b73e4f5e99675577538037a2
+#: ../../c6-implement-digital-identity.md:72
+msgid "Session Generation and Expiration"
+msgstr ""
+
+# c77023750ad34574887ebe2929c643b6
+#: ../../c6-implement-digital-identity.md:74
+msgid ""
+"User state is tracked in a session. This session is typically stored on the "
+"server for traditional web based session management. A session identifier is"
+" then given to the user so the user can identify which server-side session "
+"contains the correct user data. The client only needs to maintain this "
+"session identifier, which also keeps sensitive server-side session data off "
+"of the client."
+msgstr ""
+
+# 5d8dad3b615c4d23837e5094a2f59e36
+#: ../../c6-implement-digital-identity.md:76
+msgid ""
+"Here are a few controls to consider when building or implementing session "
+"management solutions:"
+msgstr ""
+
+# ca784d61fb5944eea40970757e63b084
+#: ../../c6-implement-digital-identity.md:78
+msgid "Ensure that the session id is long, unique and random."
+msgstr ""
+
+# a03314789b20427bb84d58d1bc202186
+#: ../../c6-implement-digital-identity.md:79
+msgid ""
+"The application should generate a new session or at least rotate the session"
+" id during authentication and re-authentication."
+msgstr ""
+
+# 1ece335966514a3aaeda9bb368f70603
+#: ../../c6-implement-digital-identity.md:80
+msgid ""
+"The application should implement an idle timeout after a period of "
+"inactivity and an absolute maximum lifetime for each session, after which "
+"users must re-authenticate. The length of the timeouts should be inversely "
+"proportional with the value of the data protected."
+msgstr ""
+
+# 9d2da27ac860489296dc348eef6a716e
+#: ../../c6-implement-digital-identity.md:82
+msgid ""
+"Please see the Session Management Cheat Sheet further details. ASVS Section "
+"3 covers additional session management requirements."
+msgstr ""
+
+# 71c7b926a1644c1c98ddae9caf9ecbc2
+#: ../../c6-implement-digital-identity.md:84
+msgid "Browser Cookies"
+msgstr ""
+
+# 4f4a0a6913534744ae644fb03243079d
+#: ../../c6-implement-digital-identity.md:86
+msgid ""
+"Browser cookies are a common method for web application to store session "
+"identifiers for web applications implementing standard session management "
+"techniques. Here are some defenses to consider when using browser cookies."
+msgstr ""
+
+# 0c3600a4ea09494ba218dacc454f2146
+#: ../../c6-implement-digital-identity.md:88
+msgid ""
+"When browser cookies are used as the mechanism for tracking the session of "
+"an authenticated user,  these should be accessible to a minimum set of "
+"domains and paths and should be tagged to expire at, or soon after, the "
+"session's validity period."
+msgstr ""
+
+# 685e17ec8486494bab3c95a08d98e5a4
+#: ../../c6-implement-digital-identity.md:89
+msgid ""
+"The 'secure' flag should be set to ensure the transfer is done via secure "
+"channel only (TLS)."
+msgstr ""
+
+# 708207a68a904b3eb4e69a531bef0a96
+#: ../../c6-implement-digital-identity.md:90
+msgid ""
+"HttpOnly flag should be set to prevent the cookie from  being accessed via "
+"JavaScript."
+msgstr ""
+
+# 2a0561c626f243828f71881ccafe6c7a
+#: ../../c6-implement-digital-identity.md:91
+msgid ""
+"Adding \"samesite\" attributes to cookies prevents some modern browsers from"
+" sending cookies with cross-site requests and provides protection against "
+"cross-site request forgery and information leakage attacks."
+msgstr ""
+
+# 65c94adbf32c43c182f6d923f88e25ed
+#: ../../c6-implement-digital-identity.md:93
+msgid "Tokens"
+msgstr ""
+
+# 7a01efb4180a473abdedd0cb0dd115a1
+#: ../../c6-implement-digital-identity.md:95
+msgid ""
+"Server-side sessions can be limiting for some forms of authentication. "
+"\"Stateless services\" allow for client side management of session data for "
+"performance purposes so they server has less of a burden to store and verify"
+" user session. These \"stateless\" applications generate a short-lived "
+"access token which can be used to authenticate a client request without "
+"sending the user's credentials after the initial authentication."
+msgstr ""
+
+# 957e4210be7b4f94817ce7e50fb5b835
+#: ../../c6-implement-digital-identity.md:97
+msgid "JWT (JSON Web Tokens)"
+msgstr ""
+
+# c025b48a4b0043818cd23ba6cc9fa5bb
+#: ../../c6-implement-digital-identity.md:99
+msgid ""
+"JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact "
+"and self-contained way for securely transmitting information between parties"
+" as a JSON object. This information can be verified and trusted because it "
+"is digitally signed. A JWT token is created during authentication and is "
+"verified by the server (or servers) before any processing."
+msgstr ""
+
+# 4f03a7a583534f2488154d78cf71433f
+#: ../../c6-implement-digital-identity.md:101
+msgid ""
+"However, JWT's are often not saved by the server after initial creation. "
+"JWT's are typically created and then handed to a client without being saved "
+"by the server in any way. The integrity of the token is maintained through "
+"the use of digital signatures so a server can later verify that the JWT is "
+"still valid and was not tampered with since its creation."
+msgstr ""
+
+# 0b6eb4f1bd384beb90a475f8f2750465
+#: ../../c6-implement-digital-identity.md:103
+msgid ""
+"This approach is both stateless and portable in the way that client and "
+"server technologies can be different yet still interact."
+msgstr ""
+
+# ef39c154e64a47cea5bf5b3934a48f27
+#: ../../c6-implement-digital-identity.md:105
+msgid "Caution"
+msgstr ""
+
+# ee5f74f4c4a642b78de428b8c82a1b59
+#: ../../c6-implement-digital-identity.md:107
+msgid ""
+"Digital identity, authentication and session management are very big topics."
+" We're scratching the surface of the topic of Digital Identity here. Ensure "
+"that your most capable engineering talent is responsible for maintaining the"
+" complexity involved with most Identity solutions."
+msgstr ""
+
+# 707249c00ed94b9b93ede9a1b23f720c
+#: ../../c6-implement-digital-identity.md:109
+msgid "Vulnerabilities Prevented"
+msgstr ""
+
+# 16db6904c177463a8dc7221d5a94a0e5
+#: ../../c6-implement-digital-identity.md:111
+msgid "OWASP Top 10 2017 A2- Broken Authentication and Session Management"
+msgstr ""
+
+# 0267627fd1b5490687652bc2c07eab00
+#: ../../c6-implement-digital-identity.md:112
+msgid "OWASP Mobile Top 10 2014-M5- Poor Authorization and Authentication"
+msgstr ""
+
+# 8a338ab580734b8db48b63f12364ec32
+#: ../../c6-implement-digital-identity.md:114
+msgid "References"
+msgstr ""
+
+# 687fd1c314ea4e92b2ae1f3b7c44fbc9
+#: ../../c6-implement-digital-identity.md:116
+msgid "OWASP Cheat Sheet: Authentication"
+msgstr ""
+
+# 29b5af6f10e64810a09161d5e22cea81
+#: ../../c6-implement-digital-identity.md:117
+msgid "OWASP Cheat Sheet: Password Storage"
+msgstr ""
+
+# f482c9f5ff4941a6af7410275851a06e
+#: ../../c6-implement-digital-identity.md:118
+msgid "OWASP Cheat Sheet: Forgot Password"
+msgstr ""
+
+# 591ff2029d4b48ab85c833cc14f04995
+#: ../../c6-implement-digital-identity.md:119
+msgid "OWASP Cheat Sheet: Choosing and Using Security Questions"
+msgstr ""
+
+# e115f416b2e94c4da7826c4a350cdc81
+#: ../../c6-implement-digital-identity.md:120
+msgid "OWASP Cheat Sheet: Session Management"
+msgstr ""
+
+# ccbf1a5cde9841e2b7a461b09e52e6df
+#: ../../c6-implement-digital-identity.md:121
+msgid "OWASP Cheat Sheet: IOS Developer"
+msgstr ""
+
+# bd7e44abe5c24073befdbca410c69ba2
+#: ../../c6-implement-digital-identity.md:122
+msgid "OWASP Testing Guide: Testing for Authentication"
+msgstr ""
+
+# 6cd3a2e1a5fe48a79854e06e27ac87ae
+#: ../../c6-implement-digital-identity.md:123
+msgid ""
+"NIST Special Publication 800-63 Revision 3 - Digital Identity Guidelines"
+msgstr ""
+
+# a64514189367422f8de963b1ded6c5c3
+#: ../../c6-implement-digital-identity.md:125
+msgid "Tools"
+msgstr ""
+
+# b0da3f18d350457c8030c7d4a031a548
+#: ../../c6-implement-digital-identity.md:127
+msgid "Daniel Miessler: Most commonly found passwords"
+msgstr ""

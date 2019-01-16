@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 12:09+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/owasp/teams/95217/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# fdfc8b8de2184c4cb32325bfb5812ef0
+#: ../../c4-encode-escape-data.md:1
+msgid "C4: Encode and Escape Data"
+msgstr ""
+
+# 9e384f392afd4b6c9cc0ae59f3c82ec3
+#: ../../c4-encode-escape-data.md:3
+msgid "Description"
+msgstr ""
+
+# 29145deba5e9441fa1a07d469589edd4
+#: ../../c4-encode-escape-data.md:5
+msgid ""
+"Encoding and escaping are defensive techniques meant to stop injection "
+"attacks. Encoding (commonly called \"Output Encoding\") involves translating"
+" special characters into some different but equivalent form that is no "
+"longer dangerous in the target interpreter, for example translating the  "
+"character into the  string when writing to an HTML page. Escaping involves "
+"adding a special character before the character/string to avoid it being "
+"misinterpreted, for example, adding a  character before a  (double quote) "
+"character so that it is interpreted as text and not as closing a string."
+msgstr ""
+
+# 09e0ba4ff5414b0daab0435cd7e06ccd
+#: ../../c4-encode-escape-data.md:7
+msgid ""
+"Output encoding is best applied just before the content is passed to the "
+"target interpreter. If this defense is performed too early in the processing"
+" of a request then the encoding or escaping may interfere with the use of "
+"the content in other parts of the program. For example if you HTML escape "
+"content before storing that data in the database and the UI automatically "
+"escapes that data a second time then the content will not display properly "
+"due to being double escaped."
+msgstr ""
+
+# 5bc2cb5d91bc4116b0d511f969321041
+#: ../../c4-encode-escape-data.md:9
+msgid "Contextual Output Encoding"
+msgstr ""
+
+# 9941c5b6a19d4c359dbd09e2540400fc
+#: ../../c4-encode-escape-data.md:11
+msgid ""
+"Contextual output encoding is a crucial security programming technique "
+"needed to stop XSS. This defense is performed on output, when you're "
+"building a user interface, at the last moment before untrusted data is "
+"dynamically added to HTML. The type of encoding will depend on the location "
+"(or context) in the document where data is being displayed or stored. The "
+"different types of encoding that would be used for building secure user "
+"interfaces includes HTML Entity Encoding, HTML Attribute Encoding, "
+"JavaScript Encoding, and URL Encoding."
+msgstr ""
+
+# 2585d418d6294f2dade3a7c4bc4b6764
+#: ../../c4-encode-escape-data.md:13
+msgid "Java Encoding Examples"
+msgstr ""
+
+# d4fdd844aee04325865f2b9d13d521f1
+#: ../../c4-encode-escape-data.md:15
+msgid ""
+"For examples of the OWASP Java Encoder providing contextual output encoding "
+"see: OWASP Java Encoder Project Examples."
+msgstr ""
+
+# 02cda9fe0375424486e6bbd8e4c81604
+#: ../../c4-encode-escape-data.md:18
+msgid ".NET Encoding Examples"
+msgstr ""
+
+# 6fa81a2372b5496bbd011a098b4db984
+#: ../../c4-encode-escape-data.md:20
+msgid ""
+"Starting with .NET 4.5 , the Anti-Cross Site Scripting library is part of "
+"the framework, but not enabled by default. You can specify to use "
+"AntiXssEncoder from this library as the default encoder for your entire "
+"application using the web.conf settings. When applied is important to "
+"contextual encode your output - that means to use the right function from "
+"the AntiXSSEncoder library for the appropriate location of data in document."
+msgstr ""
+
+# 89415330f5dc4c0280a22f8a477a8ea2
+#: ../../c4-encode-escape-data.md:22
+msgid "PHP Encoding Examples"
+msgstr ""
+
+# 670233348fc44f53931e7bf9ae63418a
+#: ../../c4-encode-escape-data.md:24
+msgid "Zend Framework 2"
+msgstr ""
+
+# 41bbaa77f8574d10a51c9cb4cf547b94
+#: ../../c4-encode-escape-data.md:26
+msgid ""
+"In Zend Framework 2 (ZF2), Zend\\Escaper can be used for encoding the "
+"output. For contextual encoding examples see Context-specific escaping with "
+"zend-escaper."
+msgstr ""
+
+# 6443b90506cb4beab31168be15079275
+#: ../../c4-encode-escape-data.md:28
+msgid "Other Types of Encoding and Injection Defense"
+msgstr ""
+
+# c234e400dc0f493d88d6020d96964fc0
+#: ../../c4-encode-escape-data.md:30
+msgid ""
+"Encoding/Escaping can be used to neutralize content against other forms of "
+"injection. For example, it's possible to neutralize certain special meta-"
+"characters when adding input to an operating system command. This is called "
+"\"OS command escaping\", \"shell escaping\", or similar. This defense can be"
+" used to stop \"Command Injection\" vulnerabilities."
+msgstr ""
+
+# 4cb16fb0ea344fd09e1f5a7077870fd8
+#: ../../c4-encode-escape-data.md:32
+msgid ""
+"There are other forms of escaping that can be used to stop injection such as"
+" XML attribute escaping stopping various forms of XML and XML path "
+"injection, as well as LDAP distinguished name escaping that can be used to "
+"stop various forms of LDAP injection."
+msgstr ""
+
+# 0ad9ce365dad4393b775366e400f7386
+#: ../../c4-encode-escape-data.md:34
+msgid "Character Encoding and Canonicalization"
+msgstr ""
+
+# 1428676c5f204d4aac25fce9155e961b
+#: ../../c4-encode-escape-data.md:36
+msgid ""
+"Unicode Encoding is a method for storing characters with multiple bytes. "
+"Wherever input data is allowed, data can be entered using Unicode to "
+"disguise malicious code and permit a variety of attacks. RFC 2279 references"
+" many ways that text can be encoded."
+msgstr ""
+
+# 5e97b3d58ccf40ca8887ebf6fe7070c2
+#: ../../c4-encode-escape-data.md:38
+msgid ""
+"Canonicalization is a method in which systems convert data into a simple or "
+"standard form.  Web applications commonly use character canonicalization to "
+"ensure all content is of the same character type when stored or displayed."
+msgstr ""
+
+# 400709be9fb64986a63116fd99a83027
+#: ../../c4-encode-escape-data.md:40
+msgid ""
+"To be secure against canonicalization related attacks means an application "
+"should be safe when malformed Unicode and other malformed character "
+"representations are entered."
+msgstr ""
+
+# 9cedcff2c5e045849e5dd9ffef6ee51a
+#: ../../c4-encode-escape-data.md:43
+msgid "Vulnerabilities Prevented"
+msgstr ""
+
+# 265c8dc278a94b1483ddad5624a2a6f5
+#: ../../c4-encode-escape-data.md:45
+msgid "OWASP Top 10 2017 - A1: Injection"
+msgstr ""
+
+# 3672e605ef714b94983cbe9f06e0503c
+#: ../../c4-encode-escape-data.md:46
+msgid "OWASP Top 10 2017 - A7: Cross Site Scripting (XSS)"
+msgstr ""
+
+# 6b6e23d0e305481391b6596b37399a6f
+#: ../../c4-encode-escape-data.md:47
+msgid "OWASP Mobile_Top_10_2014-M7 Client Side Injection"
+msgstr ""
+
+# b76efa5a2e05463689e5d71c646b44fc
+#: ../../c4-encode-escape-data.md:49
+msgid "References"
+msgstr ""
+
+# 9fe14dc397d6428aa3975ae742bed94f
+#: ../../c4-encode-escape-data.md:51
+msgid "XSS - General information"
+msgstr ""
+
+# acda8688eeb8496cb251f47dcc13b195
+#: ../../c4-encode-escape-data.md:52
+msgid ""
+"OWASP Cheat Sheet: XSS Prevention - Stopping XSS in your web application"
+msgstr ""
+
+# 6e24405e5c9940eb9ae953d112b51d1c
+#: ../../c4-encode-escape-data.md:53
+msgid "OWASP Cheat Sheet: DOM based XSS Prevention"
+msgstr ""
+
+# 5609083841014b1f94bdcbb2d460d268
+#: ../../c4-encode-escape-data.md:54
+msgid "OWASP Cheat Sheet: Injection Prevention"
+msgstr ""
+
+# 470a09fc0e444545b551c2839629ef6e
+#: ../../c4-encode-escape-data.md:56
+msgid "Tools"
+msgstr ""
+
+# 43e7eece32764670aa29127eaa0d5f0d
+#: ../../c4-encode-escape-data.md:58
+msgid "OWASP Java Encoder Project"
+msgstr ""
+
+# 9a6aecf4349a4939b9daab855e131159
+#: ../../c4-encode-escape-data.md:59
+msgid "AntiXSSEncoder"
+msgstr ""
+
+# f52e624e634f4098aa962bc9d8b6a182
+#: ../../c4-encode-escape-data.md:60
+msgid "Zend\\Escaper - examples of contextual encodingx"
+msgstr ""

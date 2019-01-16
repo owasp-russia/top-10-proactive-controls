@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 12:09+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/owasp/teams/95217/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# c6606e7872ef4949a09432c8af53c469
+#: ../../final-word.md:1
+msgid "Final word"
+msgstr ""
+
+# 3ceeaa1c55204e419981a3eaf5c50f8c
+#: ../../final-word.md:3
+msgid ""
+"This document should be seen as a starting point rather than a comprehensive"
+" set of techniques and practices. We want to again emphasize that this "
+"document is intended to provide initial awareness around building secure "
+"software."
+msgstr ""
+
+# 95e50a5bcd2b463d802986df4f5e43e0
+#: ../../final-word.md:5
+msgid "Good next steps to help build an application security program include:"
+msgstr ""
+
+# c3893e6bdccf49639d7bb09287985a0f
+#: ../../final-word.md:7
+msgid ""
+"To understand some of the risks in web application security please review "
+"the OWASP Top Ten and the OWASP Mobile Top Ten."
+msgstr ""
+
+# 504e4789c06b4cc28045174de0772f57
+#: ../../final-word.md:8
+msgid ""
+"Per Proactive Control #1, a secure development program should include a "
+"comprehensive list of security requirements based on a standard such as the "
+"OWASP (Web) ASVS and the OWASP (Mobile) MASVS."
+msgstr ""
+
+# 99c6fc15658d453c8cd106ed57ceedea
+#: ../../final-word.md:9
+msgid ""
+"To understand the core building blocks of a secure software program from a "
+"more macro point of view please review the OWASP OpenSAMM project."
+msgstr ""
+
+# 7d27f0712e0d4d56afe57d1dbb42b893
+#: ../../final-word.md:11
+msgid ""
+"If you have any questions for the project leadership team please sign up for"
+" our mailing list at "
+"https://lists.owasp.org/mailman/listinfo/owasp_proactive_controls."
+msgstr ""
