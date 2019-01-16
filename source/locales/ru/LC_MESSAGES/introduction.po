@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:20+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# 50acbea9f5c447a3a02bb083cb0ceb3a
+#: ../../introduction.md:1
+msgid "INTRODUCTION"
+msgstr ""
+
+# 3cd22c7c7b42470fbbc7be65288f473b
+#: ../../introduction.md:3
+msgid ""
+"The OWASP Top Ten Proactive Controls 2018 is a list of security techniques "
+"that should be considered for every software development project. This "
+"document is written for developers to assist those new to secure "
+"development."
+msgstr ""
+
+# e91a5e43f05a478ca34bb635cd2efbfc
+#: ../../introduction.md:5
+msgid ""
+"One of the main goals of this document is to provide concrete practical "
+"guidance that helps developers build secure software. These techniques "
+"should be applied proactively at the early stages of software development to"
+" ensure maximum effectiveness."
+msgstr ""
+
+# aca40a76c18c41a7992c07502421e585
+#: ../../introduction.md:7
+msgid "The Top 10 Proactive Controls"
+msgstr ""
+
+# c52a14bc44e948b5b34ecf63ce5fb163
+#: ../../introduction.md:9
+msgid ""
+"The list is ordered by importance with list item number 1 being the most "
+"important:"
+msgstr ""
+
+# a09af4067e2d4687b64115f2dc6f80b2
+#: ../../introduction.md:11
+msgid "C1: Define Security Requirements"
+msgstr ""
+
+# d40854b7569d4f61bd2008e929c345a2
+#: ../../introduction.md:12
+msgid "C2: Leverage Security Frameworks and Libraries"
+msgstr ""
+
+# dea082041b1d42f499687b95fb152f58
+#: ../../introduction.md:13
+msgid "C3: Secure Database Access"
+msgstr ""
+
+# 69252a28236d401ea8262c37971f0a84
+#: ../../introduction.md:14
+msgid "C4: Encode and Escape Data"
+msgstr ""
+
+# cd5812b1b9ed4e8e83ae653fcb2e7b52
+#: ../../introduction.md:15
+msgid "C5: Validate All Inputs"
+msgstr ""
+
+# 72accacfb0c2483084af37b4b2cdd982
+#: ../../introduction.md:16
+msgid "C6: Implement Digital Identity"
+msgstr ""
+
+# b9f53e1476084deab2754b256ef4d10a
+#: ../../introduction.md:17
+msgid "C7: Enforce Access Controls"
+msgstr ""
+
+# 94a061b0a9ed426e94176bd7c4a716a5
+#: ../../introduction.md:18
+msgid "C8: Protect Data Everywhere"
+msgstr ""
+
+# e4fa2bd90d844c3f88f24baea5243cf5
+#: ../../introduction.md:19
+msgid "C9: Implement Security Logging and Monitoring"
+msgstr ""
+
+# e7e2a71f13484049909780b4648b077c
+#: ../../introduction.md:20
+msgid "C10: Handle All Errors and Exceptions"
+msgstr ""
+
+# 7aa6cec76ce648e189f802ce9dae8f1d
+#: ../../introduction.md:22
+msgid "How this List Was Created"
+msgstr ""
+
+# f783042c83654c35a6321832279f7052
+#: ../../introduction.md:24
+msgid ""
+"This list was originally created by the current project leads with "
+"contributions from several volunteers. The document was then shared globally"
+" so even anonymous suggestions could be considered. Hundreds of changes were"
+" accepted from this open community process."
+msgstr ""
+
+# 38946790374544db8ddfc8809e4ce7b3
+#: ../../introduction.md:26
+msgid "Target Audience"
+msgstr ""
+
+# 9d82e5d66614411a9a0fd1f918cbe656
+#: ../../introduction.md:28
+msgid ""
+"This document is primarily written for developers. However, development "
+"managers, product owners, Q/A professionals, program managers, and anyone "
+"involved in building software can also benefit from this document."
+msgstr ""
+
+# e5b57b4aa1ce4262aa4a3f169b38c3c9
+#: ../../introduction.md:30
+msgid "How to Use this Document"
+msgstr ""
+
+# 0e13db71ab3040a7805050a802a73f26
+#: ../../introduction.md:32
+msgid ""
+"This document is intended to provide initial awareness around building "
+"secure software. This document will also provide a good foundation of topics"
+" to help drive introductory software security developer training. These "
+"controls should be used consistently and thoroughly throughout all "
+"applications. However, this document should be seen as a starting point "
+"rather than a comprehensive set of techniques and practices. A full secure "
+"development process should include comprehensive requirements from a "
+"standard such as the OWASP ASVS in addition to including a range of software"
+" development activities described in maturity models such as OWASP SAMM and "
+"BSIMM."
+msgstr ""
+
+# 386c22463011449db12d58a60bcf9001
+#: ../../introduction.md:34
+msgid "Link to the OWASP Top 10 Project"
+msgstr ""
+
+# 1e24e669091a4802bb3f065e0bc719e2
+#: ../../introduction.md:36
+msgid ""
+"The OWASP Top 10 Proactive Controls is similar to the OWASP Top 10 but is "
+"focused on defensive techniques and controls as opposed to risks. Each "
+"technique or control in this document will map to one or more items in the "
+"risk based OWASP Top 10. This mapping information is included at the end of "
+"each control description."
+msgstr ""

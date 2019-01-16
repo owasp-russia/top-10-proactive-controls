@@ -1,0 +1,30 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# 972f2d33beb949a9955a2f79cda40461
+#: ../../structure.md:1
+msgid "DOCUMENT STRUCTURE"
+msgstr ""
+
+# 29dbf8a157614e899c8a396af7e8a233
+#: ../../structure.md:3
+msgid ""
+"This document is structured as a list of security controls. Each control is "
+"described as follows:"
+msgstr ""

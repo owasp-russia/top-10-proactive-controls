@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# 061e1ca9855e494e99d3c08b95f705b0
+#: ../../c3-secure-database-access.md:1
+msgid "C3: Secure Database Access"
+msgstr ""
+
+# b82eadf9f6d24a8c82c1bd91f21f16eb
+#: ../../c3-secure-database-access.md:3
+msgid "Description"
+msgstr ""
+
+# b19d3143065f40939e2d90f88d97c787
+#: ../../c3-secure-database-access.md:5
+msgid ""
+"This section describes secure access to all data stores, including both "
+"relational databases and NoSQL databases. Some areas to consider:"
+msgstr ""
+
+# 64e2e3a1ce8b474eb239d28e333ebee0
+#: ../../c3-secure-database-access.md:7
+msgid "Secure queries"
+msgstr ""
+
+# e765ae9bc7a246b7b83e11713128896e
+#: ../../c3-secure-database-access.md:8
+msgid "Secure configuration"
+msgstr ""
+
+# 79413af1510241c88a6802127cb42e9c
+#: ../../c3-secure-database-access.md:9
+msgid "Secure authentication"
+msgstr ""
+
+# 92beeaf63e6f45539f157c96961a0583
+#: ../../c3-secure-database-access.md:10
+msgid "Secure communication"
+msgstr ""
+
+# 8d8134bd12f44c78b761263f33a1161a
+#: ../../c3-secure-database-access.md:12
+msgid "Secure Queries"
+msgstr ""
+
+# ff5248666b6348a2a0fdc84b68ab12fe
+#: ../../c3-secure-database-access.md:14
+msgid ""
+"SQL Injection occurs when untrusted user input is dynamically added to a SQL"
+" query in an insecure manner, often via basic string concatenation. SQL "
+"Injection is one of the most dangerous application security risks. SQL "
+"Injection is easy to exploit and could lead to the entire database being "
+"stolen, wiped, or modified. The application can even be used to run "
+"dangerous commands against the operating system hosting your database, "
+"thereby giving an attacker a foothold on your network."
+msgstr ""
+
+# f135e1d9b2e14d79bed1e591154e961b
+#: ../../c3-secure-database-access.md:16
+msgid ""
+"In order to mitigate SQL injection, untrusted input should be prevented from"
+" being interpreted as part of a SQL command. The best way to do this is with"
+" the programming technique known as 'Query Parameterization'. This defense "
+"should be applied to SQL, OQL, as well as stored procedure construction."
+msgstr ""
+
+# da77f2ea0ae84705bd64a084c7475cd5
+#: ../../c3-secure-database-access.md:18
+msgid ""
+"A good list of query parameterization examples in ASP, ColdFusion, C#, "
+"Delphi, .NET, Go, Java, Perl, PHP, PL/SQL, PostgreSQL, Python, R, Ruby and "
+"Scheme can be found at http://bobby-tables.com and the OWASP Cheat Sheet on "
+"Query Parameterization."
+msgstr ""
+
+# 957d4eba67e04645890563490eefaad1
+#: ../../c3-secure-database-access.md:20
+msgid "Caution on Query Parameterization"
+msgstr ""
+
+# b5bcd7e6ef00486bb641837c12113853
+#: ../../c3-secure-database-access.md:22
+msgid ""
+"Certain locations in a database query are not parameterizable. These "
+"locations are different for each database vendor. Be certain to do very "
+"careful exact-match validation or manual escaping when confronting database "
+"query parameters that cannot be bound to a parameterized query. Also, while "
+"the use of parameterized queries largely has a positive impact on "
+"performance, certain parameterized queries in specific database "
+"implementations will affect performance negatively. Be sure to test queries "
+"for performance; especially complex queries with extensive like clause or "
+"text searching capabilities."
+msgstr ""
+
+# 1503e1c1bb1f4a0c9a7db4796848885d
+#: ../../c3-secure-database-access.md:24
+msgid "Secure Configuration"
+msgstr ""
+
+# 7b7a33360d434c9a876979fd27cc089f
+#: ../../c3-secure-database-access.md:26
+msgid ""
+"Unfortunately, database management systems do not always ship in a \"secure "
+"by default\" configuration. Care must be taken to ensure that the security "
+"controls available from the Database Management System (DBMS) and hosting "
+"platform are enabled and properly configured. There are standards, guides, "
+"and benchmarks available for most common DBMS."
+msgstr ""
+
+# 7692989fea8e463296d7020ab63b2664
+#: ../../c3-secure-database-access.md:28
+msgid "Secure Authentication"
+msgstr ""
+
+# 34de7d88c8a7484ca4d9664bb938fe8b
+#: ../../c3-secure-database-access.md:30
+msgid ""
+"All access to the database should be properly authenticated. Authentication "
+"to the DBMS should be accomplished in a secure manner. Authentication should"
+" take place only over a secure channel. Credentials must be properly secured"
+" and available for use."
+msgstr ""
+
+# c70f63e00db047c58c7790d910e92cc4
+#: ../../c3-secure-database-access.md:32
+msgid "Secure Communication"
+msgstr ""
+
+# 074fc17f58b243c9ac7a799e552f7df8
+#: ../../c3-secure-database-access.md:34
+msgid ""
+"Most DBMS support a variety of communications methods (services, APIs, etc) "
+"- secure (authenticated, encrypted) and insecure (unauthenticated or "
+"unencrypted). It is a good practice to only use the secure communications "
+"options per the Protect Data Everywhere control."
+msgstr ""
+
+# 4df23d61d2034a1c9282d9c45a925679
+#: ../../c3-secure-database-access.md:36
+msgid "Vulnerabilities Prevented"
+msgstr ""
+
+# 1213ca9dfc4d432cb9d844bef118459e
+#: ../../c3-secure-database-access.md:38
+msgid "OWASP Top 10 2017- A1: Injection"
+msgstr ""
+
+# 13b17efbab0d476ba53f759e74c36a53
+#: ../../c3-secure-database-access.md:39
+msgid "OWASP Mobile Top 10 2014-M1 Weak Server Side Controls"
+msgstr ""
+
+# f7ededbce64647c2a190e078ff74da30
+#: ../../c3-secure-database-access.md:41
+msgid "References"
+msgstr ""
+
+# 41dcfa8f89ef41379258f69ac416a3e7
+#: ../../c3-secure-database-access.md:43
+msgid "OWASP Cheat Sheet: Query Parameterization"
+msgstr ""
+
+# cba61358de414954aa297eca93dc22f8
+#: ../../c3-secure-database-access.md:44
+msgid "Bobby Tables: A guide to preventing SQL injection"
+msgstr ""
+
+# 7ad56371c5b343058091b701ab439e09
+#: ../../c3-secure-database-access.md:45
+msgid "CIS Database Hardening Standards"
+msgstr ""

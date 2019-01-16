@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# 0db818f835f84e14a108543c00f38092
+#: ../../c2-leverage-security-frameworks-libraries.md:1
+msgid "C2: Leverage Security Frameworks and Libraries"
+msgstr ""
+
+# 7accbf79db4f4bde93aea256ac89bbb0
+#: ../../c2-leverage-security-frameworks-libraries.md:3
+msgid "Description"
+msgstr ""
+
+# b19be09f47ae47608131ae2bfd7ebe16
+#: ../../c2-leverage-security-frameworks-libraries.md:5
+msgid ""
+"Secure coding libraries and software frameworks with embedded security help "
+"software developers guard against security-related design and implementation"
+" flaws. A developer writing an application from scratch might not have "
+"sufficient knowledge, time, or budget to properly implement or maintain "
+"security features. Leveraging security frameworks helps accomplish security "
+"goals more efficiently and accurately."
+msgstr ""
+
+# 521551ac41994cfe9ab3bad6de8f898d
+#: ../../c2-leverage-security-frameworks-libraries.md:7
+msgid "Implementation Best Practices"
+msgstr ""
+
+# e25af8c59ba2480aa388f31e90aa45cc
+#: ../../c2-leverage-security-frameworks-libraries.md:9
+msgid ""
+"When incorporating third party libraries or frameworks into your software, "
+"it is important to consider the following best practices:"
+msgstr ""
+
+# 32272ebd0fcc4b80b8f738a93d0defc2
+#: ../../c2-leverage-security-frameworks-libraries.md:11
+msgid ""
+"Use libraries and frameworks from trusted sources that are actively "
+"maintained and widely used by many applications."
+msgstr ""
+
+# d8a5de90b3f04e32ac7a369f865d82d9
+#: ../../c2-leverage-security-frameworks-libraries.md:12
+msgid ""
+"Create and maintain an inventory catalog of all the third party libraries."
+msgstr ""
+
+# 9692ab07ad494ebaa54514979825d82f
+#: ../../c2-leverage-security-frameworks-libraries.md:13
+msgid ""
+"Proactively keep libraries and components up to date. Use a tool like OWASP "
+"Dependency Check and Retire.JS to identify project dependencies and check if"
+" there are any known, publicly disclosed vulnerabilities for all third party"
+" code."
+msgstr ""
+
+# 179e95f1dfbb4471a591540a7e380ea9
+#: ../../c2-leverage-security-frameworks-libraries.md:14
+msgid ""
+"Reduce the attack surface by encapsulating the library and expose only the "
+"required behaviour into your software."
+msgstr ""
+
+# 8454853c1e0a4d9090d5c2d099a23cd5
+#: ../../c2-leverage-security-frameworks-libraries.md:16
+msgid "Vulnerabilities Prevented"
+msgstr ""
+
+# c3122394ec7747d9b4e45b116e0e0f57
+#: ../../c2-leverage-security-frameworks-libraries.md:18
+msgid ""
+"Secure frameworks and libraries can help to prevent a wide range of web "
+"application vulnerabilities. It is critical to keep these frameworks and "
+"libraries up to date as described in the using components with known "
+"vulnerabilities Top Ten 2017 risk."
+msgstr ""
+
+# fbf25a9765b846df847bf2223d8d8f45
+#: ../../c2-leverage-security-frameworks-libraries.md:20
+msgid "Tools"
+msgstr ""
+
+# b1201db11b4d45b38baca00e84c77e28
+#: ../../c2-leverage-security-frameworks-libraries.md:22
+msgid ""
+"OWASP Dependency Check - identifies project dependencies and checks for "
+"publicly disclosed vulnerabilities"
+msgstr ""
+
+# fe6eced4909549089114c92fc3861a08
+#: ../../c2-leverage-security-frameworks-libraries.md:23
+msgid "Retire.JS scanner for JavaScript libraries"
+msgstr ""

@@ -1,0 +1,456 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# a14629ab780f442a941fa69a4426363c
+#: ../../c5-validate-all-inputs.md:1
+msgid "C5: Validate All Inputs"
+msgstr ""
+
+# 50806ccfb2bb422e9cfc69a20f647b7e
+#: ../../c5-validate-all-inputs.md:3
+msgid "Description"
+msgstr ""
+
+# 4389fdf76098466e810459d09ceece7f
+#: ../../c5-validate-all-inputs.md:5
+msgid ""
+"Input validation is a programming technique that ensures only properly "
+"formatted data may enter a software system component."
+msgstr ""
+
+# 47d642e91d794d92b539449e4e3f2f7f
+#: ../../c5-validate-all-inputs.md:7
+msgid "Syntax and Semantic Validity"
+msgstr ""
+
+# 3b624a324b0d4ee9a4505d581f908016
+#: ../../c5-validate-all-inputs.md:9
+msgid ""
+"An application should check that data is both syntactically and semantically"
+" valid (in that order) before using it in any way (including displaying it "
+"back to the user)."
+msgstr ""
+
+# 5e5bf8c7653944ca82987f01b6394236
+#: ../../c5-validate-all-inputs.md:11
+msgid ""
+"Syntax validity means that the data is in the form that is expected. For "
+"example, an application may allow a user to select a four-digit \"account "
+"ID\" to perform some kind of operation. The application should assume the "
+"user is entering a SQL injection payload, and should check that the data "
+"entered by the user is exactly four digits in length, and consists only of "
+"numbers (in addition to utilizing proper query parameterization)."
+msgstr ""
+
+# 8854c097b7f443e29c6cd1d4ed78c3b3
+#: ../../c5-validate-all-inputs.md:13
+msgid ""
+"Semantic validity includes only accepting input that is within an acceptable"
+" range for the given application functionality and context. For example, a "
+"start date must be before an end date when choosing date ranges."
+msgstr ""
+
+# 12ac8d24f3f642929d81607295f98720
+#: ../../c5-validate-all-inputs.md:15
+msgid "Whitelisting vs Blacklisting"
+msgstr ""
+
+# 13e2e992bb3f4f9d8856200cb3540401
+#: ../../c5-validate-all-inputs.md:17
+msgid ""
+"There are two general approaches to performing input syntax validation, "
+"commonly known as blacklisting and whitelisting:"
+msgstr ""
+
+# 248c9cba09f54f05b42f861d2aeee9ec
+#: ../../c5-validate-all-inputs.md:19
+msgid ""
+"Blacklisting or blacklist validation attempts to check that given data does "
+"not contain \"known bad\" content. For example, a web application may block "
+"input that contains the exact text  in order to help prevent XSS. However, "
+"this defense could be evaded with a lower case script tag or a script tag of"
+" mixed case."
+msgstr ""
+
+# 65dc31d40a8742bb81129223771fbaf5
+#: ../../c5-validate-all-inputs.md:20
+msgid ""
+"Whitelisting or whitelist validation attempts to check that a given data "
+"matches a set of \"known good\" rules. For example a whitelist validation "
+"rule for a US state would be a 2-letter code that is only one of the valid "
+"US states."
+msgstr ""
+
+# 34e346966c474b249c09f1999b5d9464
+#: ../../c5-validate-all-inputs.md:22
+msgid ""
+"When building secure software, whitelisting is the recommended minimal "
+"approach. Blacklisting is prone to error and can be bypassed with various "
+"evasion techniques and can be dangerous when depended on by itself. Even "
+"though blacklisting can often be evaded it can often useful to help detect "
+"obvious attacks. So while whitelisting helps limit the attack surface by "
+"ensuring data is of the right syntactic and semantic validity, blacklisting "
+"helps detect and potentially stop obvious attacks."
+msgstr ""
+
+# ad136e4dbca341f1ac56f1a37b111528
+#: ../../c5-validate-all-inputs.md:24
+msgid "Client side and Server side Validation"
+msgstr ""
+
+# 8c3cc465b2914c6c9e92a386f6bad5f9
+#: ../../c5-validate-all-inputs.md:26
+msgid ""
+"Input validation must always be done on the server-side for security. While "
+"client side validation can be useful for both functional and some security "
+"purposes it can often be easily bypassed. This makes server-side validation "
+"even more fundamental to security. For example, JavaScript validation may "
+"alert the user that a particular field must consist of numbers but the "
+"server side application must validate that the submitted data only consists "
+"of numbers in the appropriate numerical range for that feature."
+msgstr ""
+
+# fc559607502b4c1a81fe645d52a00df1
+#: ../../c5-validate-all-inputs.md:28
+msgid "Regular Expressions"
+msgstr ""
+
+# 05ef57912b85440bb1237dbe4d7e30d4
+#: ../../c5-validate-all-inputs.md:30
+msgid ""
+"Regular expressions offer a way to check whether data matches a specific "
+"pattern. Let’s start with a basic example."
+msgstr ""
+
+# c2ae405b137d4d3b96bd53e568e54c68
+#: ../../c5-validate-all-inputs.md:32
+msgid ""
+"The following regular expression is used to define a whitelist rule to "
+"validate usernames."
+msgstr ""
+
+# 55801dff3a8f4516961fc4f9ad36df1d
+#: ../../c5-validate-all-inputs.md:38
+msgid ""
+"This regular expression allows only lowercase letters, numbers and the "
+"underscore character. The username is also restricted to a length of 3 and "
+"16 characters."
+msgstr ""
+
+# 92dd24c68f8144ba82d2f8810da494ca
+#: ../../c5-validate-all-inputs.md:40
+msgid "Caution: Potential for Denial of Service"
+msgstr ""
+
+# 663cf51145744e13bbb8b48903b174d6
+#: ../../c5-validate-all-inputs.md:42
+msgid ""
+"Care should be exercised when creating regular expressions. Poorly designed "
+"expressions may result in potential denial of service conditions (aka "
+"ReDoS). Various tools can test to verify that regular expressions are not "
+"vulnerable to ReDoS."
+msgstr ""
+
+# e690042399fe4ab086fa11da0d20a2d5
+#: ../../c5-validate-all-inputs.md:44
+msgid "Caution: Complexity"
+msgstr ""
+
+# 23854da328674f0b9f2661b2e956c298
+#: ../../c5-validate-all-inputs.md:46
+msgid ""
+"Regular expressions are just one way to accomplish validation. Regular "
+"expressions can be difficult to maintain or understand for some developers. "
+"Other validation alternatives involve writing validation methods "
+"programmatically which can be easier to maintain for some developers."
+msgstr ""
+
+# a981c1f8fc4f4ab096f255daae384468
+#: ../../c5-validate-all-inputs.md:49
+msgid "Limits of Input Validation"
+msgstr ""
+
+# 4511662b33d443aa9ec8806277479348
+#: ../../c5-validate-all-inputs.md:51
+msgid ""
+"Input validation does not always make data \"safe\" since certain forms of "
+"complex input may be \"valid\" but still dangerous. For example a valid "
+"email address may contain a SQL injection attack or a valid URL may contain "
+"a Cross Site Scripting attack. Additional defenses besides input validation "
+"should always be applied to data such as query parameterization or escaping."
+msgstr ""
+
+# 1c9b6556f486480d908536124324aae6
+#: ../../c5-validate-all-inputs.md:53
+msgid "Challenges of Validating Serialized Data"
+msgstr ""
+
+# 8c1176245bcf4f9f9aa3410c1abd6a7f
+#: ../../c5-validate-all-inputs.md:55
+msgid ""
+"Some forms of input are so complex that validation can only minimally "
+"protect the application. For example, it's dangerous to deserialize "
+"untrusted data or data that can be manipulated by an attacker. The only safe"
+" architectural pattern is to not accept serialized objects from untrusted "
+"sources or to only deserialize in limited capacity for only simple data "
+"types. You should avoid processing serialized data formats and use easier to"
+" defend formats such as JSON when possible."
+msgstr ""
+
+# 311ea61cdb4a4068ba44073fd17bc96c
+#: ../../c5-validate-all-inputs.md:57
+msgid ""
+"If that is not possible then consider a series of validation defenses when "
+"processing serialized data."
+msgstr ""
+
+# de7281b6f3b942968496b6497291239b
+#: ../../c5-validate-all-inputs.md:59
+msgid ""
+"Implement integrity checks or encryption of the serialized objects to "
+"prevent hostile object creation or data tampering."
+msgstr ""
+
+# 0219cf17df37482d93dd17893d54ae22
+#: ../../c5-validate-all-inputs.md:60
+msgid ""
+"Enforce strict type constraints during deserialization before object "
+"creation; typically code is expecting a definable set of classes. Bypasses "
+"to this technique have been demonstrated."
+msgstr ""
+
+# de3718cca13b4415bdeb6192c112f21a
+#: ../../c5-validate-all-inputs.md:61
+msgid ""
+"Isolate code that deserializes, such that it runs in very low privilege "
+"environments, such as temporary containers."
+msgstr ""
+
+# 916a836221fe490db0f40b982f4d715c
+#: ../../c5-validate-all-inputs.md:62
+msgid ""
+"Log security deserialization exceptions and failures, such as where the "
+"incoming type is not the expected type, or the deserialization throws "
+"exceptions."
+msgstr ""
+
+# edb87dcfb8574b859b8e8cd803cd9258
+#: ../../c5-validate-all-inputs.md:63
+msgid ""
+"Restrict or monitor incoming and outgoing network connectivity from "
+"containers or servers that deserialize."
+msgstr ""
+
+# 4297200c321c41d1b39cd39a333d3152
+#: ../../c5-validate-all-inputs.md:64
+msgid "Monitor deserialization, alerting if a user deserializes constantly."
+msgstr ""
+
+# eb6cce3e50cc4393b5e224afb12a2675
+#: ../../c5-validate-all-inputs.md:67
+msgid "Unexpected User Input (Mass Assignment)"
+msgstr ""
+
+# b86db9e7efd94700928cf1984ae27330
+#: ../../c5-validate-all-inputs.md:69
+msgid ""
+"Some frameworks support automatic binding of HTTP requests parameters to "
+"server-side objects used by the application. This auto-binding feature can "
+"allow an attacker to update server-side objects that were not meant to be "
+"modified. The attacker can possibly modify their access control level or "
+"circumvent the intended business logic of the application with this feature."
+msgstr ""
+
+# 30d2efdb5d794b7c9e0402c139c534ce
+#: ../../c5-validate-all-inputs.md:71
+msgid ""
+"This attack has a number of names including: mass assignment, autobinding "
+"and object injection."
+msgstr ""
+
+# 019c69cad0964f7c90005b4c0c132a52
+#: ../../c5-validate-all-inputs.md:73
+msgid ""
+"As a simple example, if the user object has a field privilege which "
+"specifies the user's privilege level in the application, a malicious user "
+"can look for pages where user data is modified and add privilege=admin to "
+"the HTTP parameters sent.  If auto-binding is enabled in an insecure "
+"fashion, the server-side object representing the user will be modified "
+"accordingly."
+msgstr ""
+
+# d191b60df44b409bbdae8626c6247b4f
+#: ../../c5-validate-all-inputs.md:75
+msgid "Two approaches can be used to handle this:"
+msgstr ""
+
+# 205ab66a94f8457dacaf4698b90924d0
+#: ../../c5-validate-all-inputs.md:77
+msgid ""
+"Avoid binding input directly and use Data Transfer Objects (DTOs) instead."
+msgstr ""
+
+# a888d140e6bb4b7b8363304313bff96f
+#: ../../c5-validate-all-inputs.md:78
+msgid ""
+"Enable auto-binding but set up whitelist rules for each page or feature to "
+"define which fields are allowed to be auto-bound."
+msgstr ""
+
+# 373c883ebe9247c4b383bdd6ac0c7c09
+#: ../../c5-validate-all-inputs.md:80
+msgid "More examples are available in the OWASP Mass Assignment Cheat Sheet."
+msgstr ""
+
+# bc11f80cc37045908c3d5d3247132531
+#: ../../c5-validate-all-inputs.md:82
+msgid "Validating and Sanitizing HTML"
+msgstr ""
+
+# 9d37d08dc02b42ac9d97ef9e6bee1bee
+#: ../../c5-validate-all-inputs.md:84
+msgid ""
+"Consider an application that needs to accept HTML from users (via a WYSIWYG "
+"editor that represents content as HTML or features that directly accept HTML"
+" in input). In this situation validation or escaping will not help."
+msgstr ""
+
+# 5e692486a55648ed9ad622e6d5628583
+#: ../../c5-validate-all-inputs.md:86
+msgid ""
+"Regular expressions are not expressive enough to understand the complexity "
+"of HTML5."
+msgstr ""
+
+# 58c2285784ec4b18b9e34c646267f074
+#: ../../c5-validate-all-inputs.md:87
+msgid ""
+"Encoding or escaping HTML will not help since it will cause the HTML to not "
+"render properly."
+msgstr ""
+
+# 4f96d07db9bf495b8d665c6dd0cb0ad9
+#: ../../c5-validate-all-inputs.md:89
+msgid ""
+"Therefore, you need a library that can parse and clean HTML formatted text. "
+"Please see the XSS Prevention Cheat Sheet on HTML Sanitization for more "
+"information on HTML Sanitization."
+msgstr ""
+
+# 8478fc69520f4ad68344624dccb05b5d
+#: ../../c5-validate-all-inputs.md:91
+msgid "Validation Functionality in Libraries and Frameworks"
+msgstr ""
+
+# 7a1831e9a25c4aaf91ba019fd030442f
+#: ../../c5-validate-all-inputs.md:93
+msgid ""
+"All languages and most frameworks provide validation libraries or functions "
+"which should be leveraged to validate data. Validation libraries typically "
+"cover common data types, length requirements, integer ranges, \"is null\" "
+"checks and more. Many validation libraries and frameworks allow you to "
+"define your own regular expression or logic for custom validation in a way "
+"that allows the programmer to leverage that functionality throughout your "
+"application. Examples of validation functionality include PHP’s filter "
+"functions or the Hibernate Validator for Java. Examples of HTML Sanitizers "
+"include Ruby on Rails sanitize method, OWASP Java HTML Sanitizer or "
+"DOMPurify."
+msgstr ""
+
+# 1142a561d10842da9184f15b24e07820
+#: ../../c5-validate-all-inputs.md:95
+msgid "Vulnerabilities Prevented"
+msgstr ""
+
+# ae25c245e6a64ffda558e3ad5e0ff2e0
+#: ../../c5-validate-all-inputs.md:97
+msgid ""
+"Input validation reduces the attack surface of applications and can "
+"sometimes make attacks more difficult against an application."
+msgstr ""
+
+# 054b87b895324b12b1ebf28d0820ecd2
+#: ../../c5-validate-all-inputs.md:98
+msgid ""
+"Input validation is a technique that provides security to certain forms of "
+"data, specific to certain attacks and cannot be reliably applied as a "
+"general security rule."
+msgstr ""
+
+# e23d798e969c4922bf7d4accfa45a480
+#: ../../c5-validate-all-inputs.md:99
+msgid ""
+"Input validation should not be used as the primary method of preventing XSS,"
+" SQL Injection and other attacks."
+msgstr ""
+
+# 362890c9d3284bd8b18eace9eb54e0c1
+#: ../../c5-validate-all-inputs.md:101
+msgid "References"
+msgstr ""
+
+# c2957e51930e41159c65655989c1deea
+#: ../../c5-validate-all-inputs.md:103
+msgid "OWASP Cheat Sheet: Input Validation"
+msgstr ""
+
+# 0c00a80285f94386be3847de649a01f1
+#: ../../c5-validate-all-inputs.md:104
+msgid "OWASP Cheat Sheet: iOS - Security Decisions via Untrusted Inputs"
+msgstr ""
+
+# 3a82a755e27c4e00af379b2aa2166004
+#: ../../c5-validate-all-inputs.md:105
+msgid "OWASP Testing Guide: Testing for Input Validation"
+msgstr ""
+
+# f64e33be1389454993c553d31a60ed1f
+#: ../../c5-validate-all-inputs.md:107
+msgid "Tools"
+msgstr ""
+
+# a27ef5c848814260b92e5bac7d5b0026
+#: ../../c5-validate-all-inputs.md:109
+msgid "OWASP Java HTML Sanitizer Project"
+msgstr ""
+
+# e2bb5098e8824740af074a946c104243
+#: ../../c5-validate-all-inputs.md:110
+msgid "Java JSR-303/JSR-349 Bean Validation"
+msgstr ""
+
+# e2f3c32fc4674d7aa580c7e2b09fe303
+#: ../../c5-validate-all-inputs.md:111
+msgid "Java Hibernate Validator"
+msgstr ""
+
+# b0c9d7e61d5648a08c6c03bdefd28c0f
+#: ../../c5-validate-all-inputs.md:112
+msgid "JEP-290 Filter Incoming Serialization Data"
+msgstr ""
+
+# e7647c22461348aebad43fa5dcc856bd
+#: ../../c5-validate-all-inputs.md:113
+msgid "Apache Commons Validator"
+msgstr ""
+
+# 548e0739c6364304bcf5436d11e27a78
+#: ../../c5-validate-all-inputs.md:114
+msgid "PHP’s filter functions"
+msgstr ""

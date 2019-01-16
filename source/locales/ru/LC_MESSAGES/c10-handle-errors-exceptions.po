@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:20+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# a5baf2adae0d4c48ba0e454cc9eb51b3
+#: ../../c10-handle-errors-exceptions.md:1
+msgid "C10: Handle all Errors and Exceptions"
+msgstr ""
+
+# 42d353ae775f4c6194878b5c8fbc1106
+#: ../../c10-handle-errors-exceptions.md:3
+msgid "Description"
+msgstr ""
+
+# 2c07b770ced3444ba59de0012573d602
+#: ../../c10-handle-errors-exceptions.md:5
+msgid ""
+"Exception handling is a programming concept that allows an application to "
+"respond to different error states (like network down, or database connection"
+" failed, etc) in various ways. Handling exceptions and errors correctly is "
+"critical to making your code reliable and secure."
+msgstr ""
+
+# 62012d5fe92a45d5ac12087639343f61
+#: ../../c10-handle-errors-exceptions.md:7
+msgid ""
+"Error and exception handling occurs in all areas of an application including"
+" critical business logic as well as security features and framework code."
+msgstr ""
+
+# 11ca5b560d5c467f84715297492f34e1
+#: ../../c10-handle-errors-exceptions.md:9
+msgid ""
+"Error handling is also important from an intrusion detection perspective. "
+"Certain attacks against your application may trigger errors which can help "
+"detect attacks in progress."
+msgstr ""
+
+# a38bb94a08b649de86b6d4956a952f97
+#: ../../c10-handle-errors-exceptions.md:11
+msgid "Error Handling Mistakes"
+msgstr ""
+
+# 6189eaa926e649e48fba95fa4548533a
+#: ../../c10-handle-errors-exceptions.md:13
+msgid ""
+"Researchers at the University of Toronto have found that even small mistakes"
+" in error handling or forgetting to handle errors can lead to catastrophic "
+"failures in distributed systems."
+msgstr ""
+
+# b1239cc513c14790a557434a3ddbb071
+#: ../../c10-handle-errors-exceptions.md:15
+msgid ""
+"Mistakes in error handling can lead to different kinds of security "
+"vulnerabilities."
+msgstr ""
+
+# 2f731ecc2b8e484da5ec4f373a318653
+#: ../../c10-handle-errors-exceptions.md:17
+msgid ""
+"Information leakage: Leaking sensitive information in error messages can "
+"unintentionally help attackers. For example, an error that returns a stack "
+"trace or other internal error details can provide an attacker with "
+"information about your environment. Even small differences in handling "
+"different error conditions (e.g., returning \"invalid user\" or \"invalid "
+"password\" on authentication errors) can provide valuable clues to "
+"attackers. As described above, be sure to log error details for forensics "
+"and debugging purposes, but don’t expose this information, especially to an "
+"external client."
+msgstr ""
+
+# 6585070c989742ffbae3e079cf2af2c6
+#: ../../c10-handle-errors-exceptions.md:18
+msgid ""
+"TLS bypass:  The Apple goto \"fail bug\" was a control-flow error in error "
+"handling code that lead to a complete compromise of TLS connections on apple"
+" systems."
+msgstr ""
+
+# f5db691fce4a4e70a2b677db87e92c8f
+#: ../../c10-handle-errors-exceptions.md:19
+msgid ""
+"DOS: A lack of basic error handling can lead to system shutdown. This is "
+"usually a fairly easy vulnerability for attackers to exploit. Other error "
+"handling problems could lead to increased usage of CPU or disk in ways that "
+"could degrade the system."
+msgstr ""
+
+# 0525c10f395d4142bef491741108d105
+#: ../../c10-handle-errors-exceptions.md:22
+msgid "Positive Advice"
+msgstr ""
+
+# a9690e55c1394a5183db6574fd93f34d
+#: ../../c10-handle-errors-exceptions.md:24
+msgid ""
+"Manage exceptions in a centralized manner to avoid duplicated try/catch "
+"blocks in the code. Ensure that all unexpected behavior is correctly handled"
+" inside the application."
+msgstr ""
+
+# de7cbaf7a5f7415d94ea37c778f66e76
+#: ../../c10-handle-errors-exceptions.md:25
+msgid ""
+"Ensure that error messages displayed to users do not leak critical data, but"
+" are still verbose enough to enable the proper user response."
+msgstr ""
+
+# 28fdaf0d2eb04305899bc01e264cd1ab
+#: ../../c10-handle-errors-exceptions.md:26
+msgid ""
+"Ensure that exceptions are logged in a way that gives enough information for"
+" support, QA, forensics or incident response teams to understand the "
+"problem."
+msgstr ""
+
+# 32d455d3ae8c467abe7cda4b385f2c83
+#: ../../c10-handle-errors-exceptions.md:27
+msgid "Carefully test and verify error handling code."
+msgstr ""
+
+# f4a5ab2bd234409db4f2c2c66bb7043d
+#: ../../c10-handle-errors-exceptions.md:29
+msgid "References"
+msgstr ""
+
+# 0059b469d2124178a2aa44f080b82b4d
+#: ../../c10-handle-errors-exceptions.md:31
+msgid "OWASP Code Review Guide: Error Handling"
+msgstr ""
+
+# bf02f24b5da04725b4e8641198c6ff35
+#: ../../c10-handle-errors-exceptions.md:32
+msgid "OWASP Testing Guide: Testing for Error Handling"
+msgstr ""
+
+# 45d18078d82b419482e816392e62e07e
+#: ../../c10-handle-errors-exceptions.md:33
+msgid "OWASP Improper Error Handling"
+msgstr ""
+
+# 43034093d17e4173a60b5dc93d23de1e
+#: ../../c10-handle-errors-exceptions.md:34
+msgid "CWE 209: Information Exposure Through an Error Message"
+msgstr ""
+
+# a2ea3848863f4d8dbcc48356b379d8ef
+#: ../../c10-handle-errors-exceptions.md:35
+msgid "CWE 391: Unchecked Error Condition"
+msgstr ""
+
+# 6c739a63ebb14110930feca78bbe613a
+#: ../../c10-handle-errors-exceptions.md:37
+msgid "Tools"
+msgstr ""
+
+# 2b470bc78e1f40479ab9169698130463
+#: ../../c10-handle-errors-exceptions.md:39
+msgid ""
+"Error Prone - A static analysis tool from Google to catch common mistakes in"
+" error handling for Java developers"
+msgstr ""
+
+# 850901a54268402c8cac185b89d1aa50
+#: ../../c10-handle-errors-exceptions.md:40
+msgid ""
+"One of the most famous automated tools for finding errors at runtime is "
+"Netflix's Chaos Monkey, which intentionally disables system instances to "
+"ensure that the overall service will recover correctly."
+msgstr ""

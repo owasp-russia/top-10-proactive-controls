@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:20+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# 863b728b570c4c11b201460a09fe6b1c
+#: ../../c8-protect-data-everywhere.md:1
+msgid "C8: Protect Data Everywhere"
+msgstr ""
+
+# de87ee1ec48b4e43a95784d8705f15e7
+#: ../../c8-protect-data-everywhere.md:4
+msgid "Description"
+msgstr ""
+
+# 21cae3d725a84e96955180bbcb2ef161
+#: ../../c8-protect-data-everywhere.md:6
+msgid ""
+"Sensitive data such as passwords, credit card numbers, health records, "
+"personal information and business secrets require extra protection, "
+"particularly if that data falls under privacy laws (EU's General Data "
+"Protection Regulation GDPR), financial data protection rules such as PCI "
+"Data Security Standard (PCI DSS) or other regulations"
+msgstr ""
+
+# 61f1769579f049cdb384e925e8a67b06
+#: ../../c8-protect-data-everywhere.md:8
+msgid ""
+"Attackers can steal data from web and webservice applications in a number of"
+" ways. For example, if sensitive information in sent over the internet  "
+"without communications security, then an attacker on a shared wireless "
+"connection could see and steal another user's data. Also, an attacker could "
+"use SQL Injection to steal passwords and other credentials from an "
+"applications database and expose that information to the public."
+msgstr ""
+
+# cfa72f6e86cd496497d23a4450c51eef
+#: ../../c8-protect-data-everywhere.md:10
+msgid "Data Classification"
+msgstr ""
+
+# 7d9fb675b42c429eaf87f1a53b534b33
+#: ../../c8-protect-data-everywhere.md:12
+msgid ""
+"It's critical to classify data in your system and determine which level of "
+"sensitivity each piece of data belongs to. Each data category can then be "
+"mapped to protection rules necessary for each level of sensitivity. For "
+"example, public marketing information that is not sensitive may be "
+"categorized as public data which is ok to place on the public website. "
+"Credit card numbers may be classified as private user data which may need to"
+" be encrypted while stored or in transit."
+msgstr ""
+
+# 56e90237b25443eaaf96c87bc5cad572
+#: ../../c8-protect-data-everywhere.md:14
+msgid "Encrypting Data in Transit"
+msgstr ""
+
+# c5cdfb3858c349bc8d673e3a966b7d0a
+#: ../../c8-protect-data-everywhere.md:16
+msgid ""
+"When transmitting sensitive data over any network, end-to-end communications"
+" security (or encryption-in-transit) of some kind should be considered. TLS "
+"is by far the most common and widely supported cryptographic protocol for "
+"communications security. It is used by many types of applications (web, "
+"webservice, mobile) to communicate over a network in a secure fashion. TLS "
+"must be properly configured in a variety of ways in order to properly defend"
+" secure communications."
+msgstr ""
+
+# 3e2ec6fe28794ea6946b37bd5abbd981
+#: ../../c8-protect-data-everywhere.md:18
+msgid ""
+"The primary benefit of transport layer security is the protection of web "
+"application data from unauthorized disclosure and modification when it is "
+"transmitted between clients (web browsers) and the web application server, "
+"and between the web application server and back end and other non-browser "
+"based enterprise components."
+msgstr ""
+
+# 05f94dc9d9e14514bac866564da7c45c
+#: ../../c8-protect-data-everywhere.md:20
+msgid "Encrypting Data at Rest"
+msgstr ""
+
+# f1d90f770f264f12b044135c34176b3c
+#: ../../c8-protect-data-everywhere.md:22
+msgid ""
+"The first rule of sensitive data management is to avoid storing sensitive "
+"data when at all possible. If you must store sensitive data then make sure "
+"it's cryptographically protected in some way to avoid unauthorized "
+"disclosure and modification."
+msgstr ""
+
+# 54f2540c60c64b0d800914e81fd896ca
+#: ../../c8-protect-data-everywhere.md:24
+msgid ""
+"Cryptography (or crypto) is one of the more advanced topics of information "
+"security, and one whose understanding requires the most schooling and "
+"experience. It is difficult to get right because there are many approaches "
+"to encryption, each with advantages and disadvantages that need to be "
+"thoroughly understood by web solution architects and developers. In "
+"addition, serious cryptography research is typically based in advanced "
+"mathematics and number theory, providing a serious barrier to entry."
+msgstr ""
+
+# c92b25cef80a4629a5c0fc15c2b6a88b
+#: ../../c8-protect-data-everywhere.md:26
+msgid ""
+"Instead of building cryptographic capability from scratch, it is strongly "
+"recommended that peer reviewed and open solutions be used, such as the "
+"Google Tink project, Libsodium, and secure storage capability built into "
+"many software frameworks and cloud services."
+msgstr ""
+
+# af79ae5fed264b2797982bb587a30fac
+#: ../../c8-protect-data-everywhere.md:28
+msgid "Mobile Application: Secure Local Storage"
+msgstr ""
+
+# b1c326cb3ac747bb87c6cfd43ffe7e24
+#: ../../c8-protect-data-everywhere.md:30
+msgid ""
+"Mobile applications are at particular risk of data leakage because mobile "
+"devices are regularly lost or stolen yet contain sensitive data."
+msgstr ""
+
+# ed9ac81b23c0481b9be9ec4c7a16e797
+#: ../../c8-protect-data-everywhere.md:32
+msgid ""
+"As a general rule, only the minimum data required should be stored on the "
+"mobile device. But if you must store sensitive data on a mobile device, then"
+" sensitive data should be stored within each mobile operating systems "
+"specific data storage directory. On Android this will be the Android "
+"keystore and on iOS this will be the iOS keychain."
+msgstr ""
+
+# 19f9f05f2dd64e6d804a915ce1f35ae0
+#: ../../c8-protect-data-everywhere.md:34
+msgid "Key Lifecycle"
+msgstr ""
+
+# c9e00a191c5748fb9c6edc07b07f3b63
+#: ../../c8-protect-data-everywhere.md:36
+msgid ""
+"Secret keys are used in applications number of sensitive functions. For "
+"example, secret keys can be used to to sign JWTs, protect credit cards, "
+"provide various forms of authentication as well as facilitation other "
+"sensitive security features. In managing keys, a number of rules should be "
+"followed including:"
+msgstr ""
+
+# e7fe89b63b194606b7b37c4d48763693
+#: ../../c8-protect-data-everywhere.md:38
+msgid "Ensure that any secret key is protected from unauthorized access"
+msgstr ""
+
+# 39e88a64834246eb94deef2ed3e870f6
+#: ../../c8-protect-data-everywhere.md:39
+msgid "Store keys in a proper secrets vault as described below"
+msgstr ""
+
+# c32c50472f0f43969a39bda492c0e52b
+#: ../../c8-protect-data-everywhere.md:40
+msgid "Use independent keys when multiple keys are required"
+msgstr ""
+
+# ce781101f4354d8b9f342539adbef653
+#: ../../c8-protect-data-everywhere.md:41
+msgid "Build support for changing algorithms and keys when needed"
+msgstr ""
+
+# 52dbd22fb10346b1a34c6cc21b00bed3
+#: ../../c8-protect-data-everywhere.md:42
+msgid "Build application features to handle a key rotation"
+msgstr ""
+
+# a92f22a80d16402d948d649afdd74d0b
+#: ../../c8-protect-data-everywhere.md:44
+msgid "Application Secrets Management"
+msgstr ""
+
+# 90d892d2a0bd4837a22b5e846d30e78c
+#: ../../c8-protect-data-everywhere.md:46
+msgid ""
+"Applications contain numerous \"secrets\" that are needed for security "
+"operations. These include certificates, SQL connection passwords, third "
+"party service account credentials, passwords, SSH keys, encryption keys and "
+"more. The unauthorized disclosure or modification of these secrets could "
+"lead to complete system compromise. In managing application secrets, "
+"consider the following."
+msgstr ""
+
+# a6d3d341f8954c5ea6bc7768f0bd1b74
+#: ../../c8-protect-data-everywhere.md:48
+msgid ""
+"Don't store secrets in code, config files or pass them through environment "
+"variables. Use tools like GitRob or TruffleHog to scan code repos for "
+"secrets."
+msgstr ""
+
+# e1ad06abc3df41ffab62c8a2148161f4
+#: ../../c8-protect-data-everywhere.md:49
+msgid ""
+"Keep keys and your other application-level secrets in a secrets vault like "
+"KeyWhiz or Hashicorp's Vault project or Amazon KMS to provide secure storage"
+" and access to application-level secrets at run-time."
+msgstr ""
+
+# a533f863f74e47d587f17a34495fb28c
+#: ../../c8-protect-data-everywhere.md:51
+msgid "Vulnerabilities Prevented"
+msgstr ""
+
+# 115ee2dec04f455687676ef6211620a1
+#: ../../c8-protect-data-everywhere.md:53
+msgid "OWASP Top 10 2017 - A3: Sensitive Data Exposure"
+msgstr ""
+
+# 62a02cd7dd564477ac06c8b4b5e40f33
+#: ../../c8-protect-data-everywhere.md:54
+msgid "OWASP Mobile Top 10 2014-M2 Insecure Data Storage"
+msgstr ""
+
+# 34eb3ebc67994ab995b7a792479f98fb
+#: ../../c8-protect-data-everywhere.md:56
+msgid "References"
+msgstr ""
+
+# 0c18f2b0e3754027a8d80d29898a9256
+#: ../../c8-protect-data-everywhere.md:58
+msgid "OWASP Cheat Sheet: Transport Layer Protection"
+msgstr ""
+
+# a4c030a73fda4d4e9c8a4427c2cc6e1e
+#: ../../c8-protect-data-everywhere.md:59
+msgid "Ivan Ristic: SSL/TLS Deployment Best Practices"
+msgstr ""
+
+# f9a59415432047a2a68f34c0e7306528
+#: ../../c8-protect-data-everywhere.md:60
+msgid "OWASP Cheat Sheet: HSTS"
+msgstr ""
+
+# c4493020741a4036b914cac96a8709da
+#: ../../c8-protect-data-everywhere.md:61
+msgid "OWASP Cheat Sheet: Cryptographic Storage"
+msgstr ""
+
+# 452df7c1e746496a8120adf5dd13b289
+#: ../../c8-protect-data-everywhere.md:62
+msgid "OWASP Cheat Sheet: Password Storage"
+msgstr ""
+
+# c2942bec0e50460299824b0cad4a0972
+#: ../../c8-protect-data-everywhere.md:63
+msgid "OWASP Cheat Sheet: IOS Developer - Insecure Data Storage"
+msgstr ""
+
+# 56ec945146864530851fc7bf572821cf
+#: ../../c8-protect-data-everywhere.md:64
+msgid "OWASP Testing Guide: Testing for TLS"
+msgstr ""
+
+# b30831394f5c4e8e8791cad7d5245c54
+#: ../../c8-protect-data-everywhere.md:66
+msgid "Tools"
+msgstr ""
+
+# 4176644079a44dfda732b40c4e68d745
+#: ../../c8-protect-data-everywhere.md:68
+msgid "SSLyze - SSL configuration scanning library and CLI tool"
+msgstr ""
+
+# 2dfe23716593457bb51d5244bff18cca
+#: ../../c8-protect-data-everywhere.md:69
+msgid "SSLLabs - Free service for scanning and checking TLS/SSL configuration"
+msgstr ""
+
+# f7d52545fc284c908bfd53f9ef1970c8
+#: ../../c8-protect-data-everywhere.md:70
+msgid "OWASP O-Saft TLS Tool - TLS connection testing tool"
+msgstr ""
+
+# 0dcc579972a042a48ca7d3fae135943d
+#: ../../c8-protect-data-everywhere.md:71
+msgid ""
+"GitRob - Command line tool to find sensitive information in publicly "
+"available files on GitHub"
+msgstr ""
+
+# 62553899c18c4e54a70186f50617f1a7
+#: ../../c8-protect-data-everywhere.md:72
+msgid "TruffleHog  - Searches for secrets accidentally committed"
+msgstr ""
+
+# 355603d09c8c4847a341ad739cd182c0
+#: ../../c8-protect-data-everywhere.md:73
+msgid "KeyWhiz - Secrets manager"
+msgstr ""
+
+# 05804989d7a94fb088f493a09c9f4c14
+#: ../../c8-protect-data-everywhere.md:74
+msgid "Hashicorp Vault - Secrets manager"
+msgstr ""
+
+# a6c31260c3d74bf582396b5cc40fe456
+#: ../../c8-protect-data-everywhere.md:75
+msgid "Amazon KMS - Manage keys on Amazon AWS"
+msgstr ""

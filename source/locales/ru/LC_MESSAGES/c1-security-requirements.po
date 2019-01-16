@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# 11d9fdcd3a9e4f68996090aeb55c35d9
+#: ../../c1-security-requirements.md:1
+msgid "C1: Define Security Requirements"
+msgstr ""
+
+# 168028d9d5ec44cba214320b558c73dc
+#: ../../c1-security-requirements.md:3
+msgid "Description"
+msgstr ""
+
+# e7037fec86164c16b838427682426dae
+#: ../../c1-security-requirements.md:5
+msgid ""
+"A security requirement is a statement of needed security functionality that "
+"ensures one of many different security properties of software is being "
+"satisfied. Security requirements are derived from industry standards, "
+"applicable laws, and a history of past vulnerabilities. Security "
+"requirements define new features or additions to existing features to solve "
+"a specific security problem or eliminate a potential vulnerability."
+msgstr ""
+
+# d250a5843f034559bc3b4ee3925f61bc
+#: ../../c1-security-requirements.md:7
+msgid ""
+"Security requirements provide a foundation of vetted security functionality "
+"for an application. Instead of creating a custom approach to security for "
+"every application, standard security requirements allow developers to reuse "
+"the definition of security controls and best practices. Those same vetted "
+"security requirements provide solutions for security issues that have "
+"occurred in the past. Requirements exist to prevent the repeat of past "
+"security failures."
+msgstr ""
+
+# 4cd5b1d666c54153b693be133fcdffb3
+#: ../../c1-security-requirements.md:9
+msgid "The OWASP ASVS"
+msgstr ""
+
+# 5219a8e39df34d05a0b72d934da3ba93
+#: ../../c1-security-requirements.md:11
+msgid ""
+"The OWASP Application Security Verification Standard (ASVS) is a catalog of "
+"available security requirements and verification criteria. OWASP ASVS  can "
+"be a source of detailed security requirements for development teams."
+msgstr ""
+
+# e58cfcdd38b94beb85cc94d4fdae0cec
+#: ../../c1-security-requirements.md:13
+msgid ""
+"Security requirements are categorized into different buckets based on a "
+"shared higher order security function. For example, the ASVS contains "
+"categories such as authentication, access control, error handling / logging,"
+" and web services. Each category contains a collection of requirements that "
+"represent the best practices for that category drafted as verifiable "
+"statements."
+msgstr ""
+
+# 0c193e13f009463aaae8bf9e12927ea9
+#: ../../c1-security-requirements.md:15
+msgid "Augmenting Requirements with User Stories and Misuse Cases"
+msgstr ""
+
+# 9bb68b8d1303495aa8da9bd126a63398
+#: ../../c1-security-requirements.md:17
+msgid ""
+"The ASVS requirements are basic verifiable statements which can be expanded "
+"upon with user stories and misuse cases. The advantage of a user story or "
+"misuse case is that it ties the application to exactly what the user or "
+"attacker does to the system, versus describing what the system offers to the"
+" user."
+msgstr ""
+
+# 4baa48df1e2f42248b8d444c0b7be56e
+#: ../../c1-security-requirements.md:19
+msgid ""
+"Here is an example of expanding on an ASVS 3.0.1 requirement. From the "
+"\"Authentication Verification Requirements\" section of ASVS 3.0.1, "
+"requirement 2.19 focuses on default passwords."
+msgstr ""
+
+# 0fa55081cf95461fa629ab1d262ebe3c
+#: ../../c1-security-requirements.md:21
+msgid ""
+"2.19 Verify there are no default passwords in use for the application "
+"framework or any components used by the application (such as "
+"\"admin/password\")."
+msgstr ""
+
+# 783c217c91fa46c886e5f35c0870a88f
+#: ../../c1-security-requirements.md:23
+msgid ""
+"This requirement contains both an action to verify that no default passwords"
+" exist, and also carries with it the guidance that no default passwords "
+"should be used within the application."
+msgstr ""
+
+# 80dcd1a53af548a98f359f97926f5bfe
+#: ../../c1-security-requirements.md:25
+msgid ""
+"A user story focuses on the perspective of the user, administrator, or "
+"attacker of the system, and describes functionality based on what a user "
+"wants the system to do for them. A user story takes the form of \"As a user,"
+" I can do x, y, and z\"."
+msgstr ""
+
+# 8050f02736194c74ab8b66038637f762
+#: ../../c1-security-requirements.md:27
+msgid ""
+"As a user, I can enter my username and password to gain access to the "
+"application."
+msgstr ""
+
+# 800f4114d1564f0881994726ce3e17e6
+#: ../../c1-security-requirements.md:29
+msgid ""
+"As a user, I can enter a long password that has a maximum of 1023 "
+"characters."
+msgstr ""
+
+# d98c00fb76fb4b11b26385d7489497c4
+#: ../../c1-security-requirements.md:31
+msgid ""
+"When the story is focused on the attacker and their actions, it is referred "
+"to as a misuse case."
+msgstr ""
+
+# 4fd34c69116b4a2caffee8cb7ff7e328
+#: ../../c1-security-requirements.md:33
+msgid ""
+"As an attacker, I can enter in a default username and password to gain "
+"access."
+msgstr ""
+
+# a8e8224c0dc9445cbb50c5edeff66ea2
+#: ../../c1-security-requirements.md:35
+msgid ""
+"This story contains the same message as the traditional requirement from "
+"ASVS, with additional user or attacker details to help make the requirement "
+"more testable."
+msgstr ""
+
+# c3f1378e32594424aa1c1c2b831abf69
+#: ../../c1-security-requirements.md:37
+msgid "Implementation"
+msgstr ""
+
+# ca3535b2a27d46ffbbb2d62c85b530b1
+#: ../../c1-security-requirements.md:39
+msgid ""
+"Successful use of security requirements involves four steps. The process "
+"includes discovering / selecting, documenting, implementing, and then "
+"confirming correct implementation of new security features and functionality"
+" within an application."
+msgstr ""
+
+# 1c6a2bcb8bb84def9ab7fa7ec73a9576
+#: ../../c1-security-requirements.md:41
+msgid "Discovery and Selection"
+msgstr ""
+
+# d1be40bc392e4cf1b5a9eff05286e9f7
+#: ../../c1-security-requirements.md:43
+msgid ""
+"The process begins with discovery and selection of security requirements. In"
+" this phase, the developer is understanding security requirements from a "
+"standard source such as ASVS and choosing which requirements to include for "
+"a given release of an application. The point of discovery and selection is "
+"to choose a manageable number of security requirements for this release or "
+"sprint, and then continue to iterate for each sprint, adding more security "
+"functionality over time."
+msgstr ""
+
+# 96f2a58ffad243f6847532d37730591a
+#: ../../c1-security-requirements.md:46
+msgid "Investigation and Documentation"
+msgstr ""
+
+# 03f3826291e249589a6f0baa26ee7bd2
+#: ../../c1-security-requirements.md:48
+msgid ""
+"During investigation and documentation, the developer reviews the existing "
+"application against the new set of security requirements to determine "
+"whether the application currently meets the requirement or if some "
+"development is required. This investigation culminates in the documentation "
+"of the results of the review."
+msgstr ""
+
+# 2264e7a92f114567b90d7c1cd8a2d2e5
+#: ../../c1-security-requirements.md:50
+msgid "Implementation and Test"
+msgstr ""
+
+# eb078e1450c94cac875aea787eef9d37
+#: ../../c1-security-requirements.md:52
+msgid ""
+"After the need is determined for development, the developer must now modify "
+"the application in some way to add the new functionality or eliminate an "
+"insecure option. In this phase the developer first determines the design "
+"required to address the requirement, and then completes the code changes to "
+"meet the requirement. Test cases should be created to confirm the existence "
+"of the new functionality or disprove the existence of a previously insecure "
+"option."
+msgstr ""
+
+# 5a36145ccc3c42048e411d8f1d1b75d9
+#: ../../c1-security-requirements.md:54
+msgid "Vulnerabilities Prevented"
+msgstr ""
+
+# 22f15d10574a4016b1692436f604d09c
+#: ../../c1-security-requirements.md:56
+msgid ""
+"Security requirements define the security functionality of an application. "
+"Better security built in from the beginning of an applications life cycle "
+"results in the prevention of many types of vulnerabilities."
+msgstr ""
+
+# 46066bc0ba52448b8f58f074fe701fdb
+#: ../../c1-security-requirements.md:58
+msgid "References"
+msgstr ""
+
+# b2e6afe633c64ef395e3eee743e36052
+#: ../../c1-security-requirements.md:60
+msgid "OWASP Application Security Verification Standard (ASVS)"
+msgstr ""
+
+# 650df00fb1b240b69c9507f305aa8144
+#: ../../c1-security-requirements.md:61
+msgid "OWASP Mobile Application Security Verification Standard (MASVS)"
+msgstr ""
+
+# ecccb6464de641ee95f1317b6e6efbcf
+#: ../../c1-security-requirements.md:62
+msgid "OWASP Top Ten"
+msgstr ""

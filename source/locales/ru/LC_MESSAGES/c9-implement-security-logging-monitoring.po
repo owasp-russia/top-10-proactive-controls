@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OWASP Foundation
+# This file is distributed under the same license as the OWASP Proactive Controls package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OWASP Proactive Controls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# b21dafab1ed3421db37f2ebdc1defd9d
+#: ../../c9-implement-security-logging-monitoring.md:1
+msgid "C9: Implement Security Logging and Monitoring"
+msgstr ""
+
+# c23777a31a1242db8e7f341d73b19223
+#: ../../c9-implement-security-logging-monitoring.md:3
+msgid "Description"
+msgstr ""
+
+# a435dd9b481e438aa3c837278e378585
+#: ../../c9-implement-security-logging-monitoring.md:5
+msgid ""
+"Logging is a concept that most developers already use for debugging and "
+"diagnostic purposes. Security logging is an equally basic concept: to log "
+"security information during the runtime operation of an application. "
+"Monitoring is the live review of application and security logs using various"
+" forms of automation. The same tools and patterns can be used for "
+"operations, debugging and security purposes."
+msgstr ""
+
+# 04b63c78ddb14281ab69d2b1f5e7f269
+#: ../../c9-implement-security-logging-monitoring.md:7
+msgid "Benefits of Security Logging"
+msgstr ""
+
+# 6755647709004e378eaf1d65ac00c9e2
+#: ../../c9-implement-security-logging-monitoring.md:9
+msgid "Security logging can be used for:"
+msgstr ""
+
+# 7357c2d5ccb9409c9ac99d9067f058ae
+#: ../../c9-implement-security-logging-monitoring.md:11
+msgid "Feeding intrusion detection systems"
+msgstr ""
+
+# 41ed4a46cbed4977bbd8e2577ee528d2
+#: ../../c9-implement-security-logging-monitoring.md:12
+msgid "Forensic analysis and investigations"
+msgstr ""
+
+# 1585e9e4e7f548c0bc02ed478c0b6971
+#: ../../c9-implement-security-logging-monitoring.md:13
+msgid "Satisfying regulatory compliance requirements"
+msgstr ""
+
+# d9f72e580dd8497c8b19c071e77b244e
+#: ../../c9-implement-security-logging-monitoring.md:15
+msgid "Security Logging Implementation"
+msgstr ""
+
+# ff8d3e0753124c0f9c08efd217992602
+#: ../../c9-implement-security-logging-monitoring.md:17
+msgid ""
+"The following is a list of security logging implementation best practices."
+msgstr ""
+
+# d9b12a02fe95486585abb8165dc5a120
+#: ../../c9-implement-security-logging-monitoring.md:19
+msgid ""
+"Follow a common logging format and approach within the system and across "
+"systems of an organization. An example of a common logging framework is the "
+"Apache Logging Services which helps provide logging consistency between "
+"Java, PHP, .NET,  and C++ applications."
+msgstr ""
+
+# 2f3bd348ba06441ea590e0dade309db0
+#: ../../c9-implement-security-logging-monitoring.md:20
+msgid ""
+"Do not log too much or too little. For example, make sure to always log the "
+"timestamp and identifying information including the source IP and user-id, "
+"but be careful not to log private or confidential data."
+msgstr ""
+
+# 0b55215fc3624d3ba7bec2861c3cd8b7
+#: ../../c9-implement-security-logging-monitoring.md:21
+msgid ""
+"Pay close attention to time syncing across nodes to ensure that timestamps "
+"are consistent."
+msgstr ""
+
+# 8495acd42d334864b1aecedf03c63356
+#: ../../c9-implement-security-logging-monitoring.md:24
+msgid "Logging for Intrusion Detection and Response"
+msgstr ""
+
+# 3f1cdacc55b846ac8d3b16250f899c1c
+#: ../../c9-implement-security-logging-monitoring.md:26
+msgid ""
+"Use logging to identify activity that indicates that a user is behaving "
+"maliciously. Potentially malicious activity to log includes:"
+msgstr ""
+
+# d56a7cc400be496499559964563e551c
+#: ../../c9-implement-security-logging-monitoring.md:28
+msgid "Submitted data that is outside of an expected numeric range."
+msgstr ""
+
+# 4f2fdbb905ef4a8bacaf527000f7d7a0
+#: ../../c9-implement-security-logging-monitoring.md:29
+msgid ""
+"Submitted data that involves changes to data that should not be modifiable "
+"(select list, checkbox or other limited entry component)."
+msgstr ""
+
+# 57f2c2bff3e74d03aacd351f8f37ce83
+#: ../../c9-implement-security-logging-monitoring.md:30
+msgid "Requests that violate server-side access control rules."
+msgstr ""
+
+# 9253088682334257a57e2e950f88a75c
+#: ../../c9-implement-security-logging-monitoring.md:31
+msgid ""
+"A more comprehensive list of possible detection points is available here."
+msgstr ""
+
+# dc1300ac5b6747b694c419fd399c7a08
+#: ../../c9-implement-security-logging-monitoring.md:33
+msgid ""
+"When your application encounters such activity, your application should at "
+"the very least log the activity and mark it as a high severity issue.  "
+"Ideally, your application should also respond to a possible identified "
+"attack, by for example invalidating the user’s session and locking the "
+"user's account. The response mechanisms allows the software to react in "
+"realtime to possible identified attacks."
+msgstr ""
+
+# 7147778002424da78e9878feb1393424
+#: ../../c9-implement-security-logging-monitoring.md:35
+msgid "Secure Logging Design"
+msgstr ""
+
+# fe5660fdd7ca4b8c956119158acefe8c
+#: ../../c9-implement-security-logging-monitoring.md:37
+msgid ""
+"Logging solutions must be built and managed in a secure way. Secure Logging "
+"design may include the following:"
+msgstr ""
+
+# d38c1cada8f148618f2db3d1d2b46714
+#: ../../c9-implement-security-logging-monitoring.md:39
+msgid ""
+"Encode and validate any dangerous characters before logging to prevent log "
+"injection or log forging attacks."
+msgstr ""
+
+# c7d0df455e3f4fc5bc90e7ec84647aed
+#: ../../c9-implement-security-logging-monitoring.md:40
+msgid ""
+"Do not log sensitive information. For example, do not log password, session "
+"ID, credit cards, or social security numbers."
+msgstr ""
+
+# e3230ead4f38429a9183e942241dea31
+#: ../../c9-implement-security-logging-monitoring.md:41
+msgid ""
+"Protect log integrity. An attacker may attempt to tamper with the logs. "
+"Therefore, the permission of log files and log changes audit should be "
+"considered."
+msgstr ""
+
+# 798df963ba694daa983a4b173de270f9
+#: ../../c9-implement-security-logging-monitoring.md:42
+msgid ""
+"Forward logs from distributed systems to a central, secure logging service. "
+"This will sure log data cannot be lost if one node is compromised. This also"
+" allows for centralized monitoring."
+msgstr ""
+
+# 7017d40efeb845949a0486159357c208
+#: ../../c9-implement-security-logging-monitoring.md:44
+msgid "References"
+msgstr ""
+
+# a52f4a2ae91a4de8a35d163d9c4ffd2f
+#: ../../c9-implement-security-logging-monitoring.md:46
+msgid ""
+"OWASP AppSensor Detection Points - Detection points used to identify a "
+"malicious user probing for vulnerabilities or weaknesses in application."
+msgstr ""
+
+# 36524ee270ef4591ae6cd09ba0a2b24a
+#: ../../c9-implement-security-logging-monitoring.md:47
+msgid "OWASP Log injection"
+msgstr ""
+
+# 625590b630d04dfcb54c3a5c5dcc4f38
+#: ../../c9-implement-security-logging-monitoring.md:48
+msgid "OWASP Log forging"
+msgstr ""
+
+# 4786856bbe454717aa222823a430831f
+#: ../../c9-implement-security-logging-monitoring.md:49
+msgid ""
+"OWASP Cheat Sheet: Logging How to properly implement logging in an "
+"application"
+msgstr ""
+
+# f98f0feaf1fb476ba8d17c16603d6a17
+#: ../../c9-implement-security-logging-monitoring.md:50
+msgid "OWASP Development Guide: Logging"
+msgstr ""
+
+# b3c243a2f56f4eecb8942ad46bba893f
+#: ../../c9-implement-security-logging-monitoring.md:51
+msgid "OWASP Code Review Guide: Reviewing Code for Logging Issues"
+msgstr ""
+
+# 61721b7974b54acea282c5859d3b321c
+#: ../../c9-implement-security-logging-monitoring.md:53
+msgid "Tools"
+msgstr ""
+
+# db771cf8f8c94f4b8087f4b88a7f243f
+#: ../../c9-implement-security-logging-monitoring.md:55
+msgid "OWASP Security Logging Project"
+msgstr ""
+
+# ec11de5a18ac4826998531e2e4f7b59d
+#: ../../c9-implement-security-logging-monitoring.md:56
+msgid "Apache Logging Services"
+msgstr ""
