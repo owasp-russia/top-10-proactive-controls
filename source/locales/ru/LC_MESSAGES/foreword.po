@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the OWASP Proactive Controls package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# JZDLin, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-16 14:27+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +24,7 @@ msgstr ""
 # b525d5b4ca17495bba6be92438730f2c
 #: ../../foreword.md:1
 msgid "FOREWORD"
-msgstr ""
+msgstr "Предисловие"
 
 # 99274421d53f46bca68534ab59f0c209
 #: ../../foreword.md:3
@@ -31,11 +35,18 @@ msgid ""
 "of achieving application security increases exponentially. We can no longer "
 "afford to tolerate relatively simple security problems."
 msgstr ""
+"Ненадежное программное обеспечение подрывает безопасность критических "
+"инфраструктур, относящихся, например, к здравоохранению, обороне, энергетике"
+" или финансам. Наша цифровая, глобальная инфраструктура становится сложнее, "
+"взаимосвязей между ее компонентами становится все больше, поэтому важность "
+"обеспечения безопасности приложений возрастает экспоненциально. Больше "
+"нельзя оставлять без должного внимания относительно простые угрозы "
+"безопасности."
 
 # 921e74a9fce04cdd9852a3af4cf8c241
 #: ../../foreword.md:5
 msgid "AIM & OBJECTIF"
-msgstr ""
+msgstr "Цели и задачи"
 
 # 21be08eb33a749f5aa5f7fa6b38b8d11
 #: ../../foreword.md:7
@@ -48,11 +59,19 @@ msgid ""
 "organizations. We hope that the OWASP Proactive Controls is useful to your "
 "efforts in building secure software."
 msgstr ""
+"Целью проекта \"Топ-10 OWASP: Проактивная защита\" является привлечение "
+"внимания к безопасности приложений, путем рассмотрения наиболее важных "
+"аспектов безопасности, на которые разработчикам ПО стоит обращать внимание. "
+"Мы призываем организации воспользоваться рекомендациями OWASP по проактивной"
+" защите и научить разработчиков обращать внимание на безопасность "
+"приложений, принимая во внимание ошибки, имевшие место в других "
+"организациях. Надеемся, что рекомендации OWASP окажутся полезными при "
+"создании вами безопасных приложений."
 
 # 2d7f8784957549548d9e8f3e5acf791d
 #: ../../foreword.md:9
 msgid "CALL TO ACTION"
-msgstr ""
+msgstr "Призыв к действию"
 
 # a3ed8cd3d6b246958a586ad431aa966a
 #: ../../foreword.md:11
@@ -61,11 +80,13 @@ msgid ""
 "your questions, comments, and ideas, either publicly to our email list or "
 "privately to jim@owasp.org."
 msgstr ""
+"Все вопросы, комментарии и идеи вы можете отправлять в общий список рассылки"
+" или на адрес электронной почты jim@owasp.org."
 
 # 0adb2854b68748e18d263218c0449b02
 #: ../../foreword.md:13
 msgid "COPYRIGHT AND LICENSE"
-msgstr ""
+msgstr "Авторские права и Лицензирование"
 
 # 8058def84f4e4b8b9a9d594546747961
 #: ../../foreword.md:15
@@ -74,73 +95,77 @@ msgid ""
 "3.0 license. For any reuse or distribution, you must make it clear to others"
 " the license terms of this work."
 msgstr ""
+"Данный документ выпущен под лицензией Creative Commons Attribution "
+"ShareAlike 3.0. В случае переиспользования или распространения данного "
+"документа необходимо указывать условия лицензионного соглашения, действующие"
+" в его отношении."
 
 # 8c3b99251a304e07944749262d5a5b31
 #: ../../foreword.md:17
 msgid "PROJECT LEADERS"
-msgstr ""
+msgstr "Руководители проекта"
 
 # d8157556301743ea881fa0c051b47d32
 #: ../../foreword.md:19
 msgid "Katy Anton"
-msgstr ""
+msgstr "Кэйти Энтон (Katy Anton)"
 
 # edaf14303ff748a88ab3a4308e2a8873
 #: ../../foreword.md:20
 msgid "Jim Bird"
-msgstr ""
+msgstr "Джим Бёрд (Jim Bird)"
 
 # 92d18563e2204cf7a8b28d42dc5d39ca
 #: ../../foreword.md:21
 msgid "Jim Manico"
-msgstr ""
+msgstr "Джим Манико (Jim Manico)"
 
 # 64d99dc5469c49b4b1a82b2f14ef51a3
 #: ../../foreword.md:23
 msgid "CONTRIBUTORS"
-msgstr ""
+msgstr "Участники проекта"
 
 # 19a00aeb1a674d9ca6d812a2543d216e
 #: ../../foreword.md:25
 msgid "Chris Romeo"
-msgstr ""
+msgstr "Крис Ромио (Chris Romeo)"
 
 # b798a88cbb4146a0a1403b677fa60b54
 #: ../../foreword.md:26
 msgid "Dan Anderson"
-msgstr ""
+msgstr "Ден Андерсон (Dan Anderson)"
 
 # d8050a8b6a394ae8a30330ea2c5081c6
 #: ../../foreword.md:27
 msgid "David Cybuck"
-msgstr ""
+msgstr "Дэвид Сайбак (David Cybuck)"
 
 # f5303342d40d42dca65924d9ad511c21
 #: ../../foreword.md:28
 msgid "Dave Ferguson"
-msgstr ""
+msgstr "Дейв Фергюсон (Dave Ferguson)"
 
 # c19fa18332cb483588a7563b32fbf031
 #: ../../foreword.md:29
 msgid "Josh Grossman"
-msgstr ""
+msgstr "Джош Гроссман (Josh Grossman)"
 
 # 70e7d00cde834487b3b71a2f8cb4b08e
 #: ../../foreword.md:30
 msgid "Osama Elnaggar"
-msgstr ""
+msgstr "Осама Эльнаггар (Osama Elnaggar)"
 
 # d35c05612b7146b8abbb0af72dbffeca
 #: ../../foreword.md:31
 msgid "Colin Watson"
-msgstr ""
+msgstr "Колин Уотсон (Colin Watson)"
 
 # 4cc4c81b928945c9ab1fa9104940b77c
 #: ../../foreword.md:32
 msgid "Rick Mitchell"
-msgstr ""
+msgstr "Рик Митчелл (Rick Mitchell)"
 
 # e6e51e41d8fb4d6190160dc59affe9f8
 #: ../../foreword.md:33
 msgid "And many more…"
-msgstr ""
+msgstr "И многие другие…"

@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the OWASP Proactive Controls package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# JZDLin, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-16 14:27+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,12 +24,12 @@ msgstr ""
 # 0db818f835f84e14a108543c00f38092
 #: ../../c2-leverage-security-frameworks-libraries.md:1
 msgid "C2: Leverage Security Frameworks and Libraries"
-msgstr ""
+msgstr "C2: Использование безопасных фреймворков и библиотек"
 
 # 7accbf79db4f4bde93aea256ac89bbb0
 #: ../../c2-leverage-security-frameworks-libraries.md:3
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 # b19be09f47ae47608131ae2bfd7ebe16
 #: ../../c2-leverage-security-frameworks-libraries.md:5
@@ -37,11 +41,17 @@ msgid ""
 "security features. Leveraging security frameworks helps accomplish security "
 "goals more efficiently and accurately."
 msgstr ""
+"Безопасные библиотеки и фреймворки со встроенными функциями безопасности "
+"помогают разработчикам избежать появления уязвимостей на этапе разработки и "
+"реализации. Разработчики, создающие приложение с нуля, могут не иметь "
+"достаточных знаний, времени или средств для реализации или поддержания "
+"безопасности приложения. Использование безопасных фреймворков позволяет "
+"добиваться безопасности приложений более эффективно."
 
 # 521551ac41994cfe9ab3bad6de8f898d
 #: ../../c2-leverage-security-frameworks-libraries.md:7
 msgid "Implementation Best Practices"
-msgstr ""
+msgstr "Рекомендации по реализации"
 
 # e25af8c59ba2480aa388f31e90aa45cc
 #: ../../c2-leverage-security-frameworks-libraries.md:9
@@ -49,6 +59,8 @@ msgid ""
 "When incorporating third party libraries or frameworks into your software, "
 "it is important to consider the following best practices:"
 msgstr ""
+"При включении сторонних библиотек или фреймворков в свое ПО необходимо "
+"учитывать следующие рекомендации:"
 
 # 32272ebd0fcc4b80b8f738a93d0defc2
 #: ../../c2-leverage-security-frameworks-libraries.md:11
@@ -56,12 +68,16 @@ msgid ""
 "Use libraries and frameworks from trusted sources that are actively "
 "maintained and widely used by many applications."
 msgstr ""
+"используйте библиотеки и фреймворки из доверенных источников, которые "
+"активно разрабатываются и широко применяются в приложениях;"
 
 # d8a5de90b3f04e32ac7a369f865d82d9
 #: ../../c2-leverage-security-frameworks-libraries.md:12
 msgid ""
 "Create and maintain an inventory catalog of all the third party libraries."
 msgstr ""
+"составьте и поддерживайте в актуальном состоянии каталог всех сторонних "
+"библиотек;"
 
 # 9692ab07ad494ebaa54514979825d82f
 #: ../../c2-leverage-security-frameworks-libraries.md:13
@@ -71,6 +87,10 @@ msgid ""
 " there are any known, publicly disclosed vulnerabilities for all third party"
 " code."
 msgstr ""
+"своевременно обновляйте библиотеки и компоненты. Используйте инструменты, "
+"такие как Проверки зависимостей OWASP и Retire.JS, для определения "
+"зависимостей в проектах, а также проверяйте наличие известных и "
+"опубликованных уязвимостей в стороннем коде;"
 
 # 179e95f1dfbb4471a591540a7e380ea9
 #: ../../c2-leverage-security-frameworks-libraries.md:14
@@ -78,11 +98,13 @@ msgid ""
 "Reduce the attack surface by encapsulating the library and expose only the "
 "required behaviour into your software."
 msgstr ""
+"для снижения вероятности атак используйте инкапсуляцию библиотек и только "
+"необходимый для вашего ПО функционал."
 
 # 8454853c1e0a4d9090d5c2d099a23cd5
 #: ../../c2-leverage-security-frameworks-libraries.md:16
 msgid "Vulnerabilities Prevented"
-msgstr ""
+msgstr "Предотвращаемые уязвимости"
 
 # c3122394ec7747d9b4e45b116e0e0f57
 #: ../../c2-leverage-security-frameworks-libraries.md:18
@@ -92,11 +114,15 @@ msgid ""
 "libraries up to date as described in the using components with known "
 "vulnerabilities Top Ten 2017 risk."
 msgstr ""
+"Использование безопасных фреймворков и библиотек поможет избежать большого "
+"количество уязвимостей в веб-приложениях. Очень важно поддерживать эти "
+"фреймворки и библиотеки в актуальном состоянии, см. раздел об использовании "
+"компонентов с известными уязвимостями в Топ-10 2017."
 
 # fbf25a9765b846df847bf2223d8d8f45
 #: ../../c2-leverage-security-frameworks-libraries.md:20
 msgid "Tools"
-msgstr ""
+msgstr "Инструменты"
 
 # b1201db11b4d45b38baca00e84c77e28
 #: ../../c2-leverage-security-frameworks-libraries.md:22
@@ -104,8 +130,10 @@ msgid ""
 "OWASP Dependency Check - identifies project dependencies and checks for "
 "publicly disclosed vulnerabilities"
 msgstr ""
+"Проверки зависимостей OWASP — определяют зависимости в проектах и проверяют "
+"наличие общеизвестных уязвимостей."
 
 # fe6eced4909549089114c92fc3861a08
 #: ../../c2-leverage-security-frameworks-libraries.md:23
 msgid "Retire.JS scanner for JavaScript libraries"
-msgstr ""
+msgstr "Retire.JS — сканер библиотек JavaScript."

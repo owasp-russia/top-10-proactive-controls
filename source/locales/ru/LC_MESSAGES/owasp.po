@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
+# JZDLin, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-16 14:27+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 # 8b6f625a027049d4a1d58a87cfe01603
 #: ../../owasp.md:1
 msgid "About OWASP"
-msgstr ""
+msgstr "Об OWASP"
 
 # 12d05eaa0cc64066a26928f7425d1777
 #: ../../owasp.md:3
@@ -35,6 +36,13 @@ msgid ""
 "forums, and chapters are free and open to anyone interested in improving "
 "application security. We can be found at www.owasp.org."
 msgstr ""
+"Открытый проект по обеспечению безопасности веб-приложений (OWASP) "
+"представляет собой некоммерческий (501c3), образовательный, "
+"благотворительный фонд, помогающей организациям начать проектировать, "
+"разрабатывать, приобретать, использовать и поддерживать безопасное ПО. Все "
+"инструменты, документы, форумы и отделения OWASP являются бесплатными и "
+"открытыми для тех, кто заинтересован в улучшении безопасности приложений. "
+"Информацию о нас можно найти по адресу www.owasp.org."
 
 # 30a8dd804c9543be9ecb0ca33a16ba28
 #: ../../owasp.md:5
@@ -55,3 +63,8 @@ msgid ""
 "collaborative and open way. The OWASP Foundation is a not-for-profit entity "
 "that ensures the project's long-term success."
 msgstr ""
+"OWASP не связан ни с одной технологической компанией. Как и большинство "
+"проектов, занимающихся программным обеспечением с открытым кодом, OWASP "
+"выпускает множество различных материалов, действуя прозрачно и открыто для "
+"других участников проекта. Фонд OWASP является некоммерческой организацией, "
+"что обеспечивает проекту долгосрочный успех."

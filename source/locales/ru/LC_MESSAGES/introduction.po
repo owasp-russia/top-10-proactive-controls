@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the OWASP Proactive Controls package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# JZDLin, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-16 14:27+0300\n"
 "PO-Revision-Date: 2019-01-16 10:20+0000\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +24,7 @@ msgstr ""
 # 50acbea9f5c447a3a02bb083cb0ceb3a
 #: ../../introduction.md:1
 msgid "INTRODUCTION"
-msgstr ""
+msgstr "ВВЕДЕНИЕ"
 
 # 3cd22c7c7b42470fbbc7be65288f473b
 #: ../../introduction.md:3
@@ -30,6 +34,10 @@ msgid ""
 "document is written for developers to assist those new to secure "
 "development."
 msgstr ""
+"\"Проактивная защита OWASP: Топ-10 рекомендаций 2018\" представляет собой "
+"перечень методик по обеспечению безопасности и рекомендуется к использованию"
+" во всех проектах разработки ПО. Этот документ написан для разработчиков, "
+"еще не знакомых с безопасным программированием."
 
 # e91a5e43f05a478ca34bb635cd2efbfc
 #: ../../introduction.md:5
@@ -39,11 +47,15 @@ msgid ""
 "should be applied proactively at the early stages of software development to"
 " ensure maximum effectiveness."
 msgstr ""
+"Одной из основных целей данного документа является создание практического "
+"руководства, позволяющего разработчикам создавать безопасное программное "
+"обеспечение. Приводимые в документе техники необходимо применять проактивно,"
+" на ранних стадиях разработки, для достижения максимальной эффективности."
 
 # aca40a76c18c41a7992c07502421e585
 #: ../../introduction.md:7
 msgid "The Top 10 Proactive Controls"
-msgstr ""
+msgstr "Топ-10 рекомендаций по проактивной защите"
 
 # c52a14bc44e948b5b34ecf63ce5fb163
 #: ../../introduction.md:9
@@ -51,61 +63,63 @@ msgid ""
 "The list is ordered by importance with list item number 1 being the most "
 "important:"
 msgstr ""
+"Рекомендации в списке располагаются по степени их важности, в пункте 1 "
+"указана самая важная из них:"
 
 # a09af4067e2d4687b64115f2dc6f80b2
 #: ../../introduction.md:11
 msgid "C1: Define Security Requirements"
-msgstr ""
+msgstr "C1: Определение требований безопасности"
 
 # d40854b7569d4f61bd2008e929c345a2
 #: ../../introduction.md:12
 msgid "C2: Leverage Security Frameworks and Libraries"
-msgstr ""
+msgstr "C2: Использование безопасных фреймворков и библиотек"
 
 # dea082041b1d42f499687b95fb152f58
 #: ../../introduction.md:13
 msgid "C3: Secure Database Access"
-msgstr ""
+msgstr "C3: Обеспечение безопасного доступа к базам данных"
 
 # 69252a28236d401ea8262c37971f0a84
 #: ../../introduction.md:14
 msgid "C4: Encode and Escape Data"
-msgstr ""
+msgstr "C4: Кодирование и экранирование данных"
 
 # cd5812b1b9ed4e8e83ae653fcb2e7b52
 #: ../../introduction.md:15
 msgid "C5: Validate All Inputs"
-msgstr ""
+msgstr "C5: Обязательная проверка всех входных данных"
 
 # 72accacfb0c2483084af37b4b2cdd982
 #: ../../introduction.md:16
 msgid "C6: Implement Digital Identity"
-msgstr ""
+msgstr "C6: Внедрение цифровых идентификаторов"
 
 # b9f53e1476084deab2754b256ef4d10a
 #: ../../introduction.md:17
 msgid "C7: Enforce Access Controls"
-msgstr ""
+msgstr "C7: Обязательный контроль доступа"
 
 # 94a061b0a9ed426e94176bd7c4a716a5
 #: ../../introduction.md:18
 msgid "C8: Protect Data Everywhere"
-msgstr ""
+msgstr "C8: Повсеместная защита данных"
 
 # e4fa2bd90d844c3f88f24baea5243cf5
 #: ../../introduction.md:19
 msgid "C9: Implement Security Logging and Monitoring"
-msgstr ""
+msgstr "C9: Внедрение журналирования и мониторинга событий безопасности"
 
 # e7e2a71f13484049909780b4648b077c
 #: ../../introduction.md:20
 msgid "C10: Handle All Errors and Exceptions"
-msgstr ""
+msgstr "C10: Обязательная обработка всех ошибок и исключений"
 
 # 7aa6cec76ce648e189f802ce9dae8f1d
 #: ../../introduction.md:22
 msgid "How this List Was Created"
-msgstr ""
+msgstr "Как создавался список рекомендаций"
 
 # f783042c83654c35a6321832279f7052
 #: ../../introduction.md:24
@@ -115,11 +129,16 @@ msgid ""
 " so even anonymous suggestions could be considered. Hundreds of changes were"
 " accepted from this open community process."
 msgstr ""
+"Изначально данный список был составлен текущими руководителями проекта с "
+"участием нескольких добровольцев. Затем документ был опубликован в открытом "
+"доступе, чтобы даже анонимные пользователи могли вносить свои предложения. "
+"Сотни изменений были приняты на основе предложений, поступивших от "
+"сообщества."
 
 # 38946790374544db8ddfc8809e4ce7b3
 #: ../../introduction.md:26
 msgid "Target Audience"
-msgstr ""
+msgstr "Целевая аудитория"
 
 # 9d82e5d66614411a9a0fd1f918cbe656
 #: ../../introduction.md:28
@@ -128,11 +147,16 @@ msgid ""
 "managers, product owners, Q/A professionals, program managers, and anyone "
 "involved in building software can also benefit from this document."
 msgstr ""
+"Документ предназначается прежде всего разработчикам. Однако, руководители "
+"разработки, менеджеры продуктов, специалисты по обеспечению качества, "
+"руководители проектов, а также остальные участники процесса создания "
+"программного обеспечения могут почерпнуть полезную информацию из данного "
+"документа."
 
 # e5b57b4aa1ce4262aa4a3f169b38c3c9
 #: ../../introduction.md:30
 msgid "How to Use this Document"
-msgstr ""
+msgstr "Как пользоваться документом"
 
 # 0e13db71ab3040a7805050a802a73f26
 #: ../../introduction.md:32
@@ -148,11 +172,23 @@ msgid ""
 " development activities described in maturity models such as OWASP SAMM and "
 "BSIMM."
 msgstr ""
+"Документ предназначен для ознакомления с основами разработки безопасного "
+"программного обеспечения, а также содержит хорошую подборку материалов, "
+"позволяющую создавать вводные курсы по безопасности ПО для разработчиков. "
+"Приведенные в документе рекомендации необходимо выполнять последовательно и "
+"в полной мере для всех без исключения приложений. Тем не менее, данный "
+"документ стоит рассматривать скорее как отправную точку, а не как "
+"исчерпывающий набор методов и практик. Полноценный процесс безопасной "
+"разработки должен включать в себя разносторонние требования из стандартов, "
+"подобных \"Стандарту подтверждения безопасности приложений OWASP (ASVS)\", а"
+" также предусматривать мероприятия по разработке ПО, описанные в моделях "
+"зрелости, таких как OWASP SAMM (Модель обеспечения безопасности ПО) и BSIMM "
+"(Сводная модель обеспечения безопасности ПО)."
 
 # 386c22463011449db12d58a60bcf9001
 #: ../../introduction.md:34
 msgid "Link to the OWASP Top 10 Project"
-msgstr ""
+msgstr "Связь с проектом Топ-10 OWASP"
 
 # 1e24e669091a4802bb3f065e0bc719e2
 #: ../../introduction.md:36
@@ -163,3 +199,8 @@ msgid ""
 "risk based OWASP Top 10. This mapping information is included at the end of "
 "each control description."
 msgstr ""
+"Проект \"Топ-10 OWASP: Проактивная защита\" аналогичен проекту \"Топ-10 "
+"OWASP\", но акцент делается на методах и рекомендациях по защите от угроз, а"
+" не на самих угрозах. Каждый метод и рекомендация в данном документе связаны"
+" с одной или несколькими угрозами из списка Топ-10 OWASP. Информация о "
+"связях приводится в конце описания каждого требования."

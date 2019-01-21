@@ -3,6 +3,10 @@
 # This file is distributed under the same license as the OWASP Proactive Controls package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
+# JZDLin, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-16 14:27+0300\n"
 "PO-Revision-Date: 2019-01-16 10:20+0000\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,12 +25,12 @@ msgstr ""
 # 863b728b570c4c11b201460a09fe6b1c
 #: ../../c8-protect-data-everywhere.md:1
 msgid "C8: Protect Data Everywhere"
-msgstr ""
+msgstr "C8: Повсеместная защита данных"
 
 # de87ee1ec48b4e43a95784d8705f15e7
 #: ../../c8-protect-data-everywhere.md:4
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 # 21cae3d725a84e96955180bbcb2ef161
 #: ../../c8-protect-data-everywhere.md:6
@@ -36,6 +41,12 @@ msgid ""
 "Protection Regulation GDPR), financial data protection rules such as PCI "
 "Data Security Standard (PCI DSS) or other regulations"
 msgstr ""
+"Конфиденциальные данные, такие как пароли, номера кредитных карт, "
+"медицинские записи, персональные данные и коммерческие тайны требуют "
+"дополнительной защиты, особенно если они подпадают под действие закона о "
+"неприкосновенности данных, например, Общего регламента ЕС по защите данных "
+"(GDPR), или закона о защите финансовых данных, например, Стандарта "
+"безопасности данных в сфере платежных карт (PCI DSS)."
 
 # 61f1769579f049cdb384e925e8a67b06
 #: ../../c8-protect-data-everywhere.md:8
@@ -47,11 +58,18 @@ msgid ""
 "use SQL Injection to steal passwords and other credentials from an "
 "applications database and expose that information to the public."
 msgstr ""
+"Злоумышленники могут похитить данные из веб-приложений и веб-служб "
+"множеством разных способов. Например, атакующий может подключиться к общей "
+"беспроводной сети и просмотреть или похитить конфиденциальные данные других "
+"пользователей, если они передаются через небезопасное интернет-подключение. "
+"Также злоумышленник может использовать внедрение SQL-кода, чтобы похитить "
+"пароли и другие учетные данные из приложений, а затем выложить их в открытый"
+" доступ."
 
 # cfa72f6e86cd496497d23a4450c51eef
 #: ../../c8-protect-data-everywhere.md:10
 msgid "Data Classification"
-msgstr ""
+msgstr "Классификация данных"
 
 # 7d9fb675b42c429eaf87f1a53b534b33
 #: ../../c8-protect-data-everywhere.md:12
@@ -64,11 +82,19 @@ msgid ""
 "Credit card numbers may be classified as private user data which may need to"
 " be encrypted while stored or in transit."
 msgstr ""
+"Необходимо классифицировать данные в вашей системе и определить к какому "
+"уровню критичности относится каждый блок данных. Каждая категория данных "
+"затем может быть соотнесена с правилами защиты, определяемыми для каждого "
+"уровня критичности. Например, публичная маркетинговая информация, не "
+"являющаяся конфиденциальной, может быть отнесена к общедоступным данным, "
+"которые можно размещать на общедоступном сайте. Номера кредитных карт можно "
+"отнести к персональным данным пользователей, которые требуют шифрования при "
+"их хранении или передаче."
 
 # 56e90237b25443eaaf96c87bc5cad572
 #: ../../c8-protect-data-everywhere.md:14
 msgid "Encrypting Data in Transit"
-msgstr ""
+msgstr "Шифрование передаваемых данных"
 
 # c5cdfb3858c349bc8d673e3a966b7d0a
 #: ../../c8-protect-data-everywhere.md:16
@@ -81,6 +107,13 @@ msgid ""
 "must be properly configured in a variety of ways in order to properly defend"
 " secure communications."
 msgstr ""
+"При передаче конфиденциальных данных через любую сеть необходимо применять "
+"сквозную защиту соединений (или шифрование). TLS, безоговорочно, является "
+"самым распространенным и поддерживаемым криптографическим протоколом, "
+"обеспечивающим безопасность соединений. Он используется во многих сферах "
+"(веб-приложения, веб-службы, мобильные приложения) для безопасной передачи "
+"данных по сети. Для обеспечения безопасности соединений TLS необходимо "
+"правильно настроить."
 
 # 3e2ec6fe28794ea6946b37bd5abbd981
 #: ../../c8-protect-data-everywhere.md:18
@@ -91,11 +124,16 @@ msgid ""
 "and between the web application server and back end and other non-browser "
 "based enterprise components."
 msgstr ""
+"Основная польза от протокола TLS — это защита данных веб-приложений от "
+"несанкционированного доступа и изменений при их передаче между клиентами "
+"(веб-браузерами) и сервером веб-приложения, а также между сервером веб-"
+"приложения и внутренним сервером или другими, не относящимися к браузеру, "
+"компонентами организации."
 
 # 05f94dc9d9e14514bac866564da7c45c
 #: ../../c8-protect-data-everywhere.md:20
 msgid "Encrypting Data at Rest"
-msgstr ""
+msgstr "Шифрование хранимых данных"
 
 # f1d90f770f264f12b044135c34176b3c
 #: ../../c8-protect-data-everywhere.md:22
@@ -105,6 +143,10 @@ msgid ""
 "it's cryptographically protected in some way to avoid unauthorized "
 "disclosure and modification."
 msgstr ""
+"Первое правило управления конфиденциальными данными — избегать хранения "
+"конфиденциальных данных, когда это возможно. Если сохранять конфиденциальные"
+" данные необходимо, то убедитесь в наличии у них криптографической защиты от"
+" несанкционированного доступа и изменений."
 
 # 54f2540c60c64b0d800914e81fd896ca
 #: ../../c8-protect-data-everywhere.md:24
@@ -117,6 +159,14 @@ msgid ""
 "addition, serious cryptography research is typically based in advanced "
 "mathematics and number theory, providing a serious barrier to entry."
 msgstr ""
+"Криптография является одной из самых передовых областей информационной "
+"безопасности, ее понимание требует обширных знаний и опыта. Трудно выбрать "
+"какое-то одно единственное решение, поскольку существует множество разных "
+"подходов к шифрованию, каждый из которых имеет свои преимущества и "
+"недостатки, которые веб-архитекторы и веб-разработчики должны четко "
+"понимать. Более того, серьезное криптографическое исследование обычно "
+"основывается на высшей математике и теории чисел, что создает высокий "
+"входной порог."
 
 # c92b25cef80a4629a5c0fc15c2b6a88b
 #: ../../c8-protect-data-everywhere.md:26
@@ -126,11 +176,16 @@ msgid ""
 "Google Tink project, Libsodium, and secure storage capability built into "
 "many software frameworks and cloud services."
 msgstr ""
+"Вместо создания новых алгоритмов шифрования с нуля, настойчиво рекомендуем "
+"использовать решения с открытым исходным кодом, которые прошли независимую "
+"экспертизу, например, Google Tink или Libsodium, а также возможности "
+"безопасного хранения, встроенные во многие средства разработки ПО и облачные"
+" сервисы."
 
 # af79ae5fed264b2797982bb587a30fac
 #: ../../c8-protect-data-everywhere.md:28
 msgid "Mobile Application: Secure Local Storage"
-msgstr ""
+msgstr "Мобильные приложения: Безопасное локальное хранение данных"
 
 # b1c326cb3ac747bb87c6cfd43ffe7e24
 #: ../../c8-protect-data-everywhere.md:30
@@ -138,6 +193,9 @@ msgid ""
 "Mobile applications are at particular risk of data leakage because mobile "
 "devices are regularly lost or stolen yet contain sensitive data."
 msgstr ""
+"Мобильные приложения представляют особую группу риска утечки данных, "
+"поскольку мобильные устройства регулярно теряются и воруются, но при этом "
+"содержат конфиденциальные данные."
 
 # ed9ac81b23c0481b9be9ec4c7a16e797
 #: ../../c8-protect-data-everywhere.md:32
@@ -148,11 +206,16 @@ msgid ""
 "specific data storage directory. On Android this will be the Android "
 "keystore and on iOS this will be the iOS keychain."
 msgstr ""
+"На мобильных устройствах необходимо хранить минимум данных. Но если вам "
+"необходимо хранить конфиденциальные данные на мобильном устройстве, то эти "
+"данные должны храниться в специальном каталоге, в каждой мобильной ОС он "
+"свой. В Андроиде это будет хранилище ключей Android, а в iOS — связка ключей"
+" iOS."
 
 # 19f9f05f2dd64e6d804a915ce1f35ae0
 #: ../../c8-protect-data-everywhere.md:34
 msgid "Key Lifecycle"
-msgstr ""
+msgstr "Жизненный цикл ключей"
 
 # c9e00a191c5748fb9c6edc07b07f3b63
 #: ../../c8-protect-data-everywhere.md:36
@@ -163,36 +226,41 @@ msgid ""
 "sensitive security features. In managing keys, a number of rules should be "
 "followed including:"
 msgstr ""
+"Секретные ключи используются в приложениях для нескольких целей. Например, "
+"секретные ключи могут использоваться для подписи токенов JWT, защиты "
+"кредитных карт, различных форм аутентификации, а также для других функций "
+"обеспечения безопасности критичных данных. При управлении ключами "
+"придерживайтесь следующих правил:"
 
 # e7fe89b63b194606b7b37c4d48763693
 #: ../../c8-protect-data-everywhere.md:38
 msgid "Ensure that any secret key is protected from unauthorized access"
-msgstr ""
+msgstr "обеспечьте защиту секретных ключей от несанкционированного доступа;"
 
 # 39e88a64834246eb94deef2ed3e870f6
 #: ../../c8-protect-data-everywhere.md:39
 msgid "Store keys in a proper secrets vault as described below"
-msgstr ""
+msgstr "храните ключи в соответствующем хранилище, как это описано ниже;"
 
 # c32c50472f0f43969a39bda492c0e52b
 #: ../../c8-protect-data-everywhere.md:40
 msgid "Use independent keys when multiple keys are required"
-msgstr ""
+msgstr "используйте независимые ключи, когда требуются несколько ключей;"
 
 # ce781101f4354d8b9f342539adbef653
 #: ../../c8-protect-data-everywhere.md:41
 msgid "Build support for changing algorithms and keys when needed"
-msgstr ""
+msgstr "реализуйте возможность замены алгоритмов и ключей, при необходимости;"
 
 # 52dbd22fb10346b1a34c6cc21b00bed3
 #: ../../c8-protect-data-everywhere.md:42
 msgid "Build application features to handle a key rotation"
-msgstr ""
+msgstr "реализуйте в приложении механизм смены ключей."
 
 # a92f22a80d16402d948d649afdd74d0b
 #: ../../c8-protect-data-everywhere.md:44
 msgid "Application Secrets Management"
-msgstr ""
+msgstr "Управление секретами в приложении"
 
 # 90d892d2a0bd4837a22b5e846d30e78c
 #: ../../c8-protect-data-everywhere.md:46
@@ -204,6 +272,12 @@ msgid ""
 "lead to complete system compromise. In managing application secrets, "
 "consider the following."
 msgstr ""
+"Приложения содержат огромное количество \"секретов\", необходимых для "
+"выполнения проверок безопасности, например, сертификаты, пароли SQL-"
+"соединений, учетные данные сторонних служб, пароли, SSH-ключи и ключи "
+"шифрования. Несанкционированное разглашение или изменение этих секретов "
+"может привести к полной компрометации системы. При управлении секретами в "
+"приложениях придерживайтесь следующих правил:"
 
 # a6d3d341f8954c5ea6bc7768f0bd1b74
 #: ../../c8-protect-data-everywhere.md:48
@@ -212,6 +286,9 @@ msgid ""
 "variables. Use tools like GitRob or TruffleHog to scan code repos for "
 "secrets."
 msgstr ""
+"не храните секретные ключи в коде, файлах конфигурации, а также не "
+"передавайте их через переменные окружения. Используйте GitRob или TruffleHog"
+" для поиска секретов в репозиториях;"
 
 # e1ad06abc3df41ffab62c8a2148161f4
 #: ../../c8-protect-data-everywhere.md:49
@@ -220,81 +297,89 @@ msgid ""
 "KeyWhiz or Hashicorp's Vault project or Amazon KMS to provide secure storage"
 " and access to application-level secrets at run-time."
 msgstr ""
+"используйте для ключей и прочих секретов уровня приложения специальные "
+"хранилища, например, KeyWhiz, проект Vault от компании Hashicorp или Amazon "
+"KMS, обеспечивающие безопасность хранения и доступа к секретным ключам во "
+"время работы приложения."
 
 # a533f863f74e47d587f17a34495fb28c
 #: ../../c8-protect-data-everywhere.md:51
 msgid "Vulnerabilities Prevented"
-msgstr ""
+msgstr "Предотвращаемые уязвимости"
 
 # 115ee2dec04f455687676ef6211620a1
 #: ../../c8-protect-data-everywhere.md:53
 msgid "OWASP Top 10 2017 - A3: Sensitive Data Exposure"
-msgstr ""
+msgstr "Топ-10 OWASP 2017 - А3: Разглашение конфиденциальных данных"
 
 # 62a02cd7dd564477ac06c8b4b5e40f33
 #: ../../c8-protect-data-everywhere.md:54
 msgid "OWASP Mobile Top 10 2014-M2 Insecure Data Storage"
 msgstr ""
+"Топ-10 OWASP 2014 (мобильные устройства) - M2: Небезопасное хранение данных"
 
 # 34eb3ebc67994ab995b7a792479f98fb
 #: ../../c8-protect-data-everywhere.md:56
 msgid "References"
-msgstr ""
+msgstr "Ссылки"
 
 # 0c18f2b0e3754027a8d80d29898a9256
 #: ../../c8-protect-data-everywhere.md:58
 msgid "OWASP Cheat Sheet: Transport Layer Protection"
-msgstr ""
+msgstr "Памятка OWASP: Защита транспортного уровня"
 
 # a4c030a73fda4d4e9c8a4427c2cc6e1e
 #: ../../c8-protect-data-everywhere.md:59
 msgid "Ivan Ristic: SSL/TLS Deployment Best Practices"
-msgstr ""
+msgstr "Ivan Ristic: Рекомендации по реализации SSL/TLS"
 
 # f9a59415432047a2a68f34c0e7306528
 #: ../../c8-protect-data-everywhere.md:60
 msgid "OWASP Cheat Sheet: HSTS"
-msgstr ""
+msgstr "Памятка OWASP: Принудительное использование HTTPS (HSTS)"
 
 # c4493020741a4036b914cac96a8709da
 #: ../../c8-protect-data-everywhere.md:61
 msgid "OWASP Cheat Sheet: Cryptographic Storage"
-msgstr ""
+msgstr "Памятка OWASP: Хранение в зашифрованном виде"
 
 # 452df7c1e746496a8120adf5dd13b289
 #: ../../c8-protect-data-everywhere.md:62
 msgid "OWASP Cheat Sheet: Password Storage"
-msgstr ""
+msgstr "Памятка OWASP: Хранение паролей"
 
 # c2942bec0e50460299824b0cad4a0972
 #: ../../c8-protect-data-everywhere.md:63
 msgid "OWASP Cheat Sheet: IOS Developer - Insecure Data Storage"
-msgstr ""
+msgstr "Памятка OWASP: Для разработчиков iOS - Небезопасное хранение данных"
 
 # 56ec945146864530851fc7bf572821cf
 #: ../../c8-protect-data-everywhere.md:64
 msgid "OWASP Testing Guide: Testing for TLS"
-msgstr ""
+msgstr "Руководство OWASP по тестированию: Тестирование TLS"
 
 # b30831394f5c4e8e8791cad7d5245c54
 #: ../../c8-protect-data-everywhere.md:66
 msgid "Tools"
-msgstr ""
+msgstr "Инструменты"
 
 # 4176644079a44dfda732b40c4e68d745
 #: ../../c8-protect-data-everywhere.md:68
 msgid "SSLyze - SSL configuration scanning library and CLI tool"
 msgstr ""
+"SSLyze — интерфейс командной строки и библиотека для сканирования "
+"конфигураций SSL"
 
 # 2dfe23716593457bb51d5244bff18cca
 #: ../../c8-protect-data-everywhere.md:69
 msgid "SSLLabs - Free service for scanning and checking TLS/SSL configuration"
 msgstr ""
+"SSLLabs — бесплатная служба для сканирования и проверки конфигураций TLS/SSL"
 
 # f7d52545fc284c908bfd53f9ef1970c8
 #: ../../c8-protect-data-everywhere.md:70
 msgid "OWASP O-Saft TLS Tool - TLS connection testing tool"
-msgstr ""
+msgstr "OWASP O-Saft TLS Tool — инструмент для тестирования TLS-соединений"
 
 # 0dcc579972a042a48ca7d3fae135943d
 #: ../../c8-protect-data-everywhere.md:71
@@ -302,23 +387,25 @@ msgid ""
 "GitRob - Command line tool to find sensitive information in publicly "
 "available files on GitHub"
 msgstr ""
+"GitRob — инструмент командной строки для поиска критичных данных в "
+"общедоступных файлах на GitHub"
 
 # 62553899c18c4e54a70186f50617f1a7
 #: ../../c8-protect-data-everywhere.md:72
 msgid "TruffleHog  - Searches for secrets accidentally committed"
-msgstr ""
+msgstr "TruffleHog — инструмент для поиска случайно закоммиченных секретов"
 
 # 355603d09c8c4847a341ad739cd182c0
 #: ../../c8-protect-data-everywhere.md:73
 msgid "KeyWhiz - Secrets manager"
-msgstr ""
+msgstr "KeyWhiz — менеджер секретов"
 
 # 05804989d7a94fb088f493a09c9f4c14
 #: ../../c8-protect-data-everywhere.md:74
 msgid "Hashicorp Vault - Secrets manager"
-msgstr ""
+msgstr "Hashicorp Vault — менеджер секретов"
 
 # a6c31260c3d74bf582396b5cc40fe456
 #: ../../c8-protect-data-everywhere.md:75
 msgid "Amazon KMS - Manage keys on Amazon AWS"
-msgstr ""
+msgstr "Amazon KMS — инструмент управления ключами на Amazon AWS"

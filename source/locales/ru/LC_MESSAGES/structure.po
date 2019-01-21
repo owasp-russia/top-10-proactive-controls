@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the OWASP Proactive Controls package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# JZDLin, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-16 14:27+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +24,7 @@ msgstr ""
 # 972f2d33beb949a9955a2f79cda40461
 #: ../../structure.md:1
 msgid "DOCUMENT STRUCTURE"
-msgstr ""
+msgstr "СТРУКТУРА ДОКУМЕНТА"
 
 # 29dbf8a157614e899c8a396af7e8a233
 #: ../../structure.md:3
@@ -28,3 +32,5 @@ msgid ""
 "This document is structured as a list of security controls. Each control is "
 "described as follows:"
 msgstr ""
+"Данный документ представлен в виде списка требований к безопасности. Каждое "
+"требование описывается следующим образом:"
