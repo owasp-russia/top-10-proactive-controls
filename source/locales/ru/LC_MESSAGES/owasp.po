@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,19 +22,20 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# 8b6f625a027049d4a1d58a87cfe01603
-#: ../../owasp.md:1
+# a40a06d7fd8d437abc7d9f0cd97a30b0
+#: ../../owasp.rst:2
 msgid "About OWASP"
 msgstr "Об OWASP"
 
-# 12d05eaa0cc64066a26928f7425d1777
-#: ../../owasp.md:3
+# cf2514fe1c9c4dc689f6d9eaeeaf1c0c
+#: ../../owasp.rst:4
 msgid ""
-"The Open Web Application Security Project (OWASP) is a 501c3 non for profit "
-"educational charity dedicated to enabling organizations to design, develop, "
-"acquire, operate, and maintain secure software. All OWASP tools, documents, "
-"forums, and chapters are free and open to anyone interested in improving "
-"application security. We can be found at www.owasp.org."
+"The *Open Web Application Security Project* (OWASP) is a 501c3 non for "
+"profit educational charity dedicated to enabling organizations to design, "
+"develop, acquire, operate, and maintain secure software. All OWASP tools, "
+"documents, forums, and chapters are free and open to anyone interested in "
+"improving application security. We can be found at `www.owasp.org "
+"<https://www.owasp.org>`_."
 msgstr ""
 "Открытый проект по обеспечению безопасности веб-приложений (OWASP) "
 "представляет собой некоммерческий (501c3), образовательный, "
@@ -42,10 +43,11 @@ msgstr ""
 "разрабатывать, приобретать, использовать и поддерживать безопасное ПО. Все "
 "инструменты, документы, форумы и отделения OWASP являются бесплатными и "
 "открытыми для тех, кто заинтересован в улучшении безопасности приложений. "
-"Информацию о нас можно найти по адресу www.owasp.org."
+"Информацию о нас можно найти по адресу `www.owasp.org "
+"<https://www.owasp.org>`_."
 
-# 30a8dd804c9543be9ecb0ca33a16ba28
-#: ../../owasp.md:5
+# 3ec72d5824d0440d9f5c675eef052ad6
+#: ../../owasp.rst:6
 msgid ""
 "OWASP is a new kind of organization. Our freedom from commercial pressures "
 "allows us to provide unbiased, practical, cost effective information about "
@@ -55,8 +57,8 @@ msgstr ""
 "коммерческого влияния позволяет нам предоставлять беспристрастные, "
 "практические и эффективные данные по безопасности приложений."
 
-# 015c027ad4bf404e99570d5cfda1b9c9
-#: ../../owasp.md:7
+# 87f4776dcdbb43bc85d59ae80a58bb1d
+#: ../../owasp.rst:8
 msgid ""
 "OWASP is not affiliated with any technology company. Similar to many open "
 "source software projects, OWASP produces many types of materials in a "

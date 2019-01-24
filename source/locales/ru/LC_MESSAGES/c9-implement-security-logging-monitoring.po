@@ -5,15 +5,16 @@
 # 
 # Translators:
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,18 +22,18 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# b21dafab1ed3421db37f2ebdc1defd9d
-#: ../../c9-implement-security-logging-monitoring.md:1
+# d78226d9f81b4049b55360ac29268c8b
+#: ../../c9-implement-security-logging-monitoring.rst:2
 msgid "C9: Implement Security Logging and Monitoring"
 msgstr "C9: Внедрение журналирования и мониторинга событий безопасности"
 
-# c23777a31a1242db8e7f341d73b19223
-#: ../../c9-implement-security-logging-monitoring.md:3
+# f405adbc2c674afb889180bab443acbf
+#: ../../c9-implement-security-logging-monitoring.rst:5
 msgid "Description"
 msgstr "Описание"
 
-# a435dd9b481e438aa3c837278e378585
-#: ../../c9-implement-security-logging-monitoring.md:5
+# cf6f484a0ad24e79b9c789adacc06bf7
+#: ../../c9-implement-security-logging-monitoring.rst:7
 msgid ""
 "Logging is a concept that most developers already use for debugging and "
 "diagnostic purposes. Security logging is an equally basic concept: to log "
@@ -49,46 +50,46 @@ msgstr ""
 "могут применяться к выполняемым операциям, отладке и обеспечению "
 "безопасности."
 
-# 04b63c78ddb14281ab69d2b1f5e7f269
-#: ../../c9-implement-security-logging-monitoring.md:7
+# 8df2131974474b8bb03778982bd04193
+#: ../../c9-implement-security-logging-monitoring.rst:10
 msgid "Benefits of Security Logging"
 msgstr "Польза от журналирования событий безопасности"
 
-# 6755647709004e378eaf1d65ac00c9e2
-#: ../../c9-implement-security-logging-monitoring.md:9
+# 0cdffd6a21264508849da4d332b644a7
+#: ../../c9-implement-security-logging-monitoring.rst:12
 msgid "Security logging can be used for:"
 msgstr "Журналы регистрации событий безопасности могут быть использованы для:"
 
-# 7357c2d5ccb9409c9ac99d9067f058ae
-#: ../../c9-implement-security-logging-monitoring.md:11
+# fb8f71b100f84a06b1053e3a80d8fcee
+#: ../../c9-implement-security-logging-monitoring.rst:14
 msgid "Feeding intrusion detection systems"
 msgstr "снабжения системы обнаружения атак данными;"
 
-# 41ed4a46cbed4977bbd8e2577ee528d2
-#: ../../c9-implement-security-logging-monitoring.md:12
+# c5b1f14ca18d46b481b847616785f2f0
+#: ../../c9-implement-security-logging-monitoring.rst:15
 msgid "Forensic analysis and investigations"
 msgstr "анализа и расследования инцидентов;"
 
-# 1585e9e4e7f548c0bc02ed478c0b6971
-#: ../../c9-implement-security-logging-monitoring.md:13
+# bc77a76279fe42b7ae9018d752de5616
+#: ../../c9-implement-security-logging-monitoring.rst:16
 msgid "Satisfying regulatory compliance requirements"
 msgstr "выполнения требований регулирующих органов."
 
-# d9f72e580dd8497c8b19c071e77b244e
-#: ../../c9-implement-security-logging-monitoring.md:15
+# 9cc8ff51879243ab989f05c4247e6e7e
+#: ../../c9-implement-security-logging-monitoring.rst:19
 msgid "Security Logging Implementation"
 msgstr "Реализация журналирования событий безопасности"
 
-# ff8d3e0753124c0f9c08efd217992602
-#: ../../c9-implement-security-logging-monitoring.md:17
+# 0153b1a597dc463196099ed1b6af89de
+#: ../../c9-implement-security-logging-monitoring.rst:21
 msgid ""
 "The following is a list of security logging implementation best practices."
 msgstr ""
 "Ниже представлены рекомендации по реализации журналирования событий "
 "безопасности."
 
-# d9b12a02fe95486585abb8165dc5a120
-#: ../../c9-implement-security-logging-monitoring.md:19
+# 46d99b65673b4c50b9260ab036cf4eb6
+#: ../../c9-implement-security-logging-monitoring.rst:23
 msgid ""
 "Follow a common logging format and approach within the system and across "
 "systems of an organization. An example of a common logging framework is the "
@@ -101,8 +102,8 @@ msgstr ""
 "Services), которые обеспечивают совместимость журналирования между "
 "приложениями на Java, PHP, .NET и C++."
 
-# 2f3bd348ba06441ea590e0dade309db0
-#: ../../c9-implement-security-logging-monitoring.md:20
+# 2f4010b385bf43b48ae8eac4cc3fb85c
+#: ../../c9-implement-security-logging-monitoring.rst:24
 msgid ""
 "Do not log too much or too little. For example, make sure to always log the "
 "timestamp and identifying information including the source IP and user-id, "
@@ -113,8 +114,8 @@ msgstr ""
 " как IP-адрес источника и идентификатор пользователя, но никогда не "
 "записывайте персональные или конфиденциальные данные."
 
-# 0b55215fc3624d3ba7bec2861c3cd8b7
-#: ../../c9-implement-security-logging-monitoring.md:21
+# cbe18c5e48ee4574ae8824a05a38fd8b
+#: ../../c9-implement-security-logging-monitoring.rst:25
 msgid ""
 "Pay close attention to time syncing across nodes to ensure that timestamps "
 "are consistent."
@@ -122,13 +123,13 @@ msgstr ""
 "Обратите особое внимание на синхронизацию времени между узлами для "
 "обеспечения согласованности временных меток."
 
-# 8495acd42d334864b1aecedf03c63356
-#: ../../c9-implement-security-logging-monitoring.md:24
+# c6a5702d90024ce194d16ae58d0caba1
+#: ../../c9-implement-security-logging-monitoring.rst:29
 msgid "Logging for Intrusion Detection and Response"
 msgstr "Журналирование с целью обнаружения атак и противодействия им"
 
-# 3f1cdacc55b846ac8d3b16250f899c1c
-#: ../../c9-implement-security-logging-monitoring.md:26
+# 26bf97860f2642478ea71bae38cbe263
+#: ../../c9-implement-security-logging-monitoring.rst:31
 msgid ""
 "Use logging to identify activity that indicates that a user is behaving "
 "maliciously. Potentially malicious activity to log includes:"
@@ -137,14 +138,14 @@ msgstr ""
 "вредоносный характер действий пользователя. Потенциально опасная активность,"
 " подлежащая регистрации:"
 
-# d56a7cc400be496499559964563e551c
-#: ../../c9-implement-security-logging-monitoring.md:28
+# cfd88565938b4bc89626ca5f35f8b58e
+#: ../../c9-implement-security-logging-monitoring.rst:33
 msgid "Submitted data that is outside of an expected numeric range."
 msgstr ""
 "вводимые данные находятся за пределами ожидаемого числового диапазона;"
 
-# 4f2fdbb905ef4a8bacaf527000f7d7a0
-#: ../../c9-implement-security-logging-monitoring.md:29
+# 6eca30e61b3548e68db447ac675590b5
+#: ../../c9-implement-security-logging-monitoring.rst:34
 msgid ""
 "Submitted data that involves changes to data that should not be modifiable "
 "(select list, checkbox or other limited entry component)."
@@ -153,19 +154,22 @@ msgstr ""
 "неизменными (список выбора, поля флажков, прочие компоненты с ограниченным "
 "вводом);"
 
-# 57f2c2bff3e74d03aacd351f8f37ce83
-#: ../../c9-implement-security-logging-monitoring.md:30
+# 3ebbf03b2b144baebbd81472c054fc2a
+#: ../../c9-implement-security-logging-monitoring.rst:35
 msgid "Requests that violate server-side access control rules."
 msgstr "запросы, нарушающие правила управления доступом на стороне сервера;"
 
-# 9253088682334257a57e2e950f88a75c
-#: ../../c9-implement-security-logging-monitoring.md:31
+# 1a08d55c4d084b71aaa72a8248e45f30
+#: ../../c9-implement-security-logging-monitoring.rst:36
 msgid ""
-"A more comprehensive list of possible detection points is available here."
-msgstr "более подробный список маркеров атак можно найти здесь."
+"A more comprehensive list of possible detection points is available `here "
+"<https://www.owasp.org/index.php/AppSensor_DetectionPoints>`_."
+msgstr ""
+"более подробный список маркеров атак можно найти `здесь "
+"<https://www.owasp.org/index.php/AppSensor_DetectionPoints>`_."
 
-# dc1300ac5b6747b694c419fd399c7a08
-#: ../../c9-implement-security-logging-monitoring.md:33
+# b84ffffd73f54734b416b2f4fb31437b
+#: ../../c9-implement-security-logging-monitoring.rst:38
 msgid ""
 "When your application encounters such activity, your application should at "
 "the very least log the activity and mark it as a high severity issue.  "
@@ -180,13 +184,13 @@ msgstr ""
 "пользователя и блокировки его учетной записи. Механизм противодействия "
 "позволяет программе реагировать на обнаруживаемые атаки в реальном времени."
 
-# 7147778002424da78e9878feb1393424
-#: ../../c9-implement-security-logging-monitoring.md:35
+# 29dd572e71be4d9fa26ba456931b6381
+#: ../../c9-implement-security-logging-monitoring.rst:41
 msgid "Secure Logging Design"
 msgstr "Разработка системы журналирования событий безопасности"
 
-# fe5660fdd7ca4b8c956119158acefe8c
-#: ../../c9-implement-security-logging-monitoring.md:37
+# 80acc6412a62481eb2c660eb819bdc85
+#: ../../c9-implement-security-logging-monitoring.rst:43
 msgid ""
 "Logging solutions must be built and managed in a secure way. Secure Logging "
 "design may include the following:"
@@ -195,17 +199,20 @@ msgstr ""
 "требований безопасности. Для обеспечения безопасности журналов "
 "рекомендуется:"
 
-# d38c1cada8f148618f2db3d1d2b46714
-#: ../../c9-implement-security-logging-monitoring.md:39
+# de1a1319f19c45fb96a7e7f22d6c8333
+#: ../../c9-implement-security-logging-monitoring.rst:45
 msgid ""
-"Encode and validate any dangerous characters before logging to prevent log "
-"injection or log forging attacks."
+"Encode and validate any dangerous characters before logging to prevent `log "
+"injection <https://www.owasp.org/index.php/Log_Injection>`_ or `log forging "
+"<https://www.owasp.org/index.php/Log_Forging>`_ attacks."
 msgstr ""
 "кодировать и проверять все потенциально опасные символы перед их записью в "
-"журнал для предотвращения внедрения данных или подделки журналов;"
+"журнал для предотвращения `внедрения данных "
+"<https://www.owasp.org/index.php/Log_Injection>`_  или `подделки журналов "
+"<https://www.owasp.org/index.php/Log_Forging>`;"
 
-# c7d0df455e3f4fc5bc90e7ec84647aed
-#: ../../c9-implement-security-logging-monitoring.md:40
+# bef967d75804466595b6ec3d998083f1
+#: ../../c9-implement-security-logging-monitoring.rst:46
 msgid ""
 "Do not log sensitive information. For example, do not log password, session "
 "ID, credit cards, or social security numbers."
@@ -213,8 +220,8 @@ msgstr ""
 "отказаться от регистрации конфиденциальных данных, таких как пароли, "
 "идентификаторы сессий, номера кредитных карт или социального страхования;"
 
-# e3230ead4f38429a9183e942241dea31
-#: ../../c9-implement-security-logging-monitoring.md:41
+# 27c459770ef4427590c9e6a4e5753080
+#: ../../c9-implement-security-logging-monitoring.rst:47
 msgid ""
 "Protect log integrity. An attacker may attempt to tamper with the logs. "
 "Therefore, the permission of log files and log changes audit should be "
@@ -224,8 +231,8 @@ msgstr ""
 "несанкционированных действий с ними через аудит разрешений на работу с "
 "файлами журналов и прав на их изменение;"
 
-# 798df963ba694daa983a4b173de270f9
-#: ../../c9-implement-security-logging-monitoring.md:42
+# 5d559efb99304184b47b527d37054afa
+#: ../../c9-implement-security-logging-monitoring.rst:48
 msgid ""
 "Forward logs from distributed systems to a central, secure logging service. "
 "This will sure log data cannot be lost if one node is compromised. This also"
@@ -236,61 +243,74 @@ msgstr ""
 "данных при компрометации отдельных узлов, а также централизованность "
 "мониторинга."
 
-# 7017d40efeb845949a0486159357c208
-#: ../../c9-implement-security-logging-monitoring.md:44
+# aa026ae58d96459e80cd32fd3cee534a
+#: ../../c9-implement-security-logging-monitoring.rst:51
 msgid "References"
 msgstr "Ссылки"
 
-# a52f4a2ae91a4de8a35d163d9c4ffd2f
-#: ../../c9-implement-security-logging-monitoring.md:46
+# 715efb0952df464b9fc9b2fcb22a3a3e
+#: ../../c9-implement-security-logging-monitoring.rst:53
 msgid ""
-"OWASP AppSensor Detection Points - Detection points used to identify a "
-"malicious user probing for vulnerabilities or weaknesses in application."
+"`OWASP AppSensor Detection Points "
+"<https://www.owasp.org/index.php/AppSensor_DetectionPoints>`_ - Detection "
+"points used to identify a malicious user probing for vulnerabilities or "
+"weaknesses in application."
 msgstr ""
-"Маркеры атак OWASP AppSensor — используются для определения попыток "
-"злоумышленника обнаружить в приложении уязвимости или недостатки"
+"`Маркеры атак OWASP AppSensor "
+"<https://www.owasp.org/index.php/AppSensor_DetectionPoints>`_ — используются"
+" для определения попыток злоумышленника обнаружить в приложении уязвимости "
+"или недостатки"
 
-# 36524ee270ef4591ae6cd09ba0a2b24a
-#: ../../c9-implement-security-logging-monitoring.md:47
-msgid "OWASP Log injection"
-msgstr "OWASP - Внедрение данных в журналы"
+# 14ea4873b245483fa7b4bcfd50ba02e3
+#: ../../c9-implement-security-logging-monitoring.rst:54
+msgid "`OWASP Log injection <https://www.owasp.org/index.php/Log_Injection>`_"
+msgstr ""
 
-# 625590b630d04dfcb54c3a5c5dcc4f38
-#: ../../c9-implement-security-logging-monitoring.md:48
-msgid "OWASP Log forging"
-msgstr "OWASP - Подделка журналов"
+# 05b6e5c9e25b43c882645438bc62f7e6
+#: ../../c9-implement-security-logging-monitoring.rst:55
+msgid "`OWASP Log forging <https://www.owasp.org/index.php/Log_Forging>`_"
+msgstr ""
 
-# 4786856bbe454717aa222823a430831f
-#: ../../c9-implement-security-logging-monitoring.md:49
+# d83f126d2398490383b56cd8433fae83
+#: ../../c9-implement-security-logging-monitoring.rst:56
 msgid ""
-"OWASP Cheat Sheet: Logging How to properly implement logging in an "
-"application"
+"`OWASP Cheat Sheet: Logging "
+"<https://www.owasp.org/index.php/Logging_Cheat_Sheet>`_ How to properly "
+"implement logging in an application"
 msgstr ""
-"Памятка OWASP: Журналирование — как правильно реализовать журналирование в "
-"приложении"
+"`Памятка OWASP: Журналирование "
+"<https://www.owasp.org/index.php/Logging_Cheat_Sheet>`_ — как правильно "
+"реализовать журналирование в приложении"
 
-# f98f0feaf1fb476ba8d17c16603d6a17
-#: ../../c9-implement-security-logging-monitoring.md:50
-msgid "OWASP Development Guide: Logging"
-msgstr "Руководство разработчика OWASP: Журналирование"
-
-# b3c243a2f56f4eecb8942ad46bba893f
-#: ../../c9-implement-security-logging-monitoring.md:51
-msgid "OWASP Code Review Guide: Reviewing Code for Logging Issues"
+# e35ed12a4ec247e6ad4e88d34af82593
+#: ../../c9-implement-security-logging-monitoring.rst:57
+msgid ""
+"`OWASP Development Guide: Logging "
+"<https://www.owasp.org/index.php/Error_Handling,_Auditing_and_Logging#Logging>`_"
 msgstr ""
-"Руководство OWASP по анализу кода: Выявление ошибок журналирования в коде"
 
-# 61721b7974b54acea282c5859d3b321c
-#: ../../c9-implement-security-logging-monitoring.md:53
+# a707aa0429b04f4c8140527c08bdb298
+#: ../../c9-implement-security-logging-monitoring.rst:58
+msgid ""
+"`OWASP Code Review Guide: Reviewing Code for Logging Issues "
+"<https://www.owasp.org/index.php/Reviewing_Code_for_Logging_Issues>`_"
+msgstr ""
+"`Руководство OWASP по анализу кода: Выявление ошибок журналирования в коде "
+"<https://www.owasp.org/index.php/Reviewing_Code_for_Logging_Issues>`_"
+
+# 2190e85e623846858ab244265a82cc3c
+#: ../../c9-implement-security-logging-monitoring.rst:61
 msgid "Tools"
 msgstr "Инструменты"
 
-# db771cf8f8c94f4b8087f4b88a7f243f
-#: ../../c9-implement-security-logging-monitoring.md:55
-msgid "OWASP Security Logging Project"
-msgstr "Проект OWASP: Журналирование событий безопасности"
+# 5bfb35d623584d368e6bb07459cb59d3
+#: ../../c9-implement-security-logging-monitoring.rst:63
+msgid ""
+"`OWASP Security Logging Project "
+"<https://www.owasp.org/index.php/OWASP_Security_Logging_Project>`_"
+msgstr ""
 
-# ec11de5a18ac4826998531e2e4f7b59d
-#: ../../c9-implement-security-logging-monitoring.md:56
-msgid "Apache Logging Services"
-msgstr "Службы журналирования Apache"
+# a830e53329614341bdefa5296be3509b
+#: ../../c9-implement-security-logging-monitoring.rst:64
+msgid "`Apache Logging Services <https://logging.apache.org/>`_"
+msgstr ""

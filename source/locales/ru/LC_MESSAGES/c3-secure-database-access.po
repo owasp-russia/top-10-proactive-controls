@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
 "Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
@@ -21,18 +21,18 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# 061e1ca9855e494e99d3c08b95f705b0
-#: ../../c3-secure-database-access.md:1
+# 541feb75020f4faa8191cdd05581acd9
+#: ../../c3-secure-database-access.rst:2
 msgid "C3: Secure Database Access"
 msgstr "C3: Обеспечение безопасного доступа к базам данных"
 
-# b82eadf9f6d24a8c82c1bd91f21f16eb
-#: ../../c3-secure-database-access.md:3
+# a23340c9375b4eb295c2b1eb57acdcec
+#: ../../c3-secure-database-access.rst:5
 msgid "Description"
 msgstr "Описание"
 
-# b19d3143065f40939e2d90f88d97c787
-#: ../../c3-secure-database-access.md:5
+# 654b269a1e3e491192d674c4d4d3d6b3
+#: ../../c3-secure-database-access.rst:7
 msgid ""
 "This section describes secure access to all data stores, including both "
 "relational databases and NoSQL databases. Some areas to consider:"
@@ -41,33 +41,33 @@ msgstr ""
 "данных, включая реляционные базы данных и базы данных NoSQL. Рассматриваются"
 " следующие вопросы:"
 
-# 64e2e3a1ce8b474eb239d28e333ebee0
-#: ../../c3-secure-database-access.md:7
+# 733c2e8ca2104ed090776c96b4dda548
+#: ../../c3-secure-database-access.rst:9
 msgid "Secure queries"
 msgstr "Безопасность запросов"
 
-# e765ae9bc7a246b7b83e11713128896e
-#: ../../c3-secure-database-access.md:8
+# 3468de8828cb4e749246328cd7fa434d
+#: ../../c3-secure-database-access.rst:10
 msgid "Secure configuration"
 msgstr "Безопасность конфигурации"
 
-# 79413af1510241c88a6802127cb42e9c
-#: ../../c3-secure-database-access.md:9
+# 069ca5adc3cb4500a7b0894fb3f3fd2c
+#: ../../c3-secure-database-access.rst:11
 msgid "Secure authentication"
 msgstr "Безопасность аутентификации"
 
-# 92beeaf63e6f45539f157c96961a0583
-#: ../../c3-secure-database-access.md:10
+# 5dc0443d95d44c2eb66783dee405c9dc
+#: ../../c3-secure-database-access.rst:12
 msgid "Secure communication"
 msgstr "Безопасность соединений"
 
-# 8d8134bd12f44c78b761263f33a1161a
-#: ../../c3-secure-database-access.md:12
+# f3e7cafff72c4d90886f992dc12259e4
+#: ../../c3-secure-database-access.rst:15
 msgid "Secure Queries"
 msgstr "Безопасность запросов"
 
-# ff5248666b6348a2a0fdc84b68ab12fe
-#: ../../c3-secure-database-access.md:14
+# d02a5a7dfb9240eabec9d3166edc77cf
+#: ../../c3-secure-database-access.rst:17
 msgid ""
 "SQL Injection occurs when untrusted user input is dynamically added to a SQL"
 " query in an insecure manner, often via basic string concatenation. SQL "
@@ -86,8 +86,8 @@ msgstr ""
 "в системе, содержащей вашу базу данных, таким образом позволяя "
 "злоумышленнику закрепиться в сети."
 
-# f135e1d9b2e14d79bed1e591154e961b
-#: ../../c3-secure-database-access.md:16
+# ea51d250b2f945399d51a731f0f0031d
+#: ../../c3-secure-database-access.rst:19
 msgid ""
 "In order to mitigate SQL injection, untrusted input should be prevented from"
 " being interpreted as part of a SQL command. The best way to do this is with"
@@ -99,25 +99,23 @@ msgstr ""
 "использование метода \"параметризации запросов\". Этот метод необходимо "
 "применять к конструкциям SQL и OQL, а также хранимым процедурам."
 
-# da77f2ea0ae84705bd64a084c7475cd5
-#: ../../c3-secure-database-access.md:18
+# f1f638110fff412f916c07aacd629d21
+#: ../../c3-secure-database-access.rst:21
 msgid ""
 "A good list of query parameterization examples in ASP, ColdFusion, C#, "
 "Delphi, .NET, Go, Java, Perl, PHP, PL/SQL, PostgreSQL, Python, R, Ruby and "
-"Scheme can be found at http://bobby-tables.com and the OWASP Cheat Sheet on "
-"Query Parameterization."
+"Scheme can be found at `http://bobby-tables.com <http://bobby-tables.com/>`_"
+" and the `OWASP Cheat Sheet on Query Parameterization "
+"<https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet>`_."
 msgstr ""
-"Примеры параметризации запросов для ASP, ColdFusion, C#, Delphi, .NET, Go, "
-"Java, Perl, PHP, PL/SQL, PostgreSQL, Python, R, Ruby и Scheme можно найти на"
-" сайте http://bobby-tables.com и в памятке OWASP по параметризации запросов."
 
-# 957d4eba67e04645890563490eefaad1
-#: ../../c3-secure-database-access.md:20
+# 129d948f9f884f73a5f421c15ba5f603
+#: ../../c3-secure-database-access.rst:24
 msgid "Caution on Query Parameterization"
 msgstr "Примечание о параметризации запросов"
 
-# b5bcd7e6ef00486bb641837c12113853
-#: ../../c3-secure-database-access.md:22
+# 316c071e1039484bb11ed5c8f98c30b7
+#: ../../c3-secure-database-access.rst:26
 msgid ""
 "Certain locations in a database query are not parameterizable. These "
 "locations are different for each database vendor. Be certain to do very "
@@ -140,13 +138,13 @@ msgstr ""
 "комплексных запросов с поддержкой развернутых выражений LIKE или текстового "
 "поиска."
 
-# 1503e1c1bb1f4a0c9a7db4796848885d
-#: ../../c3-secure-database-access.md:24
+# 882f17080066452587c88b6051506062
+#: ../../c3-secure-database-access.rst:29
 msgid "Secure Configuration"
 msgstr "Безопасность конфигурации"
 
-# 7b7a33360d434c9a876979fd27cc089f
-#: ../../c3-secure-database-access.md:26
+# ff86a1575e3641de94d9466904ecb928
+#: ../../c3-secure-database-access.rst:31
 msgid ""
 "Unfortunately, database management systems do not always ship in a \"secure "
 "by default\" configuration. Care must be taken to ensure that the security "
@@ -161,13 +159,13 @@ msgstr ""
 "распространенных СУБД доступны стандарты, руководства и тесты "
 "производительности."
 
-# 7692989fea8e463296d7020ab63b2664
-#: ../../c3-secure-database-access.md:28
+# b9485e7fe61c463f8e4bfdd9fcc1f346
+#: ../../c3-secure-database-access.rst:34
 msgid "Secure Authentication"
 msgstr "Безопасность аутентификации"
 
-# 34de7d88c8a7484ca4d9664bb938fe8b
-#: ../../c3-secure-database-access.md:30
+# 6c97e64755994ede8e2113fb00c95642
+#: ../../c3-secure-database-access.rst:36
 msgid ""
 "All access to the database should be properly authenticated. Authentication "
 "to the DBMS should be accomplished in a secure manner. Authentication should"
@@ -179,58 +177,61 @@ msgstr ""
 "защищенному каналу. Также необходимо обеспечить безопасность и доступность "
 "учетных данных."
 
-# c70f63e00db047c58c7790d910e92cc4
-#: ../../c3-secure-database-access.md:32
+# dd5b22f93311435a9ee3a6c487dc5608
+#: ../../c3-secure-database-access.rst:39
 msgid "Secure Communication"
 msgstr "Безопасность соединений"
 
-# 074fc17f58b243c9ac7a799e552f7df8
-#: ../../c3-secure-database-access.md:34
+# adc9e2f784764ebbb867fce98bdf3969
+#: ../../c3-secure-database-access.rst:41
 msgid ""
 "Most DBMS support a variety of communications methods (services, APIs, etc) "
 "- secure (authenticated, encrypted) and insecure (unauthenticated or "
 "unencrypted). It is a good practice to only use the secure communications "
-"options per the Protect Data Everywhere control."
+"options per the *Protect Data Everywhere* control."
 msgstr ""
-"Большинство СУБД поддерживают несколько способов связи (например, через "
-"службы или API), которые могут быть безопасными (аутентифицированными, "
-"зашифрованными) и небезопасными (неаутентифицированными или "
-"незашифрованными). Рекомендуется использовать только безопасные методы "
-"связи, как это описано в разделе \"Повсеместная защита данных\"."
 
-# 4df23d61d2034a1c9282d9c45a925679
-#: ../../c3-secure-database-access.md:36
+# c709c70f70e14805adaefea85d696cb6
+#: ../../c3-secure-database-access.rst:44
 msgid "Vulnerabilities Prevented"
 msgstr "Предотвращаемые уязвимости"
 
-# 1213ca9dfc4d432cb9d844bef118459e
-#: ../../c3-secure-database-access.md:38
-msgid "OWASP Top 10 2017- A1: Injection"
-msgstr "Топ-10 OWASP 2017 - A1: Внедрение"
-
-# 13b17efbab0d476ba53f759e74c36a53
-#: ../../c3-secure-database-access.md:39
-msgid "OWASP Mobile Top 10 2014-M1 Weak Server Side Controls"
+# 6baa328e44c44ccc999a012c72f16db2
+#: ../../c3-secure-database-access.rst:46
+msgid ""
+"`OWASP Top 10 2017- A1: Injection "
+"<https://www.owasp.org/index.php/Top_10-2017_A1-Injection>`_"
 msgstr ""
-"Топ-10 OWASP 2014 (мобильные устройства) - M1: Ненадежные настройки на "
-"стороне сервера"
 
-# f7ededbce64647c2a190e078ff74da30
-#: ../../c3-secure-database-access.md:41
+# cdf9a495f13b4e94b3ad7753f9f2b719
+#: ../../c3-secure-database-access.rst:47
+msgid ""
+"`OWASP Mobile Top 10 2014-M1 Weak Server Side Controls "
+"<https://www.owasp.org/index.php/Mobile_Top_10_2014-M1>`_"
+msgstr ""
+
+# fcff32dd993d49f69baf7d47f05849a8
+#: ../../c3-secure-database-access.rst:50
 msgid "References"
 msgstr "Ссылки"
 
-# 41dcfa8f89ef41379258f69ac416a3e7
-#: ../../c3-secure-database-access.md:43
-msgid "OWASP Cheat Sheet: Query Parameterization"
-msgstr "Памятка OWASP: Параметризация запросов"
+# 08d9a9122cd0422ba6cccd96a381689b
+#: ../../c3-secure-database-access.rst:52
+msgid ""
+"`OWASP Cheat Sheet: Query Parameterization "
+"<https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet>`_"
+msgstr ""
 
-# cba61358de414954aa297eca93dc22f8
-#: ../../c3-secure-database-access.md:44
-msgid "Bobby Tables: A guide to preventing SQL injection"
-msgstr "Bobby Tables: Руководство по предотвращению внедрений SQL-кода"
+# a0a8452fbea24f209835a13397a4ff85
+#: ../../c3-secure-database-access.rst:53
+msgid ""
+"`Bobby Tables: A guide to preventing SQL injection <http://bobby-"
+"tables.com/>`_"
+msgstr ""
 
-# 7ad56371c5b343058091b701ab439e09
-#: ../../c3-secure-database-access.md:45
-msgid "CIS Database Hardening Standards"
-msgstr "Стандарты CIS по улучшению безопасности баз данных"
+# e940f67270fa42e1b40c4c39110c905c
+#: ../../c3-secure-database-access.rst:54
+msgid ""
+"`CIS Database Hardening Standards <https://www.cisecurity.org/cis-"
+"benchmarks/>`_"
+msgstr ""

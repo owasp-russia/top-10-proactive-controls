@@ -5,15 +5,16 @@
 # 
 # Translators:
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:20+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,13 +22,13 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# 50acbea9f5c447a3a02bb083cb0ceb3a
-#: ../../introduction.md:1
+# 32a25177b641466aba74eeab40773234
+#: ../../introduction.rst:2
 msgid "INTRODUCTION"
 msgstr "ВВЕДЕНИЕ"
 
-# 3cd22c7c7b42470fbbc7be65288f473b
-#: ../../introduction.md:3
+# 55d19dd3dc2b44e7b8a0c23b4d64a7c5
+#: ../../introduction.rst:4
 msgid ""
 "The OWASP Top Ten Proactive Controls 2018 is a list of security techniques "
 "that should be considered for every software development project. This "
@@ -39,8 +40,8 @@ msgstr ""
 " во всех проектах разработки ПО. Этот документ написан для разработчиков, "
 "еще не знакомых с безопасным программированием."
 
-# e91a5e43f05a478ca34bb635cd2efbfc
-#: ../../introduction.md:5
+# 4d66176027d14810bdf1096745bb4d8c
+#: ../../introduction.rst:6
 msgid ""
 "One of the main goals of this document is to provide concrete practical "
 "guidance that helps developers build secure software. These techniques "
@@ -52,13 +53,13 @@ msgstr ""
 "обеспечение. Приводимые в документе техники необходимо применять проактивно,"
 " на ранних стадиях разработки, для достижения максимальной эффективности."
 
-# aca40a76c18c41a7992c07502421e585
-#: ../../introduction.md:7
+# bc1215a2e1e444669a0ac2dd149e957b
+#: ../../introduction.rst:9
 msgid "The Top 10 Proactive Controls"
 msgstr "Топ-10 рекомендаций по проактивной защите"
 
-# c52a14bc44e948b5b34ecf63ce5fb163
-#: ../../introduction.md:9
+# 2534c1db7b3d4927a96875c3b9c9b9ba
+#: ../../introduction.rst:11
 msgid ""
 "The list is ordered by importance with list item number 1 being the most "
 "important:"
@@ -66,63 +67,63 @@ msgstr ""
 "Рекомендации в списке располагаются по степени их важности, в пункте 1 "
 "указана самая важная из них:"
 
-# a09af4067e2d4687b64115f2dc6f80b2
-#: ../../introduction.md:11
+# fd32bcc9182e449283df6ddf8a4ec83b
+#: ../../introduction.rst:13
 msgid "C1: Define Security Requirements"
 msgstr "C1: Определение требований безопасности"
 
-# d40854b7569d4f61bd2008e929c345a2
-#: ../../introduction.md:12
+# fbbc9c591c524417a3d69946ad3c8f92
+#: ../../introduction.rst:14
 msgid "C2: Leverage Security Frameworks and Libraries"
 msgstr "C2: Использование безопасных фреймворков и библиотек"
 
-# dea082041b1d42f499687b95fb152f58
-#: ../../introduction.md:13
+# 957bef18bb0645eab31e33e63bf2263e
+#: ../../introduction.rst:15
 msgid "C3: Secure Database Access"
 msgstr "C3: Обеспечение безопасного доступа к базам данных"
 
-# 69252a28236d401ea8262c37971f0a84
-#: ../../introduction.md:14
+# ecb36184b74844ccbc590405ccc9971f
+#: ../../introduction.rst:16
 msgid "C4: Encode and Escape Data"
 msgstr "C4: Кодирование и экранирование данных"
 
-# cd5812b1b9ed4e8e83ae653fcb2e7b52
-#: ../../introduction.md:15
+# ba624c61c5fe41ecba7fec4c151a81b8
+#: ../../introduction.rst:17
 msgid "C5: Validate All Inputs"
 msgstr "C5: Обязательная проверка всех входных данных"
 
-# 72accacfb0c2483084af37b4b2cdd982
-#: ../../introduction.md:16
+# 7b99a048187a4762b7c0a22c77acf68f
+#: ../../introduction.rst:18
 msgid "C6: Implement Digital Identity"
 msgstr "C6: Внедрение цифровых идентификаторов"
 
-# b9f53e1476084deab2754b256ef4d10a
-#: ../../introduction.md:17
+# 35ef19e81307431cb9b28a245cd0ed92
+#: ../../introduction.rst:19
 msgid "C7: Enforce Access Controls"
 msgstr "C7: Обязательный контроль доступа"
 
-# 94a061b0a9ed426e94176bd7c4a716a5
-#: ../../introduction.md:18
+# 9991826f16af4cdea044b1bd6f2b5e7c
+#: ../../introduction.rst:20
 msgid "C8: Protect Data Everywhere"
 msgstr "C8: Повсеместная защита данных"
 
-# e4fa2bd90d844c3f88f24baea5243cf5
-#: ../../introduction.md:19
+# 7034ce125375431bbcc58c962045fe80
+#: ../../introduction.rst:21
 msgid "C9: Implement Security Logging and Monitoring"
 msgstr "C9: Внедрение журналирования и мониторинга событий безопасности"
 
-# e7e2a71f13484049909780b4648b077c
-#: ../../introduction.md:20
+# 6fdab76e0ecd43229519cec5c6077c91
+#: ../../introduction.rst:22
 msgid "C10: Handle All Errors and Exceptions"
 msgstr "C10: Обязательная обработка всех ошибок и исключений"
 
-# 7aa6cec76ce648e189f802ce9dae8f1d
-#: ../../introduction.md:22
+# 2c30aa028cb44655bf736881f97bea47
+#: ../../introduction.rst:25
 msgid "How this List Was Created"
 msgstr "Как создавался список рекомендаций"
 
-# f783042c83654c35a6321832279f7052
-#: ../../introduction.md:24
+# 87eff2c7b5a94753912f75e34f04d771
+#: ../../introduction.rst:27
 msgid ""
 "This list was originally created by the current project leads with "
 "contributions from several volunteers. The document was then shared globally"
@@ -135,13 +136,13 @@ msgstr ""
 "Сотни изменений были приняты на основе предложений, поступивших от "
 "сообщества."
 
-# 38946790374544db8ddfc8809e4ce7b3
-#: ../../introduction.md:26
+# f4144dc6693848d1be018a49a9a3fa9a
+#: ../../introduction.rst:30
 msgid "Target Audience"
 msgstr "Целевая аудитория"
 
-# 9d82e5d66614411a9a0fd1f918cbe656
-#: ../../introduction.md:28
+# 5d84c29869d54d8099075e5e9381d549
+#: ../../introduction.rst:32
 msgid ""
 "This document is primarily written for developers. However, development "
 "managers, product owners, Q/A professionals, program managers, and anyone "
@@ -153,13 +154,13 @@ msgstr ""
 "программного обеспечения могут почерпнуть полезную информацию из данного "
 "документа."
 
-# e5b57b4aa1ce4262aa4a3f169b38c3c9
-#: ../../introduction.md:30
+# fe5c4001c0c24f0889dacc3c11f5c215
+#: ../../introduction.rst:35
 msgid "How to Use this Document"
 msgstr "Как пользоваться документом"
 
-# 0e13db71ab3040a7805050a802a73f26
-#: ../../introduction.md:32
+# facdd11a35db457fa51f289b260216be
+#: ../../introduction.rst:37
 msgid ""
 "This document is intended to provide initial awareness around building "
 "secure software. This document will also provide a good foundation of topics"
@@ -169,8 +170,9 @@ msgid ""
 "rather than a comprehensive set of techniques and practices. A full secure "
 "development process should include comprehensive requirements from a "
 "standard such as the OWASP ASVS in addition to including a range of software"
-" development activities described in maturity models such as OWASP SAMM and "
-"BSIMM."
+" development activities described in maturity models such as `OWASP SAMM "
+"<https://www.owasp.org/index.php/OWASP_SAMM_Project>`_ and `BSIMM "
+"<https://www.bsimm.com/>`_."
 msgstr ""
 "Документ предназначен для ознакомления с основами разработки безопасного "
 "программного обеспечения, а также содержит хорошую подборку материалов, "
@@ -182,25 +184,28 @@ msgstr ""
 "разработки должен включать в себя разносторонние требования из стандартов, "
 "подобных \"Стандарту подтверждения безопасности приложений OWASP (ASVS)\", а"
 " также предусматривать мероприятия по разработке ПО, описанные в моделях "
-"зрелости, таких как OWASP SAMM (Модель обеспечения безопасности ПО) и BSIMM "
-"(Сводная модель обеспечения безопасности ПО)."
+"зрелости, таких как `OWASP SAMM (Модель обеспечения безопасности ПО) "
+"<https://www.owasp.org/index.php/OWASP_SAMM_Project>`_ и `BSIMM (Сводная "
+"модель обеспечения безопасности ПО) <https://www.bsimm.com/>`_.."
 
-# 386c22463011449db12d58a60bcf9001
-#: ../../introduction.md:34
+# 40df65010d0949d28e545f528a90537d
+#: ../../introduction.rst:40
 msgid "Link to the OWASP Top 10 Project"
 msgstr "Связь с проектом Топ-10 OWASP"
 
-# 1e24e669091a4802bb3f065e0bc719e2
-#: ../../introduction.md:36
+# 70125501611e4d19adbe6925f852cfca
+#: ../../introduction.rst:42
 msgid ""
-"The OWASP Top 10 Proactive Controls is similar to the OWASP Top 10 but is "
+"The OWASP Top 10 Proactive Controls is similar to the `OWASP Top 10 "
+"<https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>`_ but is "
 "focused on defensive techniques and controls as opposed to risks. Each "
 "technique or control in this document will map to one or more items in the "
-"risk based OWASP Top 10. This mapping information is included at the end of "
-"each control description."
+"*risk based* OWASP Top 10. This mapping information is included at the end "
+"of each control description."
 msgstr ""
-"Проект \"Топ-10 OWASP: Проактивная защита\" аналогичен проекту \"Топ-10 "
-"OWASP\", но акцент делается на методах и рекомендациях по защите от угроз, а"
-" не на самих угрозах. Каждый метод и рекомендация в данном документе связаны"
-" с одной или несколькими угрозами из списка Топ-10 OWASP. Информация о "
-"связях приводится в конце описания каждого требования."
+"Проект \"Топ-10 OWASP: Проактивная защита\" аналогичен проекту `\"Топ-10 "
+"OWASP\"<https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>`_, "
+"но акцент делается на методах и рекомендациях по защите от угроз, а не на "
+"самих угрозах. Каждый метод и рекомендация в данном документе связаны с "
+"одной или несколькими угрозами из списка Топ-10 OWASP. Информация о связях "
+"приводится в конце описания каждого требования."

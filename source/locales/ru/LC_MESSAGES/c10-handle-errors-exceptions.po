@@ -5,15 +5,16 @@
 # 
 # Translators:
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:20+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,18 +22,18 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# a5baf2adae0d4c48ba0e454cc9eb51b3
-#: ../../c10-handle-errors-exceptions.md:1
+# a27b050769274fe2a4dcf5c548125ebe
+#: ../../c10-handle-errors-exceptions.rst:2
 msgid "C10: Handle all Errors and Exceptions"
 msgstr "C10: Обязательная обработка всех ошибок и исключений"
 
-# 42d353ae775f4c6194878b5c8fbc1106
-#: ../../c10-handle-errors-exceptions.md:3
+# 36a7bf0875494f559d8875a289f01228
+#: ../../c10-handle-errors-exceptions.rst:5
 msgid "Description"
 msgstr "Описание"
 
-# 2c07b770ced3444ba59de0012573d602
-#: ../../c10-handle-errors-exceptions.md:5
+# 342be4f9830e49779d5d40de00a20656
+#: ../../c10-handle-errors-exceptions.rst:7
 msgid ""
 "Exception handling is a programming concept that allows an application to "
 "respond to different error states (like network down, or database connection"
@@ -44,8 +45,8 @@ msgstr ""
 "Корректная обработка исключений и ошибок просто необходима для обеспечения "
 "надежности и безопасности вашего кода."
 
-# 62012d5fe92a45d5ac12087639343f61
-#: ../../c10-handle-errors-exceptions.md:7
+# 1163a0f46b2c49209ffedf442082045d
+#: ../../c10-handle-errors-exceptions.rst:9
 msgid ""
 "Error and exception handling occurs in all areas of an application including"
 " critical business logic as well as security features and framework code."
@@ -53,8 +54,8 @@ msgstr ""
 "Ошибки и исключения обрабатываются на всех уровнях приложения, включая "
 "критическую бизнес-логику, функции безопасности и фреймворки."
 
-# 11ca5b560d5c467f84715297492f34e1
-#: ../../c10-handle-errors-exceptions.md:9
+# 5853cfb752fd453c92047ecfd560ca10
+#: ../../c10-handle-errors-exceptions.rst:11
 msgid ""
 "Error handling is also important from an intrusion detection perspective. "
 "Certain attacks against your application may trigger errors which can help "
@@ -64,35 +65,39 @@ msgstr ""
 "атаки на приложения могут вызывать ошибки, позволяющие обнаружить атаку в "
 "процессе ее проведения."
 
-# a38bb94a08b649de86b6d4956a952f97
-#: ../../c10-handle-errors-exceptions.md:11
+# 4064563fbd58438889bb72a463e1426a
+#: ../../c10-handle-errors-exceptions.rst:14
 msgid "Error Handling Mistakes"
 msgstr "Некорректная обработка ошибок"
 
-# 6189eaa926e649e48fba95fa4548533a
-#: ../../c10-handle-errors-exceptions.md:13
+# 9b84547f0616456fb3a61c82ed204b0f
+#: ../../c10-handle-errors-exceptions.rst:16
 msgid ""
 "Researchers at the University of Toronto have found that even small mistakes"
-" in error handling or forgetting to handle errors can lead to catastrophic "
-"failures in distributed systems."
+" in error handling or forgetting to handle errors can lead to `catastrophic "
+"failures in distributed systems "
+"<https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-"
+"yuan.pdf>`_."
 msgstr ""
 "Исследователи из Университета Торонто выяснили, что даже небольшая "
 "оплошность при обработке ошибок или их игнорирование может привести к "
-"критическим сбоям в работе распределенных систем."
+"`критическим сбоям в работе распределенных систем "
+"<https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-"
+"yuan.pdf>`_."
 
-# b1239cc513c14790a557434a3ddbb071
-#: ../../c10-handle-errors-exceptions.md:15
+# 62d696120ea34c0c9407ff38d7a2a0c2
+#: ../../c10-handle-errors-exceptions.rst:18
 msgid ""
 "Mistakes in error handling can lead to different kinds of security "
 "vulnerabilities."
 msgstr ""
 "Некорректная обработка ошибок может стать причиной различных уязвимостей."
 
-# 2f731ecc2b8e484da5ec4f373a318653
-#: ../../c10-handle-errors-exceptions.md:17
+# 7751593921f840e1b7b9b9e671c8941f
+#: ../../c10-handle-errors-exceptions.rst:20
 msgid ""
-"Information leakage: Leaking sensitive information in error messages can "
-"unintentionally help attackers. For example, an error that returns a stack "
+"**Information leakage**: Leaking sensitive information in error messages can"
+" unintentionally help attackers. For example, an error that returns a stack "
 "trace or other internal error details can provide an attacker with "
 "information about your environment. Even small differences in handling "
 "different error conditions (e.g., returning \"invalid user\" or \"invalid "
@@ -101,7 +106,7 @@ msgid ""
 "and debugging purposes, but don’t expose this information, especially to an "
 "external client."
 msgstr ""
-"Утечка данных: разглашение конфиденциальной информации в сообщениях об "
+"**Утечка данных**: разглашение конфиденциальной информации в сообщениях об "
 "ошибках может непреднамеренно помочь злоумышленникам. Например, сообщение, "
 "содержащее трассировку стека или подробности внутренней ошибки, может "
 "предоставить злоумышленнику данные о вашем окружении. Даже небольшие "
@@ -112,49 +117,53 @@ msgstr ""
 "расследований и отладки, но избегать разглашения этих данных, особенно "
 "внешним клиентам."
 
-# 6585070c989742ffbae3e079cf2af2c6
-#: ../../c10-handle-errors-exceptions.md:18
+# 364f54d09bca4abba94fd964dd1528de
+#: ../../c10-handle-errors-exceptions.rst:21
 msgid ""
-"TLS bypass:  The Apple goto \"fail bug\" was a control-flow error in error "
-"handling code that lead to a complete compromise of TLS connections on apple"
-" systems."
+"**TLS bypass**:  The `Apple goto \"fail bug\" "
+"<https://www.dwheeler.com/essays/apple-goto-fail.html>`_ was a control-flow "
+"error in error handling code that lead to a complete compromise of TLS "
+"connections on apple systems."
 msgstr ""
-"Обход ограничений TLS: уязвимость Apple \"goto fail\" была следствием ошибки"
-" управления в коде обработки ошибок, которая приводила к полной "
+"**Обход ограничений TLS**: уязвимость `Apple \"goto fail\" "
+"<https://www.dwheeler.com/essays/apple-goto-fail.html>`_ была следствием "
+"ошибки управления в коде обработки ошибок, которая приводила к полной "
 "компрометации TLS-соединений систем Apple."
 
-# f5db691fce4a4e70a2b677db87e92c8f
-#: ../../c10-handle-errors-exceptions.md:19
+# e067d5b8be7c4f61a9e3a248fdf7e530
+#: ../../c10-handle-errors-exceptions.rst:22
 msgid ""
-"DOS: A lack of basic error handling can lead to system shutdown. This is "
-"usually a fairly easy vulnerability for attackers to exploit. Other error "
+"**DOS**: A lack of basic error handling can lead to system shutdown. This is"
+" usually a fairly easy vulnerability for attackers to exploit. Other error "
 "handling problems could lead to increased usage of CPU or disk in ways that "
 "could degrade the system."
 msgstr ""
-"Отказ в обслуживании: отсутствие базовой обработки ошибок может привести к "
-"неработоспособности системы. Обычно это относительно простая в эксплуатации "
-"уязвимость. Другие проблемы с обработкой ошибок могут привести к повышенному"
-" использованию ресурсов ЦП или диска и таким образом ухудшить "
+"**Отказ в обслуживании**: отсутствие базовой обработки ошибок может привести"
+" к неработоспособности системы. Обычно это относительно простая в "
+"эксплуатации уязвимость. Другие проблемы с обработкой ошибок могут привести "
+"к повышенному использованию ресурсов ЦП или диска и таким образом ухудшить "
 "производительность системы."
 
-# 0525c10f395d4142bef491741108d105
-#: ../../c10-handle-errors-exceptions.md:22
+# e8df3c5c6b6042c08e278bef70a968df
+#: ../../c10-handle-errors-exceptions.rst:26
 msgid "Positive Advice"
 msgstr "Полезные советы"
 
-# a9690e55c1394a5183db6574fd93f34d
-#: ../../c10-handle-errors-exceptions.md:24
+# c3e16b27fcfa47ffa8d418653bd3a86a
+#: ../../c10-handle-errors-exceptions.rst:28
 msgid ""
-"Manage exceptions in a centralized manner to avoid duplicated try/catch "
-"blocks in the code. Ensure that all unexpected behavior is correctly handled"
-" inside the application."
+"Manage exceptions in a `centralized manner "
+"<https://www.owasp.org/index.php/Error_Handling#Centralised_exception_handling_.28Struts_Example.29>`_"
+" to avoid duplicated try/catch blocks in the code. Ensure that all "
+"unexpected behavior is correctly handled inside the application."
 msgstr ""
-"Управляйте исключениями централизованно, чтобы избежать дублирования "
-"блокировок try/catch в коде. Убедитесь в корректной обработке непредвиденных"
-" режимов работы внутри приложения."
+"Управляйте исключениями `централизованно "
+"<https://www.owasp.org/index.php/Error_Handling#Centralised_exception_handling_.28Struts_Example.29>`_,"
+" чтобы избежать дублирования блокировок try/catch в коде. Убедитесь в "
+"корректной обработке непредвиденных режимов работы внутри приложения."
 
-# de7cbaf7a5f7415d94ea37c778f66e76
-#: ../../c10-handle-errors-exceptions.md:25
+# 265393fbd81c417ca0919d2a3a41bce9
+#: ../../c10-handle-errors-exceptions.rst:29
 msgid ""
 "Ensure that error messages displayed to users do not leak critical data, but"
 " are still verbose enough to enable the proper user response."
@@ -163,8 +172,8 @@ msgstr ""
 "конфиденциальных данных, но при этом содержат достаточно информации для "
 "соответствующего реагирования на них."
 
-# 28fdaf0d2eb04305899bc01e264cd1ab
-#: ../../c10-handle-errors-exceptions.md:26
+# 76f8138c7b4947b084106ff723da94da
+#: ../../c10-handle-errors-exceptions.rst:30
 msgid ""
 "Ensure that exceptions are logged in a way that gives enough information for"
 " support, QA, forensics or incident response teams to understand the "
@@ -174,63 +183,68 @@ msgstr ""
 "команды технической поддержки, контроля качества, расследования инцидентов "
 "или реагирования на атаки имели достаточно данных для решения проблемы."
 
-# 32d455d3ae8c467abe7cda4b385f2c83
-#: ../../c10-handle-errors-exceptions.md:27
+# b9a3f8979d6a44b5a058480792e36778
+#: ../../c10-handle-errors-exceptions.rst:31
 msgid "Carefully test and verify error handling code."
 msgstr "Тщательно протестируйте и проверьте код обработки ошибок."
 
-# f4a5ab2bd234409db4f2c2c66bb7043d
-#: ../../c10-handle-errors-exceptions.md:29
+# 401ae7af82cd4c48bdfc2f8f83db401d
+#: ../../c10-handle-errors-exceptions.rst:34
 msgid "References"
 msgstr "Ссылки"
 
-# 0059b469d2124178a2aa44f080b82b4d
-#: ../../c10-handle-errors-exceptions.md:31
-msgid "OWASP Code Review Guide: Error Handling"
-msgstr "Руководство OWASP по анализу кода: Обработка ошибок"
+# 28d90c922e2f4f9ca03d2ff4479115ba
+#: ../../c10-handle-errors-exceptions.rst:36
+msgid ""
+"`OWASP Code Review Guide: Error Handling "
+"<https://www.owasp.org/index.php/Error_Handling>`_"
+msgstr ""
 
-# bf02f24b5da04725b4e8641198c6ff35
-#: ../../c10-handle-errors-exceptions.md:32
-msgid "OWASP Testing Guide: Testing for Error Handling"
-msgstr "Руководство OWASP по тестированию: Обработка ошибок"
+# 5460150046524d629d4a432cb73857db
+#: ../../c10-handle-errors-exceptions.rst:37
+msgid ""
+"`OWASP Testing Guide: Testing for Error Handling "
+"<https://www.owasp.org/index.php/Testing_for_Error_Handling>`_"
+msgstr ""
 
-# 45d18078d82b419482e816392e62e07e
-#: ../../c10-handle-errors-exceptions.md:33
-msgid "OWASP Improper Error Handling"
-msgstr "OWASP: Некорректная обработка ошибок"
+# 8043edb59c0e402fb10b560b6b6f7d62
+#: ../../c10-handle-errors-exceptions.rst:38
+msgid ""
+"`OWASP Improper Error Handling "
+"<https://www.owasp.org/index.php/Improper_Error_Handling>`_"
+msgstr ""
 
-# 43034093d17e4173a60b5dc93d23de1e
-#: ../../c10-handle-errors-exceptions.md:34
-msgid "CWE 209: Information Exposure Through an Error Message"
-msgstr "CWE-209: Разглашение информации в сообщениях об ошибках"
+# e323ff1ec7ac46ce99dea55126489f5e
+#: ../../c10-handle-errors-exceptions.rst:39
+msgid ""
+"`CWE 209: Information Exposure Through an Error Message "
+"<https://cwe.mitre.org/data/definitions/209.html>`_"
+msgstr ""
 
-# a2ea3848863f4d8dbcc48356b379d8ef
-#: ../../c10-handle-errors-exceptions.md:35
-msgid "CWE 391: Unchecked Error Condition"
-msgstr "CWE-391: Игнорирование ошибок"
+# 403115dbcce04b71a348833aa2d67438
+#: ../../c10-handle-errors-exceptions.rst:40
+msgid ""
+"`CWE 391: Unchecked Error Condition "
+"<https://cwe.mitre.org/data/definitions/391.html>`_"
+msgstr ""
 
-# 6c739a63ebb14110930feca78bbe613a
-#: ../../c10-handle-errors-exceptions.md:37
+# 9c94370cd3974e71a3518105d1452652
+#: ../../c10-handle-errors-exceptions.rst:43
 msgid "Tools"
 msgstr "Инструменты"
 
-# 2b470bc78e1f40479ab9169698130463
-#: ../../c10-handle-errors-exceptions.md:39
+# 5c3e0f9558dd42f89fcd3ed2b5ebc329
+#: ../../c10-handle-errors-exceptions.rst:45
 msgid ""
-"Error Prone - A static analysis tool from Google to catch common mistakes in"
-" error handling for Java developers"
+"`Error Prone <http://errorprone.info/>`_ - A static analysis tool from "
+"Google to catch common mistakes in error handling for Java developers"
 msgstr ""
-"Error Prone — инструмент от Google для статического анализа и поиска "
-"стандартных недостатков в обработке ошибок для Java-разработчиков."
 
-# 850901a54268402c8cac185b89d1aa50
-#: ../../c10-handle-errors-exceptions.md:40
+# 8894923c66ef4043a065c9220dcb58b0
+#: ../../c10-handle-errors-exceptions.rst:46
 msgid ""
 "One of the most famous automated tools for finding errors at runtime is "
-"Netflix's Chaos Monkey, which intentionally disables system instances to "
-"ensure that the overall service will recover correctly."
+"`Netflix's Chaos Monkey <https://github.com/Netflix/SimianArmy>`_, which "
+"intentionally disables system instances to ensure that the overall service "
+"will recover correctly."
 msgstr ""
-"Chaos Monkey от Netflix — один из наиболее известных автоматических "
-"инструментов для поиска ошибок в запущенном приложении, который намеренно "
-"отключает компоненты системы, чтобы подтвердить корректность восстановления "
-"работоспособности всей службы."

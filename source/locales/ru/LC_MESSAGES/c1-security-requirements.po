@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,18 +22,18 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# 11d9fdcd3a9e4f68996090aeb55c35d9
-#: ../../c1-security-requirements.md:1
+# ac7e64bfaaad48f5a356eaab22c5c0ab
+#: ../../c1-security-requirements.rst:2
 msgid "C1: Define Security Requirements"
 msgstr "C1: Определение требований безопасности"
 
-# 168028d9d5ec44cba214320b558c73dc
-#: ../../c1-security-requirements.md:3
+# e2cca0810eec45fdadf3779aca062835
+#: ../../c1-security-requirements.rst:5
 msgid "Description"
 msgstr "Описание"
 
-# e7037fec86164c16b838427682426dae
-#: ../../c1-security-requirements.md:5
+# ca01f2c6b89a4eef90c4683bd91b1561
+#: ../../c1-security-requirements.rst:7
 msgid ""
 "A security requirement is a statement of needed security functionality that "
 "ensures one of many different security properties of software is being "
@@ -50,8 +50,8 @@ msgstr ""
 "решения определенных проблем с безопасностью или устранения потенциальных "
 "угроз."
 
-# d250a5843f034559bc3b4ee3925f61bc
-#: ../../c1-security-requirements.md:7
+# 72f7468da4224986b1ddddf4fb3ab9c7
+#: ../../c1-security-requirements.rst:9
 msgid ""
 "Security requirements provide a foundation of vetted security functionality "
 "for an application. Instead of creating a custom approach to security for "
@@ -69,25 +69,28 @@ msgstr ""
 "нацелены на предотвращение повторного возникновения аналогичных проблем с "
 "безопасностью."
 
-# 4cd5b1d666c54153b693be133fcdffb3
-#: ../../c1-security-requirements.md:9
+# 59319fd423a646a28a16f006c34dfc7c
+#: ../../c1-security-requirements.rst:12
 msgid "The OWASP ASVS"
 msgstr "OWASP ASVS"
 
-# 5219a8e39df34d05a0b72d934da3ba93
-#: ../../c1-security-requirements.md:11
+# 385011497735403b8c0dee0094d42018
+#: ../../c1-security-requirements.rst:14
 msgid ""
-"The OWASP Application Security Verification Standard (ASVS) is a catalog of "
-"available security requirements and verification criteria. OWASP ASVS  can "
-"be a source of detailed security requirements for development teams."
+"The `OWASP Application Security Verification Standard (ASVS) "
+"<https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project>`_"
+" is a catalog of available security requirements and verification criteria. "
+"OWASP ASVS  can be a source of detailed security requirements for "
+"development teams."
 msgstr ""
-"Стандарт подтверждения безопасности приложений OWASP (ASVS) представляет "
-"собой каталог доступных требований безопасности и параметров проверки. OWASP"
-" ASVS может служить источником расширенных требований безопасности для "
-"команд разработчиков."
+"`Стандарт подтверждения безопасности приложений OWASP (ASVS) "
+"<https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project>`_"
+" представляет собой каталог доступных требований безопасности и параметров "
+"проверки. OWASP ASVS может служить источником расширенных требований "
+"безопасности для команд разработчиков."
 
-# e58cfcdd38b94beb85cc94d4fdae0cec
-#: ../../c1-security-requirements.md:13
+# 9ff45563564740ada7251e917680ca9d
+#: ../../c1-security-requirements.rst:16
 msgid ""
 "Security requirements are categorized into different buckets based on a "
 "shared higher order security function. For example, the ASVS contains "
@@ -103,15 +106,15 @@ msgstr ""
 "собой рекомендации для данной категории в виде списка проверяемых "
 "параметров."
 
-# 0c193e13f009463aaae8bf9e12927ea9
-#: ../../c1-security-requirements.md:15
+# 33e3ce8c94d44c1a95dd6ae877e7f84f
+#: ../../c1-security-requirements.rst:19
 msgid "Augmenting Requirements with User Stories and Misuse Cases"
 msgstr ""
 "Дополнение требований на основе сценариев эксплуатации и случаев "
 "неправомерного использования"
 
-# 9bb68b8d1303495aa8da9bd126a63398
-#: ../../c1-security-requirements.md:17
+# b7b37faddb564316875b6d3c9ae15035
+#: ../../c1-security-requirements.rst:21
 msgid ""
 "The ASVS requirements are basic verifiable statements which can be expanded "
 "upon with user stories and misuse cases. The advantage of a user story or "
@@ -126,8 +129,8 @@ msgstr ""
 "приложения заказчиком или злоумышленником с тем, что система предлагает "
 "пользователю."
 
-# 4baa48df1e2f42248b8d444c0b7be56e
-#: ../../c1-security-requirements.md:19
+# 1ed5ce42f38343db9d000178ff0ea1ed
+#: ../../c1-security-requirements.rst:23
 msgid ""
 "Here is an example of expanding on an ASVS 3.0.1 requirement. From the "
 "\"Authentication Verification Requirements\" section of ASVS 3.0.1, "
@@ -137,8 +140,8 @@ msgstr ""
 " \"Требования проверки аутентификации\" ASVS 3.0.1 посвящен паролям по "
 "умолчанию:"
 
-# 0fa55081cf95461fa629ab1d262ebe3c
-#: ../../c1-security-requirements.md:21
+# 0051577e767d40648c09d10fc6ce9109
+#: ../../c1-security-requirements.rst:25
 msgid ""
 "2.19 Verify there are no default passwords in use for the application "
 "framework or any components used by the application (such as "
@@ -148,8 +151,8 @@ msgstr ""
 "\"admin/password\"), не используются для фреймворка приложения или в каком-"
 "либо из компонентов приложения."
 
-# 783c217c91fa46c886e5f35c0870a88f
-#: ../../c1-security-requirements.md:23
+# b334c5e57ff946bfb1cebea5a62590c0
+#: ../../c1-security-requirements.rst:27
 msgid ""
 "This requirement contains both an action to verify that no default passwords"
 " exist, and also carries with it the guidance that no default passwords "
@@ -158,8 +161,8 @@ msgstr ""
 "Данное требование описывает проверку на отсутствия паролей по умолчанию и "
 "запрет на использование паролей по умолчанию в приложении."
 
-# 80dcd1a53af548a98f359f97926f5bfe
-#: ../../c1-security-requirements.md:25
+# 04375eef85474830b974477d3fa8b2db
+#: ../../c1-security-requirements.rst:29
 msgid ""
 "A user story focuses on the perspective of the user, administrator, or "
 "attacker of the system, and describes functionality based on what a user "
@@ -171,8 +174,8 @@ msgstr ""
 "основе ожиданий пользователя. Сценарий эксплуатации заказчика представляется"
 " в следующей форме: \"В качестве пользователя я могу выполнить x, y и z\"."
 
-# 8050f02736194c74ab8b66038637f762
-#: ../../c1-security-requirements.md:27
+# 4095c39946284aabb1c05d96a5805c65
+#: ../../c1-security-requirements.rst:31
 msgid ""
 "As a user, I can enter my username and password to gain access to the "
 "application."
@@ -180,8 +183,8 @@ msgstr ""
 "В качестве пользователя, для получения доступа к приложению, я могу ввести "
 "имя пользователя и пароль."
 
-# 800f4114d1564f0881994726ce3e17e6
-#: ../../c1-security-requirements.md:29
+# 63b9d5d85e7244aeb13849522ee0d577
+#: ../../c1-security-requirements.rst:33
 msgid ""
 "As a user, I can enter a long password that has a maximum of 1023 "
 "characters."
@@ -189,8 +192,8 @@ msgstr ""
 "В качестве пользователя я могу ввести длинный пароль, не превышающий 1023 "
 "символов."
 
-# d98c00fb76fb4b11b26385d7489497c4
-#: ../../c1-security-requirements.md:31
+# 4a6bea91c32448e898e2cfd1a70eea59
+#: ../../c1-security-requirements.rst:35
 msgid ""
 "When the story is focused on the attacker and their actions, it is referred "
 "to as a misuse case."
@@ -198,8 +201,8 @@ msgstr ""
 "Сценарии, описывающие злоумышленников и их действия, называются случаями "
 "неправомерного использования."
 
-# 4fd34c69116b4a2caffee8cb7ff7e328
-#: ../../c1-security-requirements.md:33
+# f18281b7083145d2998fda33b3a27b57
+#: ../../c1-security-requirements.rst:37
 msgid ""
 "As an attacker, I can enter in a default username and password to gain "
 "access."
@@ -207,8 +210,8 @@ msgstr ""
 "В качестве злоумышленника, для получения доступа, я могу ввести имя "
 "пользователя и пароль, задаваемые по умолчанию."
 
-# a8e8224c0dc9445cbb50c5edeff66ea2
-#: ../../c1-security-requirements.md:35
+# 8f9b1fce4c8f4480b4e3cd06f5ac148f
+#: ../../c1-security-requirements.rst:39
 msgid ""
 "This story contains the same message as the traditional requirement from "
 "ASVS, with additional user or attacker details to help make the requirement "
@@ -218,13 +221,13 @@ msgstr ""
 "дополнительную информацию о пользователе или злоумышленнике, облегчающую "
 "проверку реализации требования."
 
-# c3f1378e32594424aa1c1c2b831abf69
-#: ../../c1-security-requirements.md:37
+# b1ab823e998747959cd14734df6557e3
+#: ../../c1-security-requirements.rst:42
 msgid "Implementation"
 msgstr "Реализация"
 
-# ca3535b2a27d46ffbbb2d62c85b530b1
-#: ../../c1-security-requirements.md:39
+# 6d7bafff30af4c4f9dea7cf2b1ef9a4e
+#: ../../c1-security-requirements.rst:44
 msgid ""
 "Successful use of security requirements involves four steps. The process "
 "includes discovering / selecting, documenting, implementing, and then "
@@ -236,13 +239,13 @@ msgstr ""
 "правильности реализации новых функций безопасности и функциональности "
 "приложения."
 
-# 1c6a2bcb8bb84def9ab7fa7ec73a9576
-#: ../../c1-security-requirements.md:41
+# f6a426084e674c40a5cd7b28e1927d0c
+#: ../../c1-security-requirements.rst:47
 msgid "Discovery and Selection"
 msgstr "Поиск и выбор"
 
-# d1be40bc392e4cf1b5a9eff05286e9f7
-#: ../../c1-security-requirements.md:43
+# 5da20b6fd0364269bb7da85b8965a545
+#: ../../c1-security-requirements.rst:49
 msgid ""
 "The process begins with discovery and selection of security requirements. In"
 " this phase, the developer is understanding security requirements from a "
@@ -260,13 +263,13 @@ msgstr ""
 "отдельного релиза или спринта. Для каждого последующего спринта процесс "
 "повторяется, и все больше функций безопасности внедряется в приложение."
 
-# 96f2a58ffad243f6847532d37730591a
-#: ../../c1-security-requirements.md:46
+# 9558b68e04814009aa9eec858a7a9c4e
+#: ../../c1-security-requirements.rst:53
 msgid "Investigation and Documentation"
 msgstr "Исследование и документирование"
 
-# 03f3826291e249589a6f0baa26ee7bd2
-#: ../../c1-security-requirements.md:48
+# 0a24a1b1b12d4fb9a0a3897d90c85e6d
+#: ../../c1-security-requirements.rst:55
 msgid ""
 "During investigation and documentation, the developer reviews the existing "
 "application against the new set of security requirements to determine "
@@ -279,13 +282,13 @@ msgstr ""
 "несоответствия определяет объем необходимых доработок. Исследование "
 "завершается документированием результатов проверки."
 
-# 2264e7a92f114567b90d7c1cd8a2d2e5
-#: ../../c1-security-requirements.md:50
+# 5551a4b895354e04b1e2c6ca893be27f
+#: ../../c1-security-requirements.rst:58
 msgid "Implementation and Test"
 msgstr "Реализация и тестирование"
 
-# eb078e1450c94cac875aea787eef9d37
-#: ../../c1-security-requirements.md:52
+# 077108f5eb4d4ecc8f865e0a0c102dcf
+#: ../../c1-security-requirements.rst:60
 msgid ""
 "After the need is determined for development, the developer must now modify "
 "the application in some way to add the new functionality or eliminate an "
@@ -302,13 +305,13 @@ msgstr ""
 "функции или отсутствия присутствовавшего ранее небезопасного параметра "
 "необходимо провести тестирование."
 
-# 5a36145ccc3c42048e411d8f1d1b75d9
-#: ../../c1-security-requirements.md:54
+# f9aafa5b93d2465fabd12371015fe15a
+#: ../../c1-security-requirements.rst:63
 msgid "Vulnerabilities Prevented"
 msgstr "Предотвращаемые уязвимости"
 
-# 22f15d10574a4016b1692436f604d09c
-#: ../../c1-security-requirements.md:56
+# a93915ab48b14f1aba526af35d8ebf42
+#: ../../c1-security-requirements.rst:65
 msgid ""
 "Security requirements define the security functionality of an application. "
 "Better security built in from the beginning of an applications life cycle "
@@ -319,23 +322,32 @@ msgstr ""
 "жизненного цикла, помогут предотвратить большое количество различных "
 "уязвимостей."
 
-# 46066bc0ba52448b8f58f074fe701fdb
-#: ../../c1-security-requirements.md:58
+# 09205af39e684fa99785b7f7589974cd
+#: ../../c1-security-requirements.rst:68
 msgid "References"
 msgstr "Ссылки"
 
-# b2e6afe633c64ef395e3eee743e36052
-#: ../../c1-security-requirements.md:60
-msgid "OWASP Application Security Verification Standard (ASVS)"
-msgstr "Стандарт подтверждения безопасности приложений OWASP (ASVS)"
-
-# 650df00fb1b240b69c9507f305aa8144
-#: ../../c1-security-requirements.md:61
-msgid "OWASP Mobile Application Security Verification Standard (MASVS)"
+# 12e0a5c6ebbf47288155dca79987939b
+#: ../../c1-security-requirements.rst:70
+msgid ""
+"`OWASP Application Security Verification Standard (ASVS) "
+"<https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project>`_"
 msgstr ""
-"Стандарт подтверждения безопасности мобильных приложений OWASP (MASVS)"
+"`Стандарт подтверждения безопасности приложений OWASP (ASVS) "
+"<https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project>`_"
 
-# ecccb6464de641ee95f1317b6e6efbcf
-#: ../../c1-security-requirements.md:62
-msgid "OWASP Top Ten"
-msgstr "Топ-10 OWASP"
+# 832510446c6848c287917e241a0a6dd8
+#: ../../c1-security-requirements.rst:71
+msgid ""
+"`OWASP Mobile Application Security Verification Standard (MASVS) "
+"<https://github.com/OWASP/owasp-masvs>`_"
+msgstr ""
+"`Стандарт подтверждения безопасности мобильных приложений OWASP (MASVS "
+"<https://github.com/OWASP/owasp-masvs>`_"
+
+# cbf3662ccffb491b83bc746e7fdaf698
+#: ../../c1-security-requirements.rst:72
+msgid ""
+"`OWASP Top Ten "
+"<https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>`_"
+msgstr ""

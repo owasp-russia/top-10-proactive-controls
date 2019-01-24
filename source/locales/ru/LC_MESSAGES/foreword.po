@@ -5,15 +5,16 @@
 # 
 # Translators:
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,13 +22,13 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# b525d5b4ca17495bba6be92438730f2c
-#: ../../foreword.md:1
+# bc3a00635e28499fbb1fbe9fd95e0e0d
+#: ../../foreword.rst:2
 msgid "FOREWORD"
 msgstr "Предисловие"
 
-# 99274421d53f46bca68534ab59f0c209
-#: ../../foreword.md:3
+# 283099b9dcf44c0caef2753f8aa7be07
+#: ../../foreword.rst:4
 msgid ""
 "Insecure software is undermining our financial, healthcare, defense, energy,"
 " and other critical infrastructure worldwide. As our digital, global "
@@ -43,15 +44,15 @@ msgstr ""
 "нельзя оставлять без должного внимания относительно простые угрозы "
 "безопасности."
 
-# 921e74a9fce04cdd9852a3af4cf8c241
-#: ../../foreword.md:5
+# 49599483ea7644fbba88f3112278a4db
+#: ../../foreword.rst:7
 msgid "AIM & OBJECTIF"
 msgstr "Цели и задачи"
 
-# 21be08eb33a749f5aa5f7fa6b38b8d11
-#: ../../foreword.md:7
+# 60d55f6d2870409a922440f45e8f0b0c
+#: ../../foreword.rst:9
 msgid ""
-"The goal of the OWASP Top 10 Proactive Controls project (OPC) is to raise "
+"The goal of the *OWASP Top 10 Proactive Controls project* (OPC) is to raise "
 "awareness about application security by describing the most important areas "
 "of concern that software developers must be aware of. We encourage you to "
 "use the OWASP Proactive Controls to get your developers started with "
@@ -68,28 +69,28 @@ msgstr ""
 "организациях. Надеемся, что рекомендации OWASP окажутся полезными при "
 "создании вами безопасных приложений."
 
-# 2d7f8784957549548d9e8f3e5acf791d
-#: ../../foreword.md:9
+# d2918224d99847b7bf7aa7a226ae34c5
+#: ../../foreword.rst:12
 msgid "CALL TO ACTION"
 msgstr "Призыв к действию"
 
-# a3ed8cd3d6b246958a586ad431aa966a
-#: ../../foreword.md:11
+# 5d8ccdf104804709858030686576e552
+#: ../../foreword.rst:14
 msgid ""
 "Please don’t hesitate to contact the OWASP Proactive Control project with "
 "your questions, comments, and ideas, either publicly to our email list or "
-"privately to jim@owasp.org."
+"privately to `jim@owasp.org <mailto:jim@owasp.org>`_."
 msgstr ""
 "Все вопросы, комментарии и идеи вы можете отправлять в общий список рассылки"
-" или на адрес электронной почты jim@owasp.org."
+" или на адрес электронной почты `jim@owasp.org <mailto:jim@owasp.org>`_."
 
-# 0adb2854b68748e18d263218c0449b02
-#: ../../foreword.md:13
+# ea95d0ed659e4b7c8557e2e53c590164
+#: ../../foreword.rst:17
 msgid "COPYRIGHT AND LICENSE"
 msgstr "Авторские права и Лицензирование"
 
-# 8058def84f4e4b8b9a9d594546747961
-#: ../../foreword.md:15
+# 2506631683474da1a3dede887c3652be
+#: ../../foreword.rst:19
 msgid ""
 "This document is released under the Creative Commons Attribution ShareAlike "
 "3.0 license. For any reuse or distribution, you must make it clear to others"
@@ -100,72 +101,72 @@ msgstr ""
 "документа необходимо указывать условия лицензионного соглашения, действующие"
 " в его отношении."
 
-# 8c3b99251a304e07944749262d5a5b31
-#: ../../foreword.md:17
+# 80540bb484894b73af268fe6af82927f
+#: ../../foreword.rst:22
 msgid "PROJECT LEADERS"
 msgstr "Руководители проекта"
 
-# d8157556301743ea881fa0c051b47d32
-#: ../../foreword.md:19
+# 54644f5c9cc649468e75d0e3738b58f5
+#: ../../foreword.rst:24
 msgid "Katy Anton"
 msgstr "Кэйти Энтон (Katy Anton)"
 
-# edaf14303ff748a88ab3a4308e2a8873
-#: ../../foreword.md:20
+# b1783d7a214b4edf8895e3ae1a97dd8a
+#: ../../foreword.rst:25
 msgid "Jim Bird"
 msgstr "Джим Бёрд (Jim Bird)"
 
-# 92d18563e2204cf7a8b28d42dc5d39ca
-#: ../../foreword.md:21
+# add9f194847a40698a02b6c84c259adb
+#: ../../foreword.rst:26
 msgid "Jim Manico"
 msgstr "Джим Манико (Jim Manico)"
 
-# 64d99dc5469c49b4b1a82b2f14ef51a3
-#: ../../foreword.md:23
+# ba526e87c756449f8886de13d5873a58
+#: ../../foreword.rst:29
 msgid "CONTRIBUTORS"
 msgstr "Участники проекта"
 
-# 19a00aeb1a674d9ca6d812a2543d216e
-#: ../../foreword.md:25
+# bb6ab24147e744e7a840badc05807b12
+#: ../../foreword.rst:31
 msgid "Chris Romeo"
 msgstr "Крис Ромио (Chris Romeo)"
 
-# b798a88cbb4146a0a1403b677fa60b54
-#: ../../foreword.md:26
+# d37999c895e848fbaa50466181fb9f27
+#: ../../foreword.rst:32
 msgid "Dan Anderson"
 msgstr "Ден Андерсон (Dan Anderson)"
 
-# d8050a8b6a394ae8a30330ea2c5081c6
-#: ../../foreword.md:27
+# c6640411284045f09f457ef9e3719648
+#: ../../foreword.rst:33
 msgid "David Cybuck"
 msgstr "Дэвид Сайбак (David Cybuck)"
 
-# f5303342d40d42dca65924d9ad511c21
-#: ../../foreword.md:28
+# e266c7c65c7b4d56b3de6f784745b106
+#: ../../foreword.rst:34
 msgid "Dave Ferguson"
 msgstr "Дейв Фергюсон (Dave Ferguson)"
 
-# c19fa18332cb483588a7563b32fbf031
-#: ../../foreword.md:29
+# 110a1528e90244ca86fed45150c687e2
+#: ../../foreword.rst:35
 msgid "Josh Grossman"
 msgstr "Джош Гроссман (Josh Grossman)"
 
-# 70e7d00cde834487b3b71a2f8cb4b08e
-#: ../../foreword.md:30
+# 282756d3aa6e4677b86549cfa38a7c5b
+#: ../../foreword.rst:36
 msgid "Osama Elnaggar"
 msgstr "Осама Эльнаггар (Osama Elnaggar)"
 
-# d35c05612b7146b8abbb0af72dbffeca
-#: ../../foreword.md:31
+# 49f94cf266d3487d997c6d855701276e
+#: ../../foreword.rst:37
 msgid "Colin Watson"
 msgstr "Колин Уотсон (Colin Watson)"
 
-# 4cc4c81b928945c9ab1fa9104940b77c
-#: ../../foreword.md:32
+# 1ecebb2824dc43e7b8cdaba00f9d3e6b
+#: ../../foreword.rst:38
 msgid "Rick Mitchell"
 msgstr "Рик Митчелл (Rick Mitchell)"
 
-# e6e51e41d8fb4d6190160dc59affe9f8
-#: ../../foreword.md:33
+# 6ec7f4527cb44633807e2381d24adb25
+#: ../../foreword.rst:39
 msgid "And many more…"
 msgstr "И многие другие…"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
 "Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
@@ -21,18 +21,18 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# a14629ab780f442a941fa69a4426363c
-#: ../../c5-validate-all-inputs.md:1
+# ead6808e93df478895e624ad0190cfd9
+#: ../../c5-validate-all-inputs.rst:2
 msgid "C5: Validate All Inputs"
 msgstr "C5: Обязательная проверка всех входных данных"
 
-# 50806ccfb2bb422e9cfc69a20f647b7e
-#: ../../c5-validate-all-inputs.md:3
+# 98eb3b06d0ed485ca811debc52750e97
+#: ../../c5-validate-all-inputs.rst:5
 msgid "Description"
 msgstr "Описание"
 
-# 4389fdf76098466e810459d09ceece7f
-#: ../../c5-validate-all-inputs.md:5
+# 2b71715b299d44fb943b8e4891f564ed
+#: ../../c5-validate-all-inputs.rst:7
 msgid ""
 "Input validation is a programming technique that ensures only properly "
 "formatted data may enter a software system component."
@@ -41,58 +41,45 @@ msgstr ""
 "обеспечивающей попадание в компоненты программы только правильно "
 "отформатированных данных."
 
-# 47d642e91d794d92b539449e4e3f2f7f
-#: ../../c5-validate-all-inputs.md:7
+# e9770f03d04f400f83b5b4f2b3bb99f0
+#: ../../c5-validate-all-inputs.rst:10
 msgid "Syntax and Semantic Validity"
 msgstr "Синтаксическая и семантическая норма"
 
-# 3b624a324b0d4ee9a4505d581f908016
-#: ../../c5-validate-all-inputs.md:9
+# ea0f812297ca499cbfa81ab9183e69ec
+#: ../../c5-validate-all-inputs.rst:12
 msgid ""
-"An application should check that data is both syntactically and semantically"
-" valid (in that order) before using it in any way (including displaying it "
-"back to the user)."
+"An application should check that data is both *syntactically* and "
+"*semantically* valid (in that order) before using it in any way (including "
+"displaying it back to the user)."
 msgstr ""
-"Приложение должно проверять данные на соответствие синтаксической и "
-"семантической норме (именно в этом порядке) перед их использованием (включая"
-" отображение пользователю)."
 
-# 5e5bf8c7653944ca82987f01b6394236
-#: ../../c5-validate-all-inputs.md:11
+# 0899c0144b444b749cb72fc57bea1abb
+#: ../../c5-validate-all-inputs.rst:14
 msgid ""
-"Syntax validity means that the data is in the form that is expected. For "
+"*Syntax validity* means that the data is in the form that is expected. For "
 "example, an application may allow a user to select a four-digit \"account "
 "ID\" to perform some kind of operation. The application should assume the "
 "user is entering a SQL injection payload, and should check that the data "
 "entered by the user is exactly four digits in length, and consists only of "
 "numbers (in addition to utilizing proper query parameterization)."
 msgstr ""
-"Синтаксическая норма означает соответствие данных ожидаемой форме "
-"представления. Например, в приложении пользователь может указывать "
-"четырехзначный \"идентификатор\" для выполнения некоторых операций. "
-"Злоумышленник может ввести данные, позволяющие ему внедрить SQL-код, поэтому"
-" приложение должно проверять, что вводимые данные представляют собой именно "
-"цифры и именно в количестве четырех символов (помимо использования "
-"соответствующей параметризации запросов)."
 
-# 8854c097b7f443e29c6cd1d4ed78c3b3
-#: ../../c5-validate-all-inputs.md:13
+# 2a476fc0f27a477da0a04659105abf33
+#: ../../c5-validate-all-inputs.rst:16
 msgid ""
-"Semantic validity includes only accepting input that is within an acceptable"
-" range for the given application functionality and context. For example, a "
-"start date must be before an end date when choosing date ranges."
+"*Semantic validity* includes only accepting input that is within an "
+"acceptable range for the given application functionality and context. For "
+"example, a start date must be before an end date when choosing date ranges."
 msgstr ""
-"Семантическая норма означает использование только входных данных, не "
-"выходящих за рамки определенной функциональности и контекста. Например, при "
-"указании временных рамок дата начала должна предшествовать дате завершения."
 
-# 12ac8d24f3f642929d81607295f98720
-#: ../../c5-validate-all-inputs.md:15
+# 19894b096667436499b7a15b6f4e7f49
+#: ../../c5-validate-all-inputs.rst:19
 msgid "Whitelisting vs Blacklisting"
 msgstr "Белые и черные списки"
 
-# 13e2e992bb3f4f9d8856200cb3540401
-#: ../../c5-validate-all-inputs.md:17
+# 0771e052bc554696a85b2e340ef044ae
+#: ../../c5-validate-all-inputs.rst:21
 msgid ""
 "There are two general approaches to performing input syntax validation, "
 "commonly known as blacklisting and whitelisting:"
@@ -100,62 +87,44 @@ msgstr ""
 "Существует два основных подхода к проверке синтаксиса входных данных, "
 "известные как черные и белые списки."
 
-# 248c9cba09f54f05b42f861d2aeee9ec
-#: ../../c5-validate-all-inputs.md:19
+# 47ad618c3ae64c1ead2f3b502feece0e
+#: ../../c5-validate-all-inputs.rst:23
 msgid ""
-"Blacklisting or blacklist validation attempts to check that given data does "
-"not contain \"known bad\" content. For example, a web application may block "
-"input that contains the exact text  in order to help prevent XSS. However, "
-"this defense could be evaded with a lower case script tag or a script tag of"
-" mixed case."
+"*Blacklisting* or *blacklist validation* attempts to check that given data "
+"does not contain \"known bad\" content. For example, a web application may "
+"block input that contains the exact text ``<SCRIPT>`` in order to help "
+"prevent XSS. However, this defense could be evaded with a lower case script "
+"tag or a script tag of mixed case."
 msgstr ""
-"Черные списки или проверки по черному списку предназначены для поиска в "
-"данных \"потенциально вредоносного\" контента. Например, веб-приложение "
-"может блокировать входные данные, содержащие слово <SCRIPT>, с целью "
-"предотвращения межсайтового выполнения сценариев. Однако подобную меру "
-"защиты можно обойти, используя для тега script строчные буквы или комбинацию"
-" из строчных и прописных букв."
 
-# 65dc31d40a8742bb81129223771fbaf5
-#: ../../c5-validate-all-inputs.md:20
+# cdc8e7b6165942bb89be9edc3eb0ac2a
+#: ../../c5-validate-all-inputs.rst:24
 msgid ""
-"Whitelisting or whitelist validation attempts to check that a given data "
-"matches a set of \"known good\" rules. For example a whitelist validation "
+"*Whitelisting* or *whitelist* validation attempts to check that a given data"
+" matches a set of \"known good\" rules. For example a whitelist validation "
 "rule for a US state would be a 2-letter code that is only one of the valid "
 "US states."
 msgstr ""
-"Белые списки или проверки по белому списку предназначены для подтверждения "
-"соответствия данных требованиям набора \"проверенных\" правил. Например, "
-"проверка штата США по белому списку будет представлять собой поиск "
-"2-буквенного кода в списке существующих штатов США."
 
-# 34e346966c474b249c09f1999b5d9464
-#: ../../c5-validate-all-inputs.md:22
+# 82e62e047fac4b92864d90bf5e9a8de4
+#: ../../c5-validate-all-inputs.rst:26
 msgid ""
 "When building secure software, whitelisting is the recommended minimal "
 "approach. Blacklisting is prone to error and can be bypassed with various "
 "evasion techniques and can be dangerous when depended on by itself. Even "
 "though blacklisting can often be evaded it can often useful to help detect "
-"obvious attacks. So while whitelisting helps limit the attack surface by "
-"ensuring data is of the right syntactic and semantic validity, blacklisting "
-"helps detect and potentially stop obvious attacks."
+"obvious attacks. So while *whitelisting* helps limit the attack surface by "
+"ensuring data is of the right syntactic and semantic validity, "
+"*blacklisting* helps detect and potentially stop obvious attacks."
 msgstr ""
-"При создании безопасного ПО как минимум рекомендуется использовать белые "
-"списки. Черные списки могут содержать ошибки, их можно обойти различными "
-"способами, а также они сами по себе могут представлять опасность. Несмотря "
-"на возможность обхода ограничений черных списков, они могут помочь "
-"обнаружить очевидные атаки. Таким образом, белые списки помогают ограничить "
-"возможность проведения атаки путем проверки соответствия данных "
-"синтаксической и семантической нормам, а черные списки помогают обнаружить и"
-" предотвратить очевидные атаки."
 
-# ad136e4dbca341f1ac56f1a37b111528
-#: ../../c5-validate-all-inputs.md:24
+# 5d3d5204ec204186835e166a15a96907
+#: ../../c5-validate-all-inputs.rst:29
 msgid "Client side and Server side Validation"
 msgstr "Проверки на стороне клиента и на стороне сервера"
 
-# 8c3cc465b2914c6c9e92a386f6bad5f9
-#: ../../c5-validate-all-inputs.md:26
+# 8f1e0c1798904eb78dcd7878782fb83f
+#: ../../c5-validate-all-inputs.rst:31
 msgid ""
 "Input validation must always be done on the server-side for security. While "
 "client side validation can be useful for both functional and some security "
@@ -174,13 +143,13 @@ msgstr ""
 "цифры, а вот приложение на стороне сервера должно подтвердить, что вводимые "
 "данные представляют собой числа в допустимом диапазоне значений."
 
-# fc559607502b4c1a81fe645d52a00df1
-#: ../../c5-validate-all-inputs.md:28
+# 1aa7c146c2f04868875b0eed1a81c334
+#: ../../c5-validate-all-inputs.rst:34
 msgid "Regular Expressions"
 msgstr "Регулярные выражения"
 
-# 05ef57912b85440bb1237dbe4d7e30d4
-#: ../../c5-validate-all-inputs.md:30
+# b018e8e926eb41139950dd0245234077
+#: ../../c5-validate-all-inputs.rst:36
 msgid ""
 "Regular expressions offer a way to check whether data matches a specific "
 "pattern. Let’s start with a basic example."
@@ -188,8 +157,8 @@ msgstr ""
 "Регулярные выражения позволяют проверять данные на соответствие "
 "определенному шаблону. Начнем с простого примера."
 
-# c2ae405b137d4d3b96bd53e568e54c68
-#: ../../c5-validate-all-inputs.md:32
+# 20bae78b6e2a431a9ff2bf17b245a95e
+#: ../../c5-validate-all-inputs.rst:38
 msgid ""
 "The following regular expression is used to define a whitelist rule to "
 "validate usernames."
@@ -197,8 +166,8 @@ msgstr ""
 "Следующее регулярное выражение используется для определения белого списка "
 "имен пользователей."
 
-# 55801dff3a8f4516961fc4f9ad36df1d
-#: ../../c5-validate-all-inputs.md:38
+# 1e7fec754ab045348b80c370f98c79f7
+#: ../../c5-validate-all-inputs.rst:44
 msgid ""
 "This regular expression allows only lowercase letters, numbers and the "
 "underscore character. The username is also restricted to a length of 3 and "
@@ -208,31 +177,28 @@ msgstr ""
 "цифр и символа подчеркивания. Длина имени пользователя также ограничивается "
 "3–16 символами."
 
-# 92dd24c68f8144ba82d2f8810da494ca
-#: ../../c5-validate-all-inputs.md:40
+# 14aa3e4b10344dbda4236ccd25873619
+#: ../../c5-validate-all-inputs.rst:47
 msgid "Caution: Potential for Denial of Service"
 msgstr "Внимание! Возможен отказ в обслуживании"
 
-# 663cf51145744e13bbb8b48903b174d6
-#: ../../c5-validate-all-inputs.md:42
+# 71a97b1bb5194f6790d3c776bd7858e1
+#: ../../c5-validate-all-inputs.rst:49
 msgid ""
 "Care should be exercised when creating regular expressions. Poorly designed "
-"expressions may result in potential denial of service conditions (aka "
-"ReDoS). Various tools can test to verify that regular expressions are not "
-"vulnerable to ReDoS."
+"expressions may result in potential denial of service conditions (aka `ReDoS"
+" <https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-"
+"_ReDoS>`_). Various tools can test to verify that regular expressions are "
+"not vulnerable to ReDoS."
 msgstr ""
-"При создании регулярных выражений необходимо соблюдать осторожность. Плохо "
-"продуманные выражения могут привести к отказу в обслуживании (т. н. ReDoS — "
-"отказ в обслуживании из-за регулярных выражений). Для проверки регулярных "
-"выражений на ReDoS существует много разных инструментов."
 
-# e690042399fe4ab086fa11da0d20a2d5
-#: ../../c5-validate-all-inputs.md:44
+# bfc7669dc8d34830b9df7dd3a463578f
+#: ../../c5-validate-all-inputs.rst:52
 msgid "Caution: Complexity"
 msgstr "Внимание! Сложность реализации"
 
-# 23854da328674f0b9f2661b2e956c298
-#: ../../c5-validate-all-inputs.md:46
+# cfe9e4c82c1c4e6ea73fe1fdf9c0c8ea
+#: ../../c5-validate-all-inputs.rst:54
 msgid ""
 "Regular expressions are just one way to accomplish validation. Regular "
 "expressions can be difficult to maintain or understand for some developers. "
@@ -244,35 +210,29 @@ msgstr ""
 " выражениями, поэтому создание программных методов проверки им кажется более"
 " простым."
 
-# a981c1f8fc4f4ab096f255daae384468
-#: ../../c5-validate-all-inputs.md:49
+# ee66207eaf6040c9a83b53b528a3c1c8
+#: ../../c5-validate-all-inputs.rst:58
 msgid "Limits of Input Validation"
 msgstr "Ограничения проверок входных данных"
 
-# 4511662b33d443aa9ec8806277479348
-#: ../../c5-validate-all-inputs.md:51
+# cc82c5d8c8dc4806ba0628d4cd0a9e88
+#: ../../c5-validate-all-inputs.rst:60
 msgid ""
-"Input validation does not always make data \"safe\" since certain forms of "
-"complex input may be \"valid\" but still dangerous. For example a valid "
+"**Input validation does not always make data \"safe\" since certain forms of"
+" complex input may be \"valid\" but still dangerous. For example a valid "
 "email address may contain a SQL injection attack or a valid URL may contain "
-"a Cross Site Scripting attack. Additional defenses besides input validation "
-"should always be applied to data such as query parameterization or escaping."
+"a Cross Site Scripting attack**. Additional defenses besides input "
+"validation should always be applied to data such as query parameterization "
+"or escaping."
 msgstr ""
-"Проверка входных данных не всегда делает их \"безопасными\", поскольку "
-"некоторые сложные типы данных могут являться \"допустимыми\" и в то же время"
-" опасными. Например, допустимый адрес электронной почты может содержать "
-"вредоносный SQL-код, а допустимый URL-адрес может привести к межсайтовому "
-"выполнению сценариев. Помимо проверок входных данных необходимо использовать"
-" дополнительные меры защиты, например, экранирование или параметризацию "
-"запросов."
 
-# 1c9b6556f486480d908536124324aae6
-#: ../../c5-validate-all-inputs.md:53
+# dcd787f5d0bf43ccaf9f4ef428557601
+#: ../../c5-validate-all-inputs.rst:63
 msgid "Challenges of Validating Serialized Data"
 msgstr "Проблемы проверки сериализованных данных"
 
-# 8c1176245bcf4f9f9aa3410c1abd6a7f
-#: ../../c5-validate-all-inputs.md:55
+# 0fe386024a554a8b87fec1b450b558b4
+#: ../../c5-validate-all-inputs.rst:65
 msgid ""
 "Some forms of input are so complex that validation can only minimally "
 "protect the application. For example, it's dangerous to deserialize "
@@ -291,8 +251,8 @@ msgstr ""
 "сериализованных данных и использовать, по возможности, более простые с точки"
 " зрения обеспечения защиты форматы, такие как JSON."
 
-# 311ea61cdb4a4068ba44073fd17bc96c
-#: ../../c5-validate-all-inputs.md:57
+# 3b77035cddf5416794609ebe749b0f75
+#: ../../c5-validate-all-inputs.rst:67
 msgid ""
 "If that is not possible then consider a series of validation defenses when "
 "processing serialized data."
@@ -300,8 +260,8 @@ msgstr ""
 "Если выше указанное невозможно, рекомендуется использовать серию проверок "
 "при обработке сериализованных данных."
 
-# de7281b6f3b942968496b6497291239b
-#: ../../c5-validate-all-inputs.md:59
+# 6c90da7c0e0c4087802e7c22c7544916
+#: ../../c5-validate-all-inputs.rst:69
 msgid ""
 "Implement integrity checks or encryption of the serialized objects to "
 "prevent hostile object creation or data tampering."
@@ -309,8 +269,8 @@ msgstr ""
 "Реализуйте проверки целостности или шифрование сериализованных объектов для "
 "предотвращения создания вредоносных объектов или подмены данных."
 
-# 0219cf17df37482d93dd17893d54ae22
-#: ../../c5-validate-all-inputs.md:60
+# 838f55ad6c544980927f9c2990a9bf93
+#: ../../c5-validate-all-inputs.rst:70
 msgid ""
 "Enforce strict type constraints during deserialization before object "
 "creation; typically code is expecting a definable set of classes. Bypasses "
@@ -320,8 +280,8 @@ msgstr ""
 "объекта; обычно, ожидаемым является поддающийся определению набор классов. "
 "Методы обхода подобной защиты были представлены."
 
-# de3718cca13b4415bdeb6192c112f21a
-#: ../../c5-validate-all-inputs.md:61
+# d567d20fe046430cbcede2d892d88294
+#: ../../c5-validate-all-inputs.rst:71
 msgid ""
 "Isolate code that deserializes, such that it runs in very low privilege "
 "environments, such as temporary containers."
@@ -329,8 +289,8 @@ msgstr ""
 "Изолируйте код десериализации, чтобы он запускался в окружении с низким "
 "уровнем привилегий, например, во временных контейнерах."
 
-# 916a836221fe490db0f40b982f4d715c
-#: ../../c5-validate-all-inputs.md:62
+# 2bafeb824d4b4a519554431b128dcd58
+#: ../../c5-validate-all-inputs.rst:72
 msgid ""
 "Log security deserialization exceptions and failures, such as where the "
 "incoming type is not the expected type, or the deserialization throws "
@@ -340,8 +300,8 @@ msgstr ""
 "случаев непредусмотренных типов входных данных или исключений при "
 "десериализации."
 
-# edb87dcfb8574b859b8e8cd803cd9258
-#: ../../c5-validate-all-inputs.md:63
+# eca10988b7a5440da5c8fab57a2ddd38
+#: ../../c5-validate-all-inputs.rst:73
 msgid ""
 "Restrict or monitor incoming and outgoing network connectivity from "
 "containers or servers that deserialize."
@@ -349,20 +309,20 @@ msgstr ""
 "Ограничьте или контролируйте входящие и исходящие сетевые подключения "
 "контейнеров или серверов, осуществляющих десериализацию."
 
-# 4297200c321c41d1b39cd39a333d3152
-#: ../../c5-validate-all-inputs.md:64
+# 154af212d0314b5884727b215af8f561
+#: ../../c5-validate-all-inputs.rst:74
 msgid "Monitor deserialization, alerting if a user deserializes constantly."
 msgstr ""
 "Отслеживайте десериализацию, предупреждая о продолжительных фактах "
 "десериализации пользователем."
 
-# eb6cce3e50cc4393b5e224afb12a2675
-#: ../../c5-validate-all-inputs.md:67
+# 7f3a197e1a84459e83f368bd4e457a96
+#: ../../c5-validate-all-inputs.rst:78
 msgid "Unexpected User Input (Mass Assignment)"
 msgstr "Непредусмотренные входные данные (массовое назначение)"
 
-# b86db9e7efd94700928cf1984ae27330
-#: ../../c5-validate-all-inputs.md:69
+# 6c3669a416f446928c5aac1423ed6032
+#: ../../c5-validate-all-inputs.rst:80
 msgid ""
 "Some frameworks support automatic binding of HTTP requests parameters to "
 "server-side objects used by the application. This auto-binding feature can "
@@ -376,8 +336,8 @@ msgstr ""
 "предназначенные для изменения. Используя данную функцию, атакующий может "
 "изменить свой уровень доступа или обойти бизнес-логику приложения."
 
-# 30d2efdb5d794b7c9e0402c139c534ce
-#: ../../c5-validate-all-inputs.md:71
+# dfaa5834afd546c7a0e3c91edba6c072
+#: ../../c5-validate-all-inputs.rst:82
 msgid ""
 "This attack has a number of names including: mass assignment, autobinding "
 "and object injection."
@@ -385,8 +345,8 @@ msgstr ""
 "Данная атака имеет несколько названий, включая массовое назначение, "
 "автопривязку и внедрение объектов."
 
-# 019c69cad0964f7c90005b4c0c132a52
-#: ../../c5-validate-all-inputs.md:73
+# 8fad9c4d001d40c29f1dfed67b2edc15
+#: ../../c5-validate-all-inputs.rst:84
 msgid ""
 "As a simple example, if the user object has a field privilege which "
 "specifies the user's privilege level in the application, a malicious user "
@@ -402,21 +362,21 @@ msgstr ""
 "автопривязки серверный объект, представляющий пользователя, будет изменен "
 "соответствующим образом."
 
-# d191b60df44b409bbdae8626c6247b4f
-#: ../../c5-validate-all-inputs.md:75
+# 856c46a302f447d2b4aba8e3f7f4b704
+#: ../../c5-validate-all-inputs.rst:86
 msgid "Two approaches can be used to handle this:"
 msgstr "Решить данную проблему можно двумя способами:"
 
-# 205ab66a94f8457dacaf4698b90924d0
-#: ../../c5-validate-all-inputs.md:77
+# 0ca021b06a7546cf82d56daeb9339389
+#: ../../c5-validate-all-inputs.rst:88
 msgid ""
 "Avoid binding input directly and use Data Transfer Objects (DTOs) instead."
 msgstr ""
 "избегать привязки входных данных напрямую и использовать вместо этого "
 "объекты переноса данных (DTO);"
 
-# a888d140e6bb4b7b8363304313bff96f
-#: ../../c5-validate-all-inputs.md:78
+# 45dafa3db7cc49149f5f815ab5ae9335
+#: ../../c5-validate-all-inputs.rst:89
 msgid ""
 "Enable auto-binding but set up whitelist rules for each page or feature to "
 "define which fields are allowed to be auto-bound."
@@ -424,19 +384,20 @@ msgstr ""
 "настроить белые списки для каждой страницы или функции, которые будут "
 "определять поля, разрешенные для автопривязки."
 
-# 373c883ebe9247c4b383bdd6ac0c7c09
-#: ../../c5-validate-all-inputs.md:80
-msgid "More examples are available in the OWASP Mass Assignment Cheat Sheet."
+# 6cfd9bdc2c7a46ea8c5c199577cc2cbc
+#: ../../c5-validate-all-inputs.rst:91
+msgid ""
+"More examples are available in the `OWASP Mass Assignment Cheat Sheet "
+"<https://www.owasp.org/index.php/Mass_Assignment_Cheat_Sheet>`_."
 msgstr ""
-"Дополнительные примеры можно найти в Памятке OWASP по массовому назначению."
 
-# bc11f80cc37045908c3d5d3247132531
-#: ../../c5-validate-all-inputs.md:82
+# dd8b174574ec40eea13b93fe418070f1
+#: ../../c5-validate-all-inputs.rst:94
 msgid "Validating and Sanitizing HTML"
 msgstr "Проверка и очистка HTML"
 
-# 9d37d08dc02b42ac9d97ef9e6bee1bee
-#: ../../c5-validate-all-inputs.md:84
+# 5dc948952e534c4daad3f35f3c868a8f
+#: ../../c5-validate-all-inputs.rst:96
 msgid ""
 "Consider an application that needs to accept HTML from users (via a WYSIWYG "
 "editor that represents content as HTML or features that directly accept HTML"
@@ -447,8 +408,8 @@ msgstr ""
 "напрямую принимающие HTML во входных данных). В этом случае проверка или "
 "очистка не поможет."
 
-# 5e692486a55648ed9ad622e6d5628583
-#: ../../c5-validate-all-inputs.md:86
+# 386a05c98053427dac24d9992ca60488
+#: ../../c5-validate-all-inputs.rst:98
 msgid ""
 "Regular expressions are not expressive enough to understand the complexity "
 "of HTML5."
@@ -456,8 +417,8 @@ msgstr ""
 "Регулярных выражений будет недостаточно, чтобы отобразить всю сложность "
 "HTML5."
 
-# 58c2285784ec4b18b9e34c646267f074
-#: ../../c5-validate-all-inputs.md:87
+# d4f7e38d26c540a48e2b924aa0cfbcd1
+#: ../../c5-validate-all-inputs.rst:99
 msgid ""
 "Encoding or escaping HTML will not help since it will cause the HTML to not "
 "render properly."
@@ -465,25 +426,23 @@ msgstr ""
 "Кодировка или очистка HTML не подойдет, так как приведет к некорректному "
 "отображению HTML-кода."
 
-# 4f96d07db9bf495b8d665c6dd0cb0ad9
-#: ../../c5-validate-all-inputs.md:89
+# 1aacb39af4dc4eba852298adafe90f22
+#: ../../c5-validate-all-inputs.rst:101
 msgid ""
 "Therefore, you need a library that can parse and clean HTML formatted text. "
-"Please see the XSS Prevention Cheat Sheet on HTML Sanitization for more "
+"Please see the `XSS Prevention Cheat Sheet on HTML Sanitization "
+"<https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_"
+".236_-_Sanitize_HTML_Markup_with_a_Library_Designed_for_the_Job>`_ for more "
 "information on HTML Sanitization."
 msgstr ""
-"Таким образом, для обработки и преобразования (очистки) HTML-текста "
-"необходима специальная библиотека. Дополнительную информацию по очистке HTML"
-" см. в Памятке по предотвращению межсайтового выполнения сценариев в разделе"
-" Очистка HTML."
 
-# 8478fc69520f4ad68344624dccb05b5d
-#: ../../c5-validate-all-inputs.md:91
+# 2805bd29970f48f4a66b0e33b5f2dc74
+#: ../../c5-validate-all-inputs.rst:104
 msgid "Validation Functionality in Libraries and Frameworks"
 msgstr "Функции проверки в библиотеках и фреймворках"
 
-# 7a1831e9a25c4aaf91ba019fd030442f
-#: ../../c5-validate-all-inputs.md:93
+# dbea97fc636040fd8728e7e61aea3c4d
+#: ../../c5-validate-all-inputs.rst:106
 msgid ""
 "All languages and most frameworks provide validation libraries or functions "
 "which should be leveraged to validate data. Validation libraries typically "
@@ -491,28 +450,24 @@ msgid ""
 "checks and more. Many validation libraries and frameworks allow you to "
 "define your own regular expression or logic for custom validation in a way "
 "that allows the programmer to leverage that functionality throughout your "
-"application. Examples of validation functionality include PHP’s filter "
-"functions or the Hibernate Validator for Java. Examples of HTML Sanitizers "
-"include Ruby on Rails sanitize method, OWASP Java HTML Sanitizer or "
-"DOMPurify."
+"application. Examples of validation functionality include PHP’s `filter "
+"functions "
+"<https://secure.php.net/manual/en/filter.examples.validation.php>`_ or the "
+"`Hibernate Validator <http://hibernate.org/validator/>`_ for Java. Examples "
+"of HTML Sanitizers include `Ruby on Rails sanitize method "
+"<http://edgeapi.rubyonrails.org/classes/ActionView/Helpers/SanitizeHelper.html>`_,"
+" `OWASP Java HTML Sanitizer "
+"<https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer_Project>`_ or "
+"`DOMPurify <https://github.com/cure53/DOMPurify>`_."
 msgstr ""
-"Все языки и большинство фреймворков имеют библиотеки или функции, которые "
-"рекомендуется использовать для проверки данных. Подобные библиотеки, как "
-"правило, обеспечивают проверку стандартных типов данных, требований к длине,"
-" диапазонов целых чисел, \"нулевых данных\" и т. п. Большинство библиотек и "
-"фреймворков позволяют создавать собственные регулярные выражения или логику "
-"проверок, позволяя программистам использовать данную функцию в приложениях. "
-"Примеры реализации функции проверки: функции фильтрации PHP или Hibernate "
-"Validator для Java. Примеры инструментов для очистки HTML: метод очистки "
-"Ruby on Rails, средство очистки HTML на Java от OWASP или DOMPurify."
 
-# 1142a561d10842da9184f15b24e07820
-#: ../../c5-validate-all-inputs.md:95
+# dc998c84e0cd4a1daf92fc9cf8bb7ea1
+#: ../../c5-validate-all-inputs.rst:109
 msgid "Vulnerabilities Prevented"
 msgstr "Предотвращаемые уязвимости"
 
-# ae25c245e6a64ffda558e3ad5e0ff2e0
-#: ../../c5-validate-all-inputs.md:97
+# 53e2d383fe344aff9e2ced701bba3fed
+#: ../../c5-validate-all-inputs.rst:111
 msgid ""
 "Input validation reduces the attack surface of applications and can "
 "sometimes make attacks more difficult against an application."
@@ -520,8 +475,8 @@ msgstr ""
 "Проверка входных данных снижает вероятность эксплуатации уязвимостей, а "
 "иногда затрудняет проведение атаки на приложение."
 
-# 054b87b895324b12b1ebf28d0820ecd2
-#: ../../c5-validate-all-inputs.md:98
+# 37beb35192114213bb33d515bd9e2b63
+#: ../../c5-validate-all-inputs.rst:112
 msgid ""
 "Input validation is a technique that provides security to certain forms of "
 "data, specific to certain attacks and cannot be reliably applied as a "
@@ -531,70 +486,81 @@ msgstr ""
 "определенных видов атак, поэтому не может быть использована в качестве "
 "надежного средства обеспечения общей безопасности."
 
-# e23d798e969c4922bf7d4accfa45a480
-#: ../../c5-validate-all-inputs.md:99
+# 918655eb331b40d9bcb2dd995e9b38cb
+#: ../../c5-validate-all-inputs.rst:113
 msgid ""
-"Input validation should not be used as the primary method of preventing XSS,"
-" SQL Injection and other attacks."
+"Input validation should not be used as the primary method of preventing `XSS"
+" "
+"<https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet>`_,"
+" `SQL Injection "
+"<https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet>`_ and"
+" other attacks."
 msgstr ""
-"Проверка входных данных не должна использоваться в качестве основного "
-"средства предотвращения Межсайтовых выполнений сценариев, Внедрений SQL-кода"
-" и прочих атак."
 
-# 362890c9d3284bd8b18eace9eb54e0c1
-#: ../../c5-validate-all-inputs.md:101
+# c6500811d0a7461d8899effcbb2f92a9
+#: ../../c5-validate-all-inputs.rst:116
 msgid "References"
 msgstr "Ссылки"
 
-# c2957e51930e41159c65655989c1deea
-#: ../../c5-validate-all-inputs.md:103
-msgid "OWASP Cheat Sheet: Input Validation"
-msgstr "Памятка OWASP: Проверка входных данных"
-
-# 0c00a80285f94386be3847de649a01f1
-#: ../../c5-validate-all-inputs.md:104
-msgid "OWASP Cheat Sheet: iOS - Security Decisions via Untrusted Inputs"
+# a0632f3417f7470e9003bc7a1ca51140
+#: ../../c5-validate-all-inputs.rst:118
+msgid ""
+"`OWASP Cheat Sheet: Input Validation "
+"<https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet>`_"
 msgstr ""
-"Памятка OWASP: iOS - Решения по безопасности с использованием непроверенных "
-"входных данных"
 
-# 3a82a755e27c4e00af379b2aa2166004
-#: ../../c5-validate-all-inputs.md:105
-msgid "OWASP Testing Guide: Testing for Input Validation"
+# ac6edcea50544f73ab716e0b3bce2e82
+#: ../../c5-validate-all-inputs.rst:119
+msgid ""
+"`OWASP Cheat Sheet: iOS - Security Decisions via Untrusted Inputs "
+"<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet#Security_Decisions_via_Untrusted_Inputs_.28M7.29>`_"
 msgstr ""
-"Руководство OWASP по тестированию: Тестирование проверки входных данных"
 
-# f64e33be1389454993c553d31a60ed1f
-#: ../../c5-validate-all-inputs.md:107
+# c0e9bd51148841bd9cda5776e4ea54e5
+#: ../../c5-validate-all-inputs.rst:120
+msgid ""
+"`OWASP Testing Guide: Testing for Input Validation "
+"<https://www.owasp.org/index.php/Testing_for_Input_Validation>`_"
+msgstr ""
+
+# fe4528e1e7ac477188e00643da0509ec
+#: ../../c5-validate-all-inputs.rst:123
 msgid "Tools"
 msgstr "Инструменты"
 
-# a27ef5c848814260b92e5bac7d5b0026
-#: ../../c5-validate-all-inputs.md:109
-msgid "OWASP Java HTML Sanitizer Project"
-msgstr "Средства очистки HTML на Java от OWASP"
+# 6f6ad9b0aadf4aa8862602319224a570
+#: ../../c5-validate-all-inputs.rst:125
+msgid ""
+"`OWASP Java HTML Sanitizer Project "
+"<https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer>`_"
+msgstr ""
 
-# e2bb5098e8824740af074a946c104243
-#: ../../c5-validate-all-inputs.md:110
-msgid "Java JSR-303/JSR-349 Bean Validation"
-msgstr "Java JSR-303/JSR-349 Bean Validation"
+# 9e30b00812cc48a78989d512c20633aa
+#: ../../c5-validate-all-inputs.rst:126
+msgid "`Java JSR-303/JSR-349 Bean Validation <http://beanvalidation.org/>`_"
+msgstr ""
 
-# e2f3c32fc4674d7aa580c7e2b09fe303
-#: ../../c5-validate-all-inputs.md:111
-msgid "Java Hibernate Validator"
-msgstr "Java Hibernate Validator"
+# 104f180b537d4b4da1be52ba1317f2e7
+#: ../../c5-validate-all-inputs.rst:127
+msgid "`Java Hibernate Validator <http://hibernate.org/validator/>`_"
+msgstr ""
 
-# b0c9d7e61d5648a08c6c03bdefd28c0f
-#: ../../c5-validate-all-inputs.md:112
-msgid "JEP-290 Filter Incoming Serialization Data"
-msgstr "JEP-290 фильтр входящих сериализованных данных"
+# f623358082aa406c892f43d2adf52f2d
+#: ../../c5-validate-all-inputs.rst:128
+msgid ""
+"`JEP-290 Filter Incoming Serialization Data "
+"<http://openjdk.java.net/jeps/290>`_"
+msgstr ""
 
-# e7647c22461348aebad43fa5dcc856bd
-#: ../../c5-validate-all-inputs.md:113
-msgid "Apache Commons Validator"
-msgstr "Apache Commons Validator"
+# 3087791c779d4392ab8363233a4029ae
+#: ../../c5-validate-all-inputs.rst:129
+msgid ""
+"`Apache Commons Validator <https://commons.apache.org/proper/commons-"
+"validator/>`_"
+msgstr ""
 
-# 548e0739c6364304bcf5436d11e27a78
-#: ../../c5-validate-all-inputs.md:114
-msgid "PHP’s filter functions"
-msgstr "Функции фильтрации PHP"
+# 0752d4243b8b43f3bc8a0bbe192f912b
+#: ../../c5-validate-all-inputs.rst:130
+msgid ""
+"PHP’s `filter functions <https://secure.php.net/manual/en/book.filter.php>`_"
+msgstr ""

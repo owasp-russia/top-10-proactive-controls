@@ -5,15 +5,16 @@
 # 
 # Translators:
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,26 +22,27 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# c95449d8132f47bc8a34c32103c947e5
-#: ../../c6-implement-digital-identity.md:1
+# 65360e95648c43ebb5f087e8d1584c50
+#: ../../c6-implement-digital-identity.rst:2
 msgid "C6: Implement Digital Identity"
 msgstr "C6: Внедрение цифровых идентификаторов"
 
-# 55b3f288844242ef9c3e854595d424bc
-#: ../../c6-implement-digital-identity.md:3
+# ce3b2cdddc514437a014bbc266ad1b88
+#: ../../c6-implement-digital-identity.rst:5
 msgid "Description"
 msgstr "Описание"
 
-# fab1469e061e4928a700157afb72c582
-#: ../../c6-implement-digital-identity.md:5
+# 183aee9887534136a61877c8bda8a330
+#: ../../c6-implement-digital-identity.rst:7
 msgid ""
 "Digital Identity is the unique representation of a user (or other subject) "
 "as they engage in an online transaction. Authentication is the process of "
 "verifying that an individual or entity is who they claim to be. Session "
 "management is a process by which a server maintains the state of the users "
 "authentication so that the user may continue to use the system without re-"
-"authenticating. The NIST Special Publication 800-63B: Digital Identity "
-"Guidelines (Authentication and Lifecycle Management provides solid guidance "
+"authenticating. The `NIST Special Publication 800-63B: Digital Identity "
+"Guidelines (Authentication and Lifecycle Management "
+"<https://pages.nist.gov/800-63-3/sp800-63b.html>`_ provides solid guidance "
 "on implementing digital identity, authentication and session management "
 "controls."
 msgstr ""
@@ -49,23 +51,25 @@ msgstr ""
 " подтверждения того, что человек или сущность является тем, кем "
 "представляется. Управление сессиями - это процесс, с помощью которого сервер"
 " контролирует состояние аутентификации пользователя, чтобы он мог продолжать"
-" пользоваться системой без повторной аутентификации. Специальное издание "
+" пользоваться системой без повторной аутентификации. `Специальное издание "
 "NIST 800-63B: Руководство по цифровым идентификаторам (Аутентификация и "
-"управление жизненным циклом) содержит подробные рекомендации по реализации "
-"требований к цифровым идентификаторам, аутентификации и управлению сессиями."
+"управление жизненным циклом)  "
+"<https://pages.nist.gov/800-63-3/sp800-63b.html>`_ содержит подробные "
+"рекомендации по реализации требований к цифровым идентификаторам, "
+"аутентификации и управлению сессиями."
 
-# 70c23cf7ddf34ea287c9f27f3b58458e
-#: ../../c6-implement-digital-identity.md:7
+# 191a97ee1c644e879ad22b15687d544a
+#: ../../c6-implement-digital-identity.rst:9
 msgid "Below are some recommendations for secure implementation."
 msgstr "Ниже приведены некоторые рекомендации по безопасной реализации."
 
-# 87bc1c497a274a6ba9d795bc9f812cb0
-#: ../../c6-implement-digital-identity.md:9
+# 62b62aacabeb4386aeb53f8569cc9942
+#: ../../c6-implement-digital-identity.rst:12
 msgid "Authentication Levels"
 msgstr "Уровни аутентификации"
 
-# fdae598b152b4faaa57db750a9ae5138
-#: ../../c6-implement-digital-identity.md:11
+# feb2ad00cbe14d4898e6183fa13a460a
+#: ../../c6-implement-digital-identity.rst:14
 msgid ""
 "NIST 800-63b describes three levels of a authentication assurance called a "
 "authentication assurance level (AAL). AAL level 1 is reserved for lower-risk"
@@ -79,13 +83,13 @@ msgstr ""
 "однофакторной аутентификации, обычно реализованной через использование "
 "пароля."
 
-# f25caa1176be46408b6aa19ebde4de91
-#: ../../c6-implement-digital-identity.md:13
+# 7373c3f5888f4f9caee9d5db7f10e0cd
+#: ../../c6-implement-digital-identity.rst:17
 msgid "Level 1 : Passwords"
 msgstr "Уровень 1: Пароли"
 
-# 0531fac2b1674d888382571908512f71
-#: ../../c6-implement-digital-identity.md:15
+# 5d6ea6b577f34179b8d2c05ba9a6b2cc
+#: ../../c6-implement-digital-identity.rst:19
 msgid ""
 "Passwords are really really important. We need policy, we need to store them"
 " securely, we need to sometimes allow users to reset them."
@@ -94,19 +98,19 @@ msgstr ""
 "политики, их хранение должно быть безопасным, в некоторых случаях у "
 "пользователя должна иметься возможность сброса пароля."
 
-# 5ce8809da83948c09dc0cc9a461e138e
-#: ../../c6-implement-digital-identity.md:17
+# 647918848eb24bf8a916ea8affaabcab
+#: ../../c6-implement-digital-identity.rst:22
 msgid "Password Requirements"
 msgstr "Требования к паролям"
 
-# e7364cab39ce413aa2e586d6d5e1fb7a
-#: ../../c6-implement-digital-identity.md:19
+# 2f1dcbda41f643798aad7ab6f5ca5b04
+#: ../../c6-implement-digital-identity.rst:24
 msgid ""
 "Passwords should comply with the following requirements at the very least:"
 msgstr "Пароли должны, как минимум, соответствовать следующим требованиям:"
 
-# 07708abce6df49f6accd8609fb3cf8ac
-#: ../../c6-implement-digital-identity.md:21
+# 52cd8a3a4ca54468bc15216dfcc8e8cb
+#: ../../c6-implement-digital-identity.rst:26
 msgid ""
 "be at least 8 characters in length if multi-factor authentication (MFA) and "
 "other controls are also used. If MFA is not possible, this should be "
@@ -116,8 +120,8 @@ msgstr ""
 "(МФА) и другие методы контроля. Если использование МФА не представляется "
 "возможным, длину пароля необходимо увеличить, как минимум, до 10 символов;"
 
-# 46057b0d8daa4685b91da1ec531eaa1c
-#: ../../c6-implement-digital-identity.md:22
+# 369b8ee40bc3405ab96b6b451bc33b96
+#: ../../c6-implement-digital-identity.rst:27
 msgid ""
 "all printing ASCII characters as well as the space character should be "
 "acceptable in memorized secrets"
@@ -125,13 +129,13 @@ msgstr ""
 "все печатаемые символы ASCII, а также символ пробела, должны быть разрешены "
 "для использования в запоминаемых секретах;"
 
-# 2db9e6065f614b779c3c9bd0ed5b071b
-#: ../../c6-implement-digital-identity.md:23
+# 5d1419f9d90541d6ac0ffb1bd3e7dd26
+#: ../../c6-implement-digital-identity.rst:28
 msgid "encourage the use of long passwords and passphrases"
 msgstr "старайтесь использовать длинные пароли и кодовые фразы;"
 
-# 7488a0e0cec540cd98253206156622c8
-#: ../../c6-implement-digital-identity.md:24
+# 0fbfe997647540a2ac5fbc9bbc50ee73
+#: ../../c6-implement-digital-identity.rst:29
 msgid ""
 "remove complexity requirements as these have been found to be of limited "
 "effectiveness. Instead, the adoption of MFA or longer password lengths is "
@@ -141,15 +145,16 @@ msgstr ""
 "весьма ограниченна. Вместо этого рекомендуется использовать МФА или более "
 "длинные пароли;"
 
-# d92d13d4924e4968bc518699ce23ef96
-#: ../../c6-implement-digital-identity.md:25
+# 75958817392a4da8b7a291d7dd48a2b6
+#: ../../c6-implement-digital-identity.rst:30
 msgid ""
 "ensure that passwords used are not commonly used passwords that have been "
 "already been leaked in a previous compromise.  You may choose to block the "
 "top 1000 or 10000 most common passwords which meet the above length "
 "requirements and are found in compromised password lists.  The following "
 "link contains the most commonly found passwords: "
-"https://github.com/danielmiessler/SecLists/tree/master/Passwords"
+"`https://github.com/danielmiessler/SecLists/tree/master/Passwords "
+"<https://github.com/danielmiessler/SecLists/tree/master/Passwords>`_"
 msgstr ""
 "убедитесь в том, что используемые пароли не находятся в списке "
 "распространенных и ранее скомпрометированных паролей. Можно настроить "
@@ -157,15 +162,16 @@ msgstr ""
 "паролей, которые соответствуют указанным выше требованиям к длине и "
 "присутствуют в списках скомпрометированных паролей. Самые распространенные "
 "пароли можно найти, перейдя по следующей ссылке: "
-"https://github.com/danielmiessler/SecLists/tree/master/Passwords"
+"`https://github.com/danielmiessler/SecLists/tree/master/Passwords  "
+"<https://github.com/danielmiessler/SecLists/tree/master/Passwords>`_"
 
-# a4856f06bd054a63bbe23f3462714523
-#: ../../c6-implement-digital-identity.md:27
+# 4dfc25916f264547a05c9e5b6f24450c
+#: ../../c6-implement-digital-identity.rst:33
 msgid "Implement Secure Password Recovery Mechanism"
 msgstr "Реализация механизма безопасного восстановления пароля"
 
-# 201627b3eec245c2aa10ae118dd89c00
-#: ../../c6-implement-digital-identity.md:29
+# f421298a5273424cb7119c7eb5bc4d21
+#: ../../c6-implement-digital-identity.rst:35
 msgid ""
 "It is common for an application to have a mechanism for a user to gain "
 "access to their account in the event they forget their password. A good "
@@ -181,22 +187,27 @@ msgstr ""
 " на который известен пользователю, и отправка специально сгенерированного "
 "токена на устройство, которое принадлежит пользователю."
 
-# f043be8dabf04b15869ba56694d4175f
-#: ../../c6-implement-digital-identity.md:31
+# 7170ec97efc44c57bde42a716bfb9508
+#: ../../c6-implement-digital-identity.rst:37
 msgid ""
-"Please see the Forgot_Password_Cheat_Sheet and "
-"Choosing_and_Using_Security_Questions_Cheat_Sheet for further details."
+"Please see the `Forgot_Password_Cheat_Sheet "
+"<https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet>`_ and "
+"`Choosing_and_Using_Security_Questions_Cheat_Sheet "
+"<https://www.owasp.org/index.php/Choosing_and_Using_Security_Questions_Cheat_Sheet>`_"
+" for further details."
 msgstr ""
-"Более подробную информацию см. в Памятке по забытым паролям и Памятке по "
-"выбору и использованию контрольных вопросов."
+"Более подробную информацию см. в `Памятке по забытым паролям "
+"<https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet>`_ и `Памятке "
+"по выбору и использованию контрольных вопросов "
+"<https://www.owasp.org/index.php/Choosing_and_Using_Security_Questions_Cheat_Sheet>`."
 
-# 34b3974f611b452a853e23cb26fca423
-#: ../../c6-implement-digital-identity.md:33
+# 584eecd45f854cf8b3b83399e4f990af
+#: ../../c6-implement-digital-identity.rst:40
 msgid "Implement Secure Password Storage"
 msgstr "Реализация безопасного хранения паролей"
 
-# 025931960ec94c30b68553e250ee8831
-#: ../../c6-implement-digital-identity.md:35
+# d4bf4a63b40a4537afd62bffe61d81cf
+#: ../../c6-implement-digital-identity.rst:42
 msgid ""
 "In order to provide strong authentication controls, an application must "
 "securely store user credentials. Furthermore, cryptographic controls should "
@@ -209,35 +220,40 @@ msgstr ""
 " данных (например, паролей) злоумышленник не мог сразу же получить к ним "
 "доступ."
 
-# ae89fc015d29424e81c582ca400719ca
-#: ../../c6-implement-digital-identity.md:37
+# 65d04df16525407f8b747cd71fc3bbba
+#: ../../c6-implement-digital-identity.rst:45
 msgid "PHP Example for Password Storage"
 msgstr "Пример хранения паролей в PHP"
 
-# 1c1a8e3ab3ff489190eb1b67b6b01ebe
-#: ../../c6-implement-digital-identity.md:39
+# 7e036989c93a495f9846ee5bad68ab76
+#: ../../c6-implement-digital-identity.rst:47
 msgid ""
-"Below is an example for secure password hashing in PHP using  function "
-"(available since 5.5.0) which defaults to using the bcrypt algorithm. The "
-"example uses a work factor of 15."
+"Below is an example for secure password hashing in PHP using "
+"`password_hash()` function (available since 5.5.0) which defaults to using "
+"the bcrypt algorithm. The example uses a work factor of 15."
 msgstr ""
 "Ниже приведен пример безопасного хеширования паролей в PHP с помощью функции"
 " password_hash() (доступна, начиная с версии 5.5.0), в которой по умолчанию "
 "используется алгоритм bcrypt. В примере используется фактор трудоемкости "
 "равный 15."
 
-# 73089cfcba5d44f0bcf6327162f5676f
-#: ../../c6-implement-digital-identity.md:48
-msgid "Please see the OWASP Password Storage Cheat Sheet for further details."
-msgstr "Более подробную информацию см. в Памятке OWASP по хранению паролей."
+# 82651fc780504325ab6ee7f33b57572b
+#: ../../c6-implement-digital-identity.rst:56
+msgid ""
+"Please see the `OWASP Password Storage Cheat Sheet "
+"<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_ for further"
+" details."
+msgstr ""
+"Более подробную информацию см. в `Памятке OWASP по хранению паролей  "
+"<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_."
 
-# 9581d5b7a5bb4ffb8daea96b2ad5131b
-#: ../../c6-implement-digital-identity.md:50
+# bb098a05bf3641028d95428f7e2a7a11
+#: ../../c6-implement-digital-identity.rst:59
 msgid "Level 2 : Multi-Factor Authentication"
 msgstr "Уровень 2: Многофакторная аутентификация (МФА)"
 
-# 392cdfdb4a7c47629890f155b75265eb
-#: ../../c6-implement-digital-identity.md:52
+# 49846f70959e481bb25b2e8f7ef1b30f
+#: ../../c6-implement-digital-identity.rst:61
 msgid ""
 "NIST 800-63b AAL level 2 is reserved for higher-risk applications that "
 "contain \"self-asserted PII or other personal information made available "
@@ -249,8 +265,8 @@ msgstr ""
 "доступные онлайн\". На 2-м уровне AAL требуется многофакторная "
 "аутентификация, например, одноразовые пароли или другие формы МФА."
 
-# c10b6ad08ffd469e8f05d69282d98bd8
-#: ../../c6-implement-digital-identity.md:54
+# 2c93650913bf449e9aca1d6d74d3fbef
+#: ../../c6-implement-digital-identity.rst:63
 msgid ""
 "Multi-factor authentication (MFA) ensures that users are who they claim to "
 "be by requiring them to identify themselves with a combination of:"
@@ -258,25 +274,25 @@ msgstr ""
 "Многофакторная аутентификация предполагает подтверждение того, что "
 "пользователь является тем, кем он себя называет, используя комбинацию из:"
 
-# 3defbb6bfef04ae08227a42c242b700f
-#: ../../c6-implement-digital-identity.md:56
+# 042082d1fb7d47d9abe0b7805505b79b
+#: ../../c6-implement-digital-identity.rst:65
 msgid "Something you know – password or PIN"
 msgstr "чего-то, известного пользователю — пароль или ПИН-код;"
 
-# 04fd68f05dd6428cb9f53e2c30b5b0db
-#: ../../c6-implement-digital-identity.md:57
+# e1c5006c219c4a018f21f59ac4629c1d
+#: ../../c6-implement-digital-identity.rst:66
 msgid "Something you own – token or phone"
 msgstr "чего-то, принадлежащего пользователю — токен или телефон;"
 
-# 4b794e9cde7a4d14b464c7407322e645
-#: ../../c6-implement-digital-identity.md:58
+# 15f5cc3f65b44bc1b8fe61f098b355f4
+#: ../../c6-implement-digital-identity.rst:67
 msgid "Something you are – biometrics, such as a fingerprint"
 msgstr ""
 "чего-то, являющегося частью пользователя — биометрические данные, например, "
 "отпечаток пальца."
 
-# 7751111221b044bdbc10745669274b38
-#: ../../c6-implement-digital-identity.md:60
+# ba1a469894024bc1b4c48b439c30d168
+#: ../../c6-implement-digital-identity.rst:69
 msgid ""
 "Using passwords as a sole factor provides weak security. Multi-factor "
 "solutions provide a more robust solution by requiring an attacker to acquire"
@@ -287,8 +303,8 @@ msgstr ""
 "поскольку атакующему требуется получение более одного компонента для "
 "аутентификации."
 
-# eab88c25170b486da86013a9848f9640
-#: ../../c6-implement-digital-identity.md:62
+# fd142d966afb40a1be0bb021d535f2cb
+#: ../../c6-implement-digital-identity.rst:71
 msgid ""
 "It is worth noting that biometrics, when employed as a single factor of "
 "authentication, are not considered acceptable secrets for digital "
@@ -315,13 +331,13 @@ msgstr ""
 "устройства для генерирования одноразовых паролей, вводимых пользователем "
 "вручную в устройство контроля."
 
-# aa66616dc7b241a683c1454742d6e85b
-#: ../../c6-implement-digital-identity.md:64
+# 5dd396ccd64c4a798c48bfac87737f33
+#: ../../c6-implement-digital-identity.rst:74
 msgid "Level 3 : Cryptographic Based Authentication"
 msgstr "Уровень 3: Аутентификация на основе шифрования"
 
-# 2c6c6ac7f873478e9658628dff5d03ff
-#: ../../c6-implement-digital-identity.md:66
+# fa41c85053c6495c96196853969ac3ee
+#: ../../c6-implement-digital-identity.rst:76
 msgid ""
 "NIST 800-63b Authentication Assurance Level 3 (AAL3) is required when the "
 "impact of compromised systems could lead to personal harm, significant "
@@ -339,13 +355,13 @@ msgstr ""
 "используется для обеспечения наивысшего уровня надежности аутентификации и, "
 "как правило, реализуется через аппаратные модули шифрования."
 
-# f98b62d72de24b2b9634b5bfa6104afa
-#: ../../c6-implement-digital-identity.md:68
+# b9f06fd09edf4a4d9ec45e9b6a79d6ce
+#: ../../c6-implement-digital-identity.rst:79
 msgid "Session Management"
 msgstr "Управление сессиями"
 
-# 666ad6f0c87243f2b0e93292e6c28c07
-#: ../../c6-implement-digital-identity.md:70
+# 0884727fb436493480f7fa64a819563d
+#: ../../c6-implement-digital-identity.rst:81
 msgid ""
 "Once the initial successful user authentication has taken place, an "
 "application may choose to track and maintain this authentication state for a"
@@ -359,13 +375,13 @@ msgstr ""
 "при каждом последующем запросе. Контроль такого состояния называется "
 "Управление сессиями."
 
-# cc27a0c42cbb4dadb2f99de2b26d5681
-#: ../../c6-implement-digital-identity.md:72
+# 5c42210fcd864c538ba9f66e4310eafc
+#: ../../c6-implement-digital-identity.rst:84
 msgid "Session Generation and Expiration"
 msgstr "Создание и завершение сессий"
 
-# e8d2c7c3aaa34d39836d6b0c31715722
-#: ../../c6-implement-digital-identity.md:74
+# f4ebd089a7d0439f91b5bca80e845f7c
+#: ../../c6-implement-digital-identity.rst:86
 msgid ""
 "User state is tracked in a session. This session is typically stored on the "
 "server for traditional web based session management. A session identifier is"
@@ -381,8 +397,8 @@ msgstr ""
 "Клиенту требуется только идентификатор сессии, важные серверные данные о "
 "сессии клиенту не предоставляются."
 
-# f5c6e33c56ec47ebbe6509b6c892e474
-#: ../../c6-implement-digital-identity.md:76
+# 59e85171d4e14123816e2135feef0296
+#: ../../c6-implement-digital-identity.rst:88
 msgid ""
 "Here are a few controls to consider when building or implementing session "
 "management solutions:"
@@ -390,13 +406,13 @@ msgstr ""
 "Вот несколько требований, которые следует учесть при создании или реализации"
 " механизма управления сессиями:"
 
-# 1012b812342d4ca2b09e27426e99f0a6
-#: ../../c6-implement-digital-identity.md:78
+# 087a1f574be741b692e7fd737b4a98b9
+#: ../../c6-implement-digital-identity.rst:90
 msgid "Ensure that the session id is long, unique and random."
 msgstr "идентификатор сессии должен быть длинным, уникальным и случайным;"
 
-# 38c9fab284774046b8188b78b456f80c
-#: ../../c6-implement-digital-identity.md:79
+# ed4da57d143d4e6e9eb31264e91fca00
+#: ../../c6-implement-digital-identity.rst:91
 msgid ""
 "The application should generate a new session or at least rotate the session"
 " id during authentication and re-authentication."
@@ -404,8 +420,8 @@ msgstr ""
 "приложение должно создавать новую сессию или, как минимум, менять "
 "идентификатор сессии при первичной и повторной аутентификации;"
 
-# 8252f8e3891d44949411e0cad6275057
-#: ../../c6-implement-digital-identity.md:80
+# 2ff3c91eb31f484d9ab7304b96ba6f71
+#: ../../c6-implement-digital-identity.rst:92
 msgid ""
 "The application should implement an idle timeout after a period of "
 "inactivity and an absolute maximum lifetime for each session, after which "
@@ -417,23 +433,21 @@ msgstr ""
 "процедуру аутентификации. Время ожидания должно быть обратно пропорционально"
 " важности защищаемых данных."
 
-# e658c6af562448b0b5c158e985d1a0f6
-#: ../../c6-implement-digital-identity.md:82
+# 629ef81a4fd241a1a23224cd9742b968
+#: ../../c6-implement-digital-identity.rst:94
 msgid ""
-"Please see the Session Management Cheat Sheet further details. ASVS Section "
-"3 covers additional session management requirements."
+"Please see the `Session Management Cheat Sheet "
+"<https://www.owasp.org/index.php/Session_Management_Cheat_Sheet>`_ further "
+"details. ASVS Section 3 covers additional session management requirements."
 msgstr ""
-"Более подробную информацию см. в Памятке по управлению сессиями. "
-"Дополнительные требования к управлению сессиями содержатся в разделе 3 "
-"стандарта ASVS."
 
-# a54a012e782d424b8e6572a809373561
-#: ../../c6-implement-digital-identity.md:84
+# faa7fd5902474a3a877d30796e4ccb74
+#: ../../c6-implement-digital-identity.rst:97
 msgid "Browser Cookies"
 msgstr "Куки-файлы браузеров"
 
-# 3f9cc7be303946559dad77122813ff04
-#: ../../c6-implement-digital-identity.md:86
+# 68969ed9becf4e8cadf06f2f09cefae3
+#: ../../c6-implement-digital-identity.rst:99
 msgid ""
 "Browser cookies are a common method for web application to store session "
 "identifiers for web applications implementing standard session management "
@@ -443,8 +457,8 @@ msgstr ""
 "приложениях со стандартной схемой управления сессиями. Вот несколько советов"
 " по обеспечению безопасности при использовании куки-файлов:"
 
-# 6a772675a93d415ea24dea4411c8f0ab
-#: ../../c6-implement-digital-identity.md:88
+# ab91f2ce76794b5bbf4d8de182fa96a7
+#: ../../c6-implement-digital-identity.rst:101
 msgid ""
 "When browser cookies are used as the mechanism for tracking the session of "
 "an authenticated user,  these should be accessible to a minimum set of "
@@ -456,8 +470,8 @@ msgstr ""
 "доменов и путей, а также они должны становиться недействительными сразу или "
 "вскоре после окончания срока действия сессии;"
 
-# 7fa12ecd23a74f8ebb4ee08bab6c2549
-#: ../../c6-implement-digital-identity.md:89
+# 3b6eecf7ada14d6091b3b14e6ed0b8c0
+#: ../../c6-implement-digital-identity.rst:102
 msgid ""
 "The 'secure' flag should be set to ensure the transfer is done via secure "
 "channel only (TLS)."
@@ -465,8 +479,8 @@ msgstr ""
 "должен быть установлен флаг secure, обеспечивающий передачу данных только по"
 " безопасному каналу (TLS);"
 
-# e560331b8d254cafbf9d7d79abe72cef
-#: ../../c6-implement-digital-identity.md:90
+# 2aef60652adf4163b0ce2173d380ad7d
+#: ../../c6-implement-digital-identity.rst:103
 msgid ""
 "HttpOnly flag should be set to prevent the cookie from  being accessed via "
 "JavaScript."
@@ -474,24 +488,23 @@ msgstr ""
 "должен быть установлен флаг HttpOnly, предотвращающий доступ к куки-файлам с"
 " помощью JavaScript;"
 
-# 195284ade29348668564d0f27fb1d410
-#: ../../c6-implement-digital-identity.md:91
+# 8192beac49d64aee8517d93bbb4b75fb
+#: ../../c6-implement-digital-identity.rst:104
 msgid ""
-"Adding \"samesite\" attributes to cookies prevents some modern browsers from"
-" sending cookies with cross-site requests and provides protection against "
-"cross-site request forgery and information leakage attacks."
+"Adding \"`samesite <https://www.owasp.org/index.php/SameSite>`_\" attributes"
+" to cookies prevents some `modern browsers "
+"<https://caniuse.com/#search=samesite>`_ from sending cookies with cross-"
+"site requests and provides protection against cross-site request forgery and"
+" information leakage attacks."
 msgstr ""
-"добавление атрибутов samesite к куки-файлам предотвращает отправку "
-"некоторыми современными браузерами куки-файлов с межсайтовыми запросами, а "
-"также обеспечивает защиту от межсайтовой подмены запросов и утечки данных."
 
-# 74d3e04be9a540efbda92b80e6551211
-#: ../../c6-implement-digital-identity.md:93
+# 1503e0f691d5495d9055c574963b2b59
+#: ../../c6-implement-digital-identity.rst:107
 msgid "Tokens"
 msgstr "Токены"
 
-# 2b981bce0ab24b6a8ffa81bde8fe8e4b
-#: ../../c6-implement-digital-identity.md:95
+# c5629f43d5e044d285b020071d87a7c4
+#: ../../c6-implement-digital-identity.rst:109
 msgid ""
 "Server-side sessions can be limiting for some forms of authentication. "
 "\"Stateless services\" allow for client side management of session data for "
@@ -509,29 +522,24 @@ msgstr ""
 "аутентификации для проверки клиентских запросов (без отправки учетных "
 "данных)."
 
-# 5f23d10838314b618e7182d7e2bf1657
-#: ../../c6-implement-digital-identity.md:97
+# 6576c14b1a00489e906296169719eab9
+#: ../../c6-implement-digital-identity.rst:112
 msgid "JWT (JSON Web Tokens)"
 msgstr "JWT (веб-токены JSON)"
 
-# 440ccdd3bfb64f3f893313c88634d584
-#: ../../c6-implement-digital-identity.md:99
+# b3e4130760144195889366fa49457847
+#: ../../c6-implement-digital-identity.rst:114
 msgid ""
-"JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact "
-"and self-contained way for securely transmitting information between parties"
-" as a JSON object. This information can be verified and trusted because it "
-"is digitally signed. A JWT token is created during authentication and is "
+"JSON Web Token (JWT) is an open standard (`RFC 7519 "
+"<https://tools.ietf.org/html/rfc7519>`_) that defines a compact and self-"
+"contained way for securely transmitting information between parties as a "
+"JSON object. This information can be verified and trusted because it is "
+"digitally signed. A JWT token is created during authentication and is "
 "verified by the server (or servers) before any processing."
 msgstr ""
-"Веб-токены JSON (JWT) представляют открытый стандарт (RFC 7519) компактного "
-"и самодостаточного способа безопасной передачи данных между клиентами с "
-"помощью JSON-объектов. Эти данные могут быть проверены и подтверждены, "
-"поскольку имеют цифровую подпись. JWT-токены создаются во время "
-"аутентификации и проверяются сервером (или серверами) перед началом "
-"обработки данных."
 
-# 784e3181324d495682ef9cb7f6b2e4c5
-#: ../../c6-implement-digital-identity.md:101
+# c647525d504d40268152cb5fa754e8f7
+#: ../../c6-implement-digital-identity.rst:116
 msgid ""
 "However, JWT's are often not saved by the server after initial creation. "
 "JWT's are typically created and then handed to a client without being saved "
@@ -544,8 +552,8 @@ msgstr ""
 "которая позволяет впоследствии проверить действительность и отсутствие "
 "модификаций JWT-токена."
 
-# ad331c4832a54df98a39cce7b8744bdb
-#: ../../c6-implement-digital-identity.md:103
+# 65a2cb1707b5440eafc2cbef79b1c3a7
+#: ../../c6-implement-digital-identity.rst:118
 msgid ""
 "This approach is both stateless and portable in the way that client and "
 "server technologies can be different yet still interact."
@@ -554,13 +562,13 @@ msgstr ""
 " поэтому отличия в технологиях клиента и сервера не мешают их "
 "взаимодействию."
 
-# 771e68853b5c4df497a59fc747e2c2c3
-#: ../../c6-implement-digital-identity.md:105
+# f243dcba2ffc402eaf17678c9db0fcfe
+#: ../../c6-implement-digital-identity.rst:121
 msgid "Caution"
 msgstr "Внимание!"
 
-# b3a70fea8e3240bfa4c923a581fae6b1
-#: ../../c6-implement-digital-identity.md:107
+# bd74dd2d35a146c1903c152cb6dfc404
+#: ../../c6-implement-digital-identity.rst:123
 msgid ""
 "Digital identity, authentication and session management are very big topics."
 " We're scratching the surface of the topic of Digital Identity here. Ensure "
@@ -572,78 +580,98 @@ msgstr ""
 "идентификации. Убедитесь, что реализацией решений, связанных с "
 "идентификацией, занимается ваш самый способный и ответственный инженер."
 
-# 18cbd17773e14482b5e945e3cdbe8ef3
-#: ../../c6-implement-digital-identity.md:109
+# fe7f44dbf74345159982d6c3a5eb1ebd
+#: ../../c6-implement-digital-identity.rst:126
 msgid "Vulnerabilities Prevented"
 msgstr "Предотвращаемые уязвимости"
 
-# 1a3d87e43b424f8492a488b18a33b660
-#: ../../c6-implement-digital-identity.md:111
-msgid "OWASP Top 10 2017 A2- Broken Authentication and Session Management"
+# fe401963602b4f26bce7ef4fdc480d52
+#: ../../c6-implement-digital-identity.rst:128
+msgid ""
+"`OWASP Top 10 2017 A2- Broken Authentication and Session Management "
+"<https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication>`_"
 msgstr ""
-"Топ-10 OWASP 2017 - A2: Недостатки аутентификации и управления сессиями"
+"`Топ-10 OWASP 2017 - A2: Недостатки аутентификации и управления сессиями "
+"https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication>`_"
 
-# 200d4f228a644ae6bb3ee7db3a520641
-#: ../../c6-implement-digital-identity.md:112
-msgid "OWASP Mobile Top 10 2014-M5- Poor Authorization and Authentication"
+# c63c2b54fd8b4df2a44fa2ad87f4f657
+#: ../../c6-implement-digital-identity.rst:129
+msgid ""
+"`OWASP Mobile Top 10 2014-M5- Poor Authorization and Authentication "
+"<https://www.owasp.org/index.php/Mobile_Top_10_2014-M5>`_"
 msgstr ""
-"Топ-10 OWASP 2014 (мобильные устройства) - M5: Ненадежная авторизация и "
-"аутентификация"
+"`Топ-10 OWASP 2014 (мобильные устройства) - M5: Ненадежная авторизация и "
+"аутентификация <https://www.owasp.org/index.php/Mobile_Top_10_2014-M5>`_"
 
-# 3d7dc21d6a5b4fbeb20d830a870124ce
-#: ../../c6-implement-digital-identity.md:114
+# 739f16edae99429ba49d7bc7baad9649
+#: ../../c6-implement-digital-identity.rst:132
 msgid "References"
 msgstr "Ссылки"
 
-# 39e9c7879d4740bbad2f8951f762e4b6
-#: ../../c6-implement-digital-identity.md:116
-msgid "OWASP Cheat Sheet: Authentication"
-msgstr "Памятка OWASP: Аутентификация"
-
-# fd80892cb149453ab2f42cfcc3f5ec45
-#: ../../c6-implement-digital-identity.md:117
-msgid "OWASP Cheat Sheet: Password Storage"
-msgstr "Памятка OWASP: Хранение паролей"
-
-# 028984fe3d934b3db86c32555ed0b602
-#: ../../c6-implement-digital-identity.md:118
-msgid "OWASP Cheat Sheet: Forgot Password"
-msgstr "Памятка OWASP: Забытый пароль"
-
-# 3c6901ca33604b63a496a5e69dbf53ec
-#: ../../c6-implement-digital-identity.md:119
-msgid "OWASP Cheat Sheet: Choosing and Using Security Questions"
-msgstr "Памятка OWASP: Выбор и использование контрольных вопросов"
-
-# 7f2cc706df1747c9bcd6b0a327190e45
-#: ../../c6-implement-digital-identity.md:120
-msgid "OWASP Cheat Sheet: Session Management"
-msgstr "Памятка OWASP: Управление сессиями"
-
-# 4a38944e6420440eb4d90ecd97cb475d
-#: ../../c6-implement-digital-identity.md:121
-msgid "OWASP Cheat Sheet: IOS Developer"
-msgstr "Памятка OWASP: Для разработчиков iOS"
-
-# 22d4c26e7eb448029c67ce1a27cf9ff4
-#: ../../c6-implement-digital-identity.md:122
-msgid "OWASP Testing Guide: Testing for Authentication"
-msgstr "Руководство OWASP по тестированию: Тестирование аутентификации"
-
-# 0ba48fb7c9b34872bfb4d7da719f5b18
-#: ../../c6-implement-digital-identity.md:123
+# 2babc92b22f746839571afa86387e648
+#: ../../c6-implement-digital-identity.rst:134
 msgid ""
-"NIST Special Publication 800-63 Revision 3 - Digital Identity Guidelines"
+"`OWASP Cheat Sheet: Authentication "
+"<https://www.owasp.org/index.php/Authentication_Cheat_Sheet>`_"
 msgstr ""
-"Специальное издание NIST 800-63 (Редакция 3) - Руководство по цифровым "
-"идентификаторам"
 
-# e51491bd251f4e9d9d52c07ea7978dad
-#: ../../c6-implement-digital-identity.md:125
+# 5b6cb357cf91408fb5c8df85c305890a
+#: ../../c6-implement-digital-identity.rst:135
+msgid ""
+"`OWASP Cheat Sheet: Password Storage "
+"<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_"
+msgstr ""
+
+# 312214a76b0b4648a528965bb8c33743
+#: ../../c6-implement-digital-identity.rst:136
+msgid ""
+"`OWASP Cheat Sheet: Forgot Password "
+"<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_"
+msgstr ""
+
+# 8f926dd6ed23492eb8aa9633d1aa4571
+#: ../../c6-implement-digital-identity.rst:137
+msgid ""
+"`OWASP Cheat Sheet: Choosing and Using Security Questions "
+"<https://www.owasp.org/index.php/Choosing_and_Using_Security_Questions_Cheat_Sheet>`_"
+msgstr ""
+
+# 0b5d00ecca5a4428a16aba4cf1b7cd37
+#: ../../c6-implement-digital-identity.rst:138
+msgid ""
+"`OWASP Cheat Sheet: Session Management "
+"<https://www.owasp.org/index.php/Session_Management_Cheat_Sheet>`_"
+msgstr ""
+
+# a7f82e6fbe10492b80ff6abd1a63687d
+#: ../../c6-implement-digital-identity.rst:139
+msgid ""
+"`OWASP Cheat Sheet: IOS Developer "
+"<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet>`_"
+msgstr ""
+
+# 770ed41af9d7442d9ce76252a18da22f
+#: ../../c6-implement-digital-identity.rst:140
+msgid ""
+"`OWASP Testing Guide: Testing for Authentication "
+"<https://www.owasp.org/index.php/Testing_for_authentication>`_"
+msgstr ""
+
+# c26a8ebaaa57464d9c7915a9c4090554
+#: ../../c6-implement-digital-identity.rst:141
+msgid ""
+"`NIST Special Publication 800-63 Revision 3 - Digital Identity Guidelines "
+"<https://pages.nist.gov/800-63-3/sp800-63-3.html>`_"
+msgstr ""
+
+# a0155b80a0c34e4dbad2f20cb774d56c
+#: ../../c6-implement-digital-identity.rst:144
 msgid "Tools"
 msgstr "Инструменты"
 
-# a9e61ac3f8ec45f1a46f8f63eac81b64
-#: ../../c6-implement-digital-identity.md:127
-msgid "Daniel Miessler: Most commonly found passwords"
-msgstr "Дэниел Мисслер (Daniel Miessler): Наиболее часто встречающиеся пароли"
+# d99b8a1dbc904f1f856f0a0d588e80fb
+#: ../../c6-implement-digital-identity.rst:146
+msgid ""
+"Daniel Miessler: `Most commonly found passwords "
+"<https://github.com/danielmiessler/SecLists/tree/master/Passwords>`_"
+msgstr ""

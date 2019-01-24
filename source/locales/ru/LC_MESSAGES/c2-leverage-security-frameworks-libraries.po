@@ -5,15 +5,16 @@
 # 
 # Translators:
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,18 +22,18 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# 0db818f835f84e14a108543c00f38092
-#: ../../c2-leverage-security-frameworks-libraries.md:1
+# 056d53606f274d98a5aead74c82722c0
+#: ../../c2-leverage-security-frameworks-libraries.rst:2
 msgid "C2: Leverage Security Frameworks and Libraries"
 msgstr "C2: Использование безопасных фреймворков и библиотек"
 
-# 7accbf79db4f4bde93aea256ac89bbb0
-#: ../../c2-leverage-security-frameworks-libraries.md:3
+# 4ce8ece185804e769f11c8f0cc368008
+#: ../../c2-leverage-security-frameworks-libraries.rst:5
 msgid "Description"
 msgstr "Описание"
 
-# b19be09f47ae47608131ae2bfd7ebe16
-#: ../../c2-leverage-security-frameworks-libraries.md:5
+# 774fc206ca714b4bbb5afb79c31e388b
+#: ../../c2-leverage-security-frameworks-libraries.rst:7
 msgid ""
 "Secure coding libraries and software frameworks with embedded security help "
 "software developers guard against security-related design and implementation"
@@ -48,13 +49,13 @@ msgstr ""
 "безопасности приложения. Использование безопасных фреймворков позволяет "
 "добиваться безопасности приложений более эффективно."
 
-# 521551ac41994cfe9ab3bad6de8f898d
-#: ../../c2-leverage-security-frameworks-libraries.md:7
+# 4228bdf2241a4c2bbd3f503fa581c7a2
+#: ../../c2-leverage-security-frameworks-libraries.rst:10
 msgid "Implementation Best Practices"
 msgstr "Рекомендации по реализации"
 
-# e25af8c59ba2480aa388f31e90aa45cc
-#: ../../c2-leverage-security-frameworks-libraries.md:9
+# 5a7d2c260629437bb31e5d4a60fc8659
+#: ../../c2-leverage-security-frameworks-libraries.rst:12
 msgid ""
 "When incorporating third party libraries or frameworks into your software, "
 "it is important to consider the following best practices:"
@@ -62,8 +63,8 @@ msgstr ""
 "При включении сторонних библиотек или фреймворков в свое ПО необходимо "
 "учитывать следующие рекомендации:"
 
-# 32272ebd0fcc4b80b8f738a93d0defc2
-#: ../../c2-leverage-security-frameworks-libraries.md:11
+# 445596985e7946e8b1ffdfa11f89aaea
+#: ../../c2-leverage-security-frameworks-libraries.rst:14
 msgid ""
 "Use libraries and frameworks from trusted sources that are actively "
 "maintained and widely used by many applications."
@@ -71,29 +72,32 @@ msgstr ""
 "используйте библиотеки и фреймворки из доверенных источников, которые "
 "активно разрабатываются и широко применяются в приложениях;"
 
-# d8a5de90b3f04e32ac7a369f865d82d9
-#: ../../c2-leverage-security-frameworks-libraries.md:12
+# 8d09c913929540559dbcaaee91c2e0fd
+#: ../../c2-leverage-security-frameworks-libraries.rst:15
 msgid ""
 "Create and maintain an inventory catalog of all the third party libraries."
 msgstr ""
 "составьте и поддерживайте в актуальном состоянии каталог всех сторонних "
 "библиотек;"
 
-# 9692ab07ad494ebaa54514979825d82f
-#: ../../c2-leverage-security-frameworks-libraries.md:13
+# ac66e1a0bb7f4ef386e1a3f36bd751b4
+#: ../../c2-leverage-security-frameworks-libraries.rst:16
 msgid ""
-"Proactively keep libraries and components up to date. Use a tool like OWASP "
-"Dependency Check and Retire.JS to identify project dependencies and check if"
-" there are any known, publicly disclosed vulnerabilities for all third party"
-" code."
+"Proactively keep libraries and components up to date. Use a tool like `OWASP"
+" Dependency Check <https://www.owasp.org/index.php/OWASP_Dependency_Check>`_"
+" and `Retire.JS <https://retirejs.github.io/retire.js/>`_ to identify "
+"project dependencies and check if there are any known, publicly disclosed "
+"vulnerabilities for all third party code."
 msgstr ""
 "своевременно обновляйте библиотеки и компоненты. Используйте инструменты, "
-"такие как Проверки зависимостей OWASP и Retire.JS, для определения "
-"зависимостей в проектах, а также проверяйте наличие известных и "
-"опубликованных уязвимостей в стороннем коде;"
+"такие как `Проверки зависимостей OWASP "
+"<https://www.owasp.org/index.php/OWASP_Dependency_Check>`_ и `Retire.JS "
+"<https://retirejs.github.io/retire.js/>`_, для определения зависимостей в "
+"проектах, а также проверяйте наличие известных и опубликованных уязвимостей "
+"в стороннем коде;"
 
-# 179e95f1dfbb4471a591540a7e380ea9
-#: ../../c2-leverage-security-frameworks-libraries.md:14
+# 1822e0bcf54545e58ed27f9b32243834
+#: ../../c2-leverage-security-frameworks-libraries.rst:17
 msgid ""
 "Reduce the attack surface by encapsulating the library and expose only the "
 "required behaviour into your software."
@@ -101,39 +105,47 @@ msgstr ""
 "для снижения вероятности атак используйте инкапсуляцию библиотек и только "
 "необходимый для вашего ПО функционал."
 
-# 8454853c1e0a4d9090d5c2d099a23cd5
-#: ../../c2-leverage-security-frameworks-libraries.md:16
+# 98a33c5a5d004390af59856d72f5af9c
+#: ../../c2-leverage-security-frameworks-libraries.rst:20
 msgid "Vulnerabilities Prevented"
 msgstr "Предотвращаемые уязвимости"
 
-# c3122394ec7747d9b4e45b116e0e0f57
-#: ../../c2-leverage-security-frameworks-libraries.md:18
+# 81ecaa44b9b046039832aba6af3c44c9
+#: ../../c2-leverage-security-frameworks-libraries.rst:22
 msgid ""
 "Secure frameworks and libraries can help to prevent a wide range of web "
 "application vulnerabilities. It is critical to keep these frameworks and "
-"libraries up to date as described in the using components with known "
-"vulnerabilities Top Ten 2017 risk."
+"libraries up to date as described in the `using components with known "
+"vulnerabilities Top Ten 2017 risk "
+"<https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>`_."
 msgstr ""
 "Использование безопасных фреймворков и библиотек поможет избежать большого "
 "количество уязвимостей в веб-приложениях. Очень важно поддерживать эти "
-"фреймворки и библиотеки в актуальном состоянии, см. раздел об использовании "
-"компонентов с известными уязвимостями в Топ-10 2017."
+"фреймворки и библиотеки в актуальном состоянии, см. раздел об `использовании"
+" компонентов с известными уязвимостями в Топ-10 2017  "
+"<https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>`_."
 
-# fbf25a9765b846df847bf2223d8d8f45
-#: ../../c2-leverage-security-frameworks-libraries.md:20
+# 723aa199968549afac922b4b52972702
+#: ../../c2-leverage-security-frameworks-libraries.rst:25
 msgid "Tools"
 msgstr "Инструменты"
 
-# b1201db11b4d45b38baca00e84c77e28
-#: ../../c2-leverage-security-frameworks-libraries.md:22
+# 7cb1288d93724cbcb73e34912ccd08f0
+#: ../../c2-leverage-security-frameworks-libraries.rst:27
 msgid ""
-"OWASP Dependency Check - identifies project dependencies and checks for "
-"publicly disclosed vulnerabilities"
+"`OWASP Dependency Check "
+"<https://www.owasp.org/index.php/OWASP_Dependency_Check>`_ - identifies "
+"project dependencies and checks for publicly disclosed vulnerabilities"
 msgstr ""
-"Проверки зависимостей OWASP — определяют зависимости в проектах и проверяют "
-"наличие общеизвестных уязвимостей."
+"`Проверки зависимостей OWASP  "
+"<https://www.owasp.org/index.php/OWASP_Dependency_Check>`_ — определяют "
+"зависимости в проектах и проверяют наличие общеизвестных уязвимостей."
 
-# fe6eced4909549089114c92fc3861a08
-#: ../../c2-leverage-security-frameworks-libraries.md:23
-msgid "Retire.JS scanner for JavaScript libraries"
-msgstr "Retire.JS — сканер библиотек JavaScript."
+# 1546cc54543a4e65a41cf03eff62d0ba
+#: ../../c2-leverage-security-frameworks-libraries.rst:28
+msgid ""
+"`Retire.JS <http://retirejs.github.io/retire.js/>`_ scanner for JavaScript "
+"libraries"
+msgstr ""
+"`Retire.JS <http://retirejs.github.io/retire.js/>`_ — сканер библиотек "
+"JavaScript."

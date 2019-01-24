@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
 "Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
@@ -21,29 +21,26 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# be437af4a1a1468a9015e857f254c6e1
-#: ../../c7-enforce-access-controls.md:1
+# e2ef1d0ca90d4f29a49afefb20e84516
+#: ../../c7-enforce-access-controls.rst:2
 msgid "C7: Enforce Access Controls"
 msgstr "C7: Обязательный контроль доступа"
 
-# 36458c14432445029f32584ccc210896
-#: ../../c7-enforce-access-controls.md:3
+# 24f87ff48b144fdcb56e5651f0c65882
+#: ../../c7-enforce-access-controls.rst:5
 msgid "Description"
 msgstr "Описание"
 
-# 998d707f79864cf8bd5fbe8ef96f6e19
-#: ../../c7-enforce-access-controls.md:5
+# 9f34250f28cf459295c9779af1a7f2fb
+#: ../../c7-enforce-access-controls.rst:7
 msgid ""
 "Access Control (or Authorization) is the process of granting or denying "
-"specific requests from a user, program, or process. Access control also "
-"involves the act of granting and revoking those privileges."
+"*specific requests* from a user, program, or process. Access control also "
+"involves the act of *granting and revoking those privileges*."
 msgstr ""
-"Контроль доступа (или Авторизация) заключается в разрешении или запрещении "
-"специфических запросов, поступающих от пользователей, программ или "
-"процессов, а также предполагает выдачу и отзыв подобных привилегий."
 
-# d0da656d27344defab2d0050a8e26084
-#: ../../c7-enforce-access-controls.md:7
+# cae272cbd7d144a9b914948f28a8a298
+#: ../../c7-enforce-access-controls.rst:9
 msgid ""
 "It should be noted that authorization (verifying access to specific features"
 " or resources) is not equivalent to authentication (verifying identity)."
@@ -52,8 +49,8 @@ msgstr ""
 "специальным функциям или ресурсам) не равняется аутентификации "
 "(подтверждению личности)."
 
-# 7be8434cad5a45159c3af02bc204e52b
-#: ../../c7-enforce-access-controls.md:9
+# 56892ba3c2bc439eb5f3ab740ad2dc41
+#: ../../c7-enforce-access-controls.rst:11
 msgid ""
 "Access Control functionality often spans many areas of software depending on"
 " the complexity of the access control system. For example, managing access "
@@ -69,8 +66,8 @@ msgstr ""
 "создавать или обслуживать. Существует несколько разных подходов к контролю "
 "доступа:"
 
-# ae517dc91c1040db988f08c8e0ec66dd
-#: ../../c7-enforce-access-controls.md:12
+# e7a4c9167ded4c278fa0ff4a5c853658
+#: ../../c7-enforce-access-controls.rst:14
 msgid ""
 "Discretionary Access Control (DAC) is a means of restricting access to "
 "objects (e.g., files, data entities) based on the identity and need-to-know "
@@ -82,8 +79,8 @@ msgstr ""
 "а также принципа \"необходимого знания\" субъектов (например, пользователей "
 "или процессов) и/или групп, которым принадлежат объекты;"
 
-# adbe7d76114e40cf9967ad682508ea3b
-#: ../../c7-enforce-access-controls.md:13
+# 84d801a27e1c479f8a5f85c4f83f0bdf
+#: ../../c7-enforce-access-controls.rst:15
 msgid ""
 "Mandatory Access Control (MAC) is a means of restricting access to system "
 "resources based on the sensitivity (as represented by a label) of the "
@@ -95,8 +92,8 @@ msgstr ""
 "содержащихся в этих ресурсах, и формальных полномочий (т. е. допуска) "
 "пользователей на доступ к информации, указанной важности;"
 
-# a26dcd82a5434efab32434fae4abed83
-#: ../../c7-enforce-access-controls.md:14
+# 9d1ac2ad341643fcad1bd5be5faf83b4
+#: ../../c7-enforce-access-controls.rst:16
 msgid ""
 "Role Based Access Control (RBAC) is a model for controlling access to "
 "resources where permitted actions on resources are identified with roles "
@@ -106,8 +103,8 @@ msgstr ""
 "ресурсам на основе ролей, определяющих разрешенные действия с ресурсами, а "
 "не на основе идентификаторов субъектов;"
 
-# 88b3d76c883d442c8edc4173b4d1626e
-#: ../../c7-enforce-access-controls.md:15
+# 98117a86b02c48c8b9fba5089705e008
+#: ../../c7-enforce-access-controls.rst:17
 msgid ""
 "Attribute Based Access Control (ABAC) will grant or deny user requests based"
 " on arbitrary attributes of the user and arbitrary attributes of the object,"
@@ -119,13 +116,13 @@ msgstr ""
 "атрибутов объекта, а также элементов окружения, которые могут определяться "
 "глобально и быть более релевантными для применяемых политик."
 
-# 6ebc7528ce7e4c83bf4fe05723c76d69
-#: ../../c7-enforce-access-controls.md:17
+# cdef40a3542345c39424362b02509aec
+#: ../../c7-enforce-access-controls.rst:20
 msgid "Access Control Design Principles"
 msgstr "Принципы создания систем контроля доступа"
 
-# 0e037a14087b4df8ba115758aa083d20
-#: ../../c7-enforce-access-controls.md:19
+# d334662320be4df2a569ae3fa6bf9014
+#: ../../c7-enforce-access-controls.rst:22
 msgid ""
 "The following \"positive\" access control design requirements should be "
 "considered at the initial stages of application development."
@@ -133,13 +130,13 @@ msgstr ""
 "Следующие требования к проектированию систем контроля доступа необходимо "
 "учитывать на начальных стадиях разработки приложения."
 
-# fe64492e8e8a4190943ca01fe690ed29
-#: ../../c7-enforce-access-controls.md:21
+# fadf7adf41a94ec0bd75f618725687c6
+#: ../../c7-enforce-access-controls.rst:25
 msgid "1) Design Access Control Thoroughly Up Front"
 msgstr "1) Проектируйте тщательно и заранее"
 
-# 8581a0d26f1d4d28b0d917fab4a7c25d
-#: ../../c7-enforce-access-controls.md:23
+# fb7a41292c7d42f7a221d2d1739af064
+#: ../../c7-enforce-access-controls.rst:27
 msgid ""
 "Once you have chosen a specific access control design pattern, it is often "
 "difficult and time consuming to re-engineer access control in your "
@@ -155,8 +152,8 @@ msgstr ""
 " реализации требований мультитенантности и горизонтального (зависящего от "
 "данных) контроля доступа."
 
-# f986341e0ef44548801c09b707bb3dd5
-#: ../../c7-enforce-access-controls.md:25
+# 361adf7b8a3048de9d6d8614a94c9db2
+#: ../../c7-enforce-access-controls.rst:29
 msgid ""
 "Access Control design may start simple but can often grow into a complex and"
 " feature-heavy security control. When evaluating access control capability "
@@ -168,13 +165,13 @@ msgstr ""
 "возможностей фреймворков в части контроля доступа убедитесь в том, что они "
 "позволят вам адаптировать контроль доступа под свои нужды."
 
-# 2fad8406d2284767afa0115546b6e4e1
-#: ../../c7-enforce-access-controls.md:27
+# d9c7f255307b4b5a8d2fc34d2c4fe0d3
+#: ../../c7-enforce-access-controls.rst:32
 msgid "2) Force All Requests to Go Through Access Control Checks"
 msgstr "2) Направляйте все запросы через систему контроля доступа"
 
-# 6258bd3c871149a6801c1576411f5126
-#: ../../c7-enforce-access-controls.md:29
+# 810460aa2f1d4a25a87e2d1afea47aed
+#: ../../c7-enforce-access-controls.rst:34
 msgid ""
 "Ensure that all request go through some kind of access control verification "
 "layer. Technologies like Java filters or other automatic request processing "
@@ -186,13 +183,13 @@ msgstr ""
 "являются идеальными программными артефактами, помогающими обеспечить "
 "проверку контроля доступа всех запросов."
 
-# 2cdfe4caff924e348ba3ca1eebf27d15
-#: ../../c7-enforce-access-controls.md:31
+# 2e587be6bbb64313aba7968f39605c24
+#: ../../c7-enforce-access-controls.rst:37
 msgid "3) Deny by Default"
 msgstr "3) Запрещайте доступ по умолчанию"
 
-# cc7557fba78e4ee3a2a0964045463511
-#: ../../c7-enforce-access-controls.md:33
+# 138cd9d73d8543cdb5b070c1cf026ed7
+#: ../../c7-enforce-access-controls.rst:39
 msgid ""
 "Deny by default is the principle that if a request is not specifically "
 "allowed, it is denied. There are many ways that this rule will manifest in "
@@ -202,8 +199,8 @@ msgstr ""
 "отклоняется. Есть много способов реализации данного правила в коде "
 "приложения. Ниже представлены некоторые из них."
 
-# edbb0c67c5a445bbb48495d85cbdd081
-#: ../../c7-enforce-access-controls.md:35
+# ff539ad02ab9474f9eac5f4958cb2db8
+#: ../../c7-enforce-access-controls.rst:41
 msgid ""
 "Application code may throw an error or exception while processing access "
 "control requests. In these cases access control should always be denied."
@@ -211,8 +208,8 @@ msgstr ""
 "Приложение может выдавать ошибку или исключение при обработке запросов на "
 "предоставление доступа. В подобных случаях в доступе должно быть отказано."
 
-# b5475d02fb884ffe975db026bdf1498c
-#: ../../c7-enforce-access-controls.md:36
+# e2de5125bc0940a1838f8372210fec48
+#: ../../c7-enforce-access-controls.rst:42
 msgid ""
 "When an administrator creates a new user or a user registers for a new "
 "account, that account should have minimal or no access by default until that"
@@ -222,8 +219,8 @@ msgstr ""
 "учетная запись по умолчанию должна иметь минимальный или нулевой набор прав "
 "доступа, пока эти права не будут назначены."
 
-# 3fbeabdd53a24ef389f80abb9da76cfc
-#: ../../c7-enforce-access-controls.md:37
+# 93b81152ec314c0db21df6e51afecc4e
+#: ../../c7-enforce-access-controls.rst:43
 msgid ""
 "When a new feature is added to an application all users should be denied to "
 "use that feature until it's properly configured."
@@ -231,13 +228,13 @@ msgstr ""
 "При добавлении новой функции в приложение никто из пользователей не должен "
 "иметь права использовать ее до выполнения соответствующей настройки."
 
-# ec50c38862fa4f0ba1bd81a999b32fc9
-#: ../../c7-enforce-access-controls.md:39
+# 1df9e4a6b68e49918355645a3065b029
+#: ../../c7-enforce-access-controls.rst:46
 msgid "4) Principle of Least Privilege"
 msgstr "4) Принцип минимальных привилегий"
 
-# a27026cf5acd4449910551a0f82f74b6
-#: ../../c7-enforce-access-controls.md:41
+# 8b851f277cf14063bb9e7010a5a32853
+#: ../../c7-enforce-access-controls.rst:48
 msgid ""
 "Ensure that all users, programs, or processes are only given as least or as "
 "little necessary access as possible. Be wary of systems that do not provide "
@@ -247,13 +244,13 @@ msgstr ""
 "или только необходимые права доступа. Внимание: некоторые системы не "
 "поддерживают настройку детального управления доступом."
 
-# 68a264b9e77f4d998776fbc7690a6002
-#: ../../c7-enforce-access-controls.md:43
+# 8416b963b4e745f98f63f911b2a864dc
+#: ../../c7-enforce-access-controls.rst:51
 msgid "5) Don't Hardcode Roles"
 msgstr "5) Не используйте жестко закодированные роли"
 
-# f3657a04e3c44f8490f111a0adbf9f03
-#: ../../c7-enforce-access-controls.md:45
+# cf3a9c95a6594c848e5111ccd75e35f8
+#: ../../c7-enforce-access-controls.rst:53
 msgid ""
 "Many application frameworks default to access control that is role based. It"
 " is common to find application code that is filled with checks of this "
@@ -263,8 +260,8 @@ msgstr ""
 "управления доступом. В коде многих приложений не редко встречаются проверки "
 "подобного рода. "
 
-# 1962c9ca2f874e48874e75b5c73a8111
-#: ../../c7-enforce-access-controls.md:53
+# 0d8036a3489444e18d6ec849021a1d73
+#: ../../c7-enforce-access-controls.rst:61
 msgid ""
 "Be careful about this type of role-based programming in code. It has the "
 "following limitations or dangers."
@@ -272,8 +269,8 @@ msgstr ""
 "Нужно быть осторожным при использовании ролевой модели в коде. Она имеет "
 "следующие ограничения и риски."
 
-# ec060515b255452db4233322f764d905
-#: ../../c7-enforce-access-controls.md:55
+# 826bb83e1a7546e6be2bc0de447648f3
+#: ../../c7-enforce-access-controls.rst:63
 msgid ""
 "Role based programming of this nature is fragile. It is easy to create "
 "incorrect or missing role checks in code."
@@ -281,8 +278,8 @@ msgstr ""
 "Программирование с использованием ролевой модели — дело рискованное. Легко "
 "создать некорректную или пропустить проверку ролей в коде."
 
-# 34dadae0a2ef49509021f9a21583f4b6
-#: ../../c7-enforce-access-controls.md:56
+# 31036ce00e18496da97ec017edff1ccd
+#: ../../c7-enforce-access-controls.rst:64
 msgid ""
 "Role based programming does not allow for multi-tenancy. Extreme measures "
 "like forking the code or added checks for each customer will be required to "
@@ -293,8 +290,8 @@ msgstr ""
 " потребует создания отдельной ветки кода или добавления отдельных проверок "
 "для каждого заказчика."
 
-# 6b82f79a5f9d48d6baf50155f8e4a7b1
-#: ../../c7-enforce-access-controls.md:57
+# e9ce3435ae9c4dbebc34ac1798963102
+#: ../../c7-enforce-access-controls.rst:65
 msgid ""
 "Role based programming does not allow for data-specific or horizontal access"
 " control rules."
@@ -302,8 +299,8 @@ msgstr ""
 "Программирование с использованием ролевой модели не поддерживает зависящее "
 "от данных или горизонтальное управление доступом."
 
-# 343c907f76a840429ff05499ee7512cb
-#: ../../c7-enforce-access-controls.md:58
+# 551b74c7c8df40feb1a3405c3b03b8a8
+#: ../../c7-enforce-access-controls.rst:66
 msgid ""
 "Large codebases with many access control checks can be difficult to audit or"
 " verify the overall application access control policy."
@@ -312,16 +309,16 @@ msgstr ""
 "проводить аудит или проверять политику управления доступом во всем "
 "приложении."
 
-# edb3591887074b93ae0b1c1d5a2cd1a4
-#: ../../c7-enforce-access-controls.md:60
+# e6797c31504a4053ade2a18015af6d51
+#: ../../c7-enforce-access-controls.rst:68
 msgid ""
 "Instead, please consider the following access control programming "
 "methodology:"
 msgstr ""
 "Вместо этого попробуйте использовать следующий способ управления доступом:"
 
-# 94228e43b6c74910b45f57aafb21437c
-#: ../../c7-enforce-access-controls.md:68
+# c65b0dd2da0b46b1bda17315f629112e
+#: ../../c7-enforce-access-controls.rst:76
 msgid ""
 "Attribute or feature-based access control checks of this nature are the "
 "starting point to building well-designed and feature-rich access control "
@@ -334,13 +331,13 @@ msgstr ""
 "программирования в дальнейшем обеспечит более гибкую кастомизацию контроля "
 "доступа."
 
-# 3c4c13295d7f4a219d630aeae6023439
-#: ../../c7-enforce-access-controls.md:71
+# c7f118e99186432d8905dbf755fb50db
+#: ../../c7-enforce-access-controls.rst:80
 msgid "6) Log All Access Control Events"
 msgstr "6) Регистрируйте все события, связанные с контролем доступа"
 
-# 19a2f6e927f54d65925409c93f288b4a
-#: ../../c7-enforce-access-controls.md:73
+# f059f54f8f1a40e782591b2fb48dec95
+#: ../../c7-enforce-access-controls.rst:82
 msgid ""
 "All access control failures should be logged as these may be indicative of a"
 " malicious user probing the application for vulnerabilities."
@@ -348,53 +345,60 @@ msgstr ""
 "Все неудачные попытки получения доступа должны регистрироваться, поскольку "
 "они могут служить признаком поиска злоумышленником уязвимостей в приложении."
 
-# 730f546bc2224518a0759eb7ef951d10
-#: ../../c7-enforce-access-controls.md:75
+# 70c6b4bbbb164cbc8977cf1781ee4e26
+#: ../../c7-enforce-access-controls.rst:85
 msgid "Vulnerabilities Prevented"
 msgstr "Предотвращаемые уязвимости"
 
-# 63d13027eb9a40a0af6cd6597bd36ff5
-#: ../../c7-enforce-access-controls.md:77
-msgid "OWASP Top 10 2017-A5-Broken Access Control"
-msgstr "Топ-10 OWASP 2017 - А5: Недостатки контроля доступа"
-
-# 429e2c6eb4ca4348954c11f88d89ef46
-#: ../../c7-enforce-access-controls.md:78
-msgid "OWASP Mobile Top 10 2014-M5 Poor Authorization and Authentication"
+# 69c93703fe414ea29470bf27d18f892d
+#: ../../c7-enforce-access-controls.rst:87
+msgid ""
+"`OWASP Top 10 2017-A5-Broken Access Control "
+"<https://www.owasp.org/index.php/Top_10-2017_A5-Broken_Access_Control>`_"
 msgstr ""
-"Топ-10 OWASP 2014 (мобильные устройства) - M5: Ненадежная авторизация и "
-"аутентификация"
 
-# 7f8a0fff4e2c4faf9f0c2a67c89668a0
-#: ../../c7-enforce-access-controls.md:80
+# 39c5e959381c46c7ba58e0fba5cb392c
+#: ../../c7-enforce-access-controls.rst:88
+msgid ""
+"`OWASP Mobile Top 10 2014-M5 Poor Authorization and Authentication "
+"<https://www.owasp.org/index.php/Mobile_Top_10_2014-M5>`_"
+msgstr ""
+
+# b9c20cff5ede4c84a826622474fe6920
+#: ../../c7-enforce-access-controls.rst:91
 msgid "References"
 msgstr "Ссылки"
 
-# 3730a5f89099495dbe68457666ee2284
-#: ../../c7-enforce-access-controls.md:82
-msgid "OWASP Cheat Sheet: Access Control"
-msgstr "Памятка OWASP: Контроль доступа"
-
-# 2496361c0fcd412884e7493844e0d2b4
-#: ../../c7-enforce-access-controls.md:83
+# a565f90dfc7b4ae3b356415cefc24c45
+#: ../../c7-enforce-access-controls.rst:93
 msgid ""
-"OWASP Cheat Sheet:  iOS Developer - Poor Authorization and Authentication"
+"`OWASP Cheat Sheet: Access Control "
+"<https://www.owasp.org/index.php/Access_Control_Cheat_Sheet>`_"
 msgstr ""
-"Памятка OWASP: Для разработчиков iOS - Ненадежная авторизация и "
-"аутентификация"
 
-# d0fd4d1f20d34b949b2886ca62159124
-#: ../../c7-enforce-access-controls.md:84
-msgid "OWASP Testing Guide: Testing for Authorization"
-msgstr "Руководство OWASP по тестированию: Тестирование авторизации"
+# 8a2428582c0f40dc944f17afa90620d8
+#: ../../c7-enforce-access-controls.rst:94
+msgid ""
+"`OWASP Cheat Sheet:  iOS Developer - Poor Authorization and Authentication "
+"<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet#Remediations_5>`_"
+msgstr ""
 
-# 844b93409a4243fb81018d255bb36dda
-#: ../../c7-enforce-access-controls.md:86
+# 26b72a35dfd04c62b2a8e752cc3045f6
+#: ../../c7-enforce-access-controls.rst:95
+msgid ""
+"`OWASP Testing Guide: Testing for Authorization "
+"<https://www.owasp.org/index.php/Testing_for_Authorization>`_"
+msgstr ""
+
+# 1b7ef8a163404384b0c49477a2fb6c45
+#: ../../c7-enforce-access-controls.rst:98
 msgid "Tools"
 msgstr "Инструменты"
 
-# 6e6f3b32d5f642d8aa6f16166db94ad9
-#: ../../c7-enforce-access-controls.md:88
-msgid "OWASP ZAP with the optional Access Control Testing add-on"
+# 0d7c8b5d9a424c67bf263942339ec235
+#: ../../c7-enforce-access-controls.rst:100
+msgid ""
+"`OWASP ZAP <https://www.owasp.org/index.php/ZAP>`_ with the optional `Access"
+" Control Testing <https://github.com/zaproxy/zap-"
+"extensions/wiki/HelpAddonsAccessControlConcepts>`_ add-on"
 msgstr ""
-"OWASP ZAP с дополнительным компонентом для Тестирования контроля доступа"
