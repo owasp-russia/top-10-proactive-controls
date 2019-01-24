@@ -28,4 +28,4 @@ OWASP Top 10 Proactive Controls 2018
    c8-protect-data-everywhere
    c9-implement-security-logging-monitoring
    c10-handle-errors-exceptions
-   final-word.md
+   final-word

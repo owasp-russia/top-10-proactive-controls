@@ -1,0 +1,30 @@
+DOCUMENT STRUCTURE
+==================
+
+This document is structured as a list of security controls. Each control is described as follows:
+
+::
+
+    Cx: Control Name
+
+
+    DESCRIPTION
+
+    A detailed description of the control including some best practices to consider.
+
+    IMPLEMENTATION
+
+    Implementation best practices  and examples to illustrate how to implement each control.
+
+    VULNERABILITIES PREVENTED
+
+    List of prevented vulnerabilities or risks addressed (OWASP TOP 10 Risk, CWE, etc.)
+
+    REFERENCES
+
+    List of references for further study (OWASP Cheat sheet, Security Hardening Guidelines, etc.)
+
+
+    TOOLS
+
+    Set of tools/projects to easily introduce/integrate security controls into your software.
