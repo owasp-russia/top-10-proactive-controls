@@ -209,7 +209,7 @@ msgstr ""
 "кодировать и проверять все потенциально опасные символы перед их записью в "
 "журнал для предотвращения `внедрения данных "
 "<https://www.owasp.org/index.php/Log_Injection>`_  или `подделки журналов "
-"<https://www.owasp.org/index.php/Log_Forging>`;"
+"<https://www.owasp.org/index.php/Log_Forging>`_;"
 
 # bef967d75804466595b6ec3d998083f1
 #: ../../c9-implement-security-logging-monitoring.rst:46

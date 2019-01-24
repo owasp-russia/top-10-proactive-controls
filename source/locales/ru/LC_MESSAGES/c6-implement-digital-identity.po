@@ -199,7 +199,7 @@ msgstr ""
 "Более подробную информацию см. в `Памятке по забытым паролям "
 "<https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet>`_ и `Памятке "
 "по выбору и использованию контрольных вопросов "
-"<https://www.owasp.org/index.php/Choosing_and_Using_Security_Questions_Cheat_Sheet>`."
+"<https://www.owasp.org/index.php/Choosing_and_Using_Security_Questions_Cheat_Sheet>`_."
 
 # 584eecd45f854cf8b3b83399e4f990af
 #: ../../c6-implement-digital-identity.rst:40
@@ -592,7 +592,7 @@ msgid ""
 "<https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication>`_"
 msgstr ""
 "`Топ-10 OWASP 2017 - A2: Недостатки аутентификации и управления сессиями "
-"https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication>`_"
+"<https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication>`_"
 
 # c63c2b54fd8b4df2a44fa2ad87f4f657
 #: ../../c6-implement-digital-identity.rst:129

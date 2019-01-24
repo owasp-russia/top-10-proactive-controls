@@ -77,7 +77,7 @@ msgstr ""
 "OWASP (ASVS) "
 "<https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project>`_"
 " и `Стандарта подтверждения безопасности мобильных приложений OWASP (MASVS) "
-"<https://github.com/OWASP/owasp-masvs>`;"
+"<https://github.com/OWASP/owasp-masvs>`_;"
 
 # dc50ee478ff045bab57b0b5e344e63c5
 #: ../../final-word.rst:10
