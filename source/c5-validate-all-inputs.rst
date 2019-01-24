@@ -98,7 +98,7 @@ Consider an application that needs to accept HTML from users (via a WYSIWYG edit
 * Regular expressions are not expressive enough to understand the complexity of HTML5.
 * Encoding or escaping HTML will not help since it will cause the HTML to not render properly.
 
-Therefore, you need a library that can parse and clean HTML formatted text. Please see the `[XSS Prevention Cheat Sheet on HTML Sanitization <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.236_-_Sanitize_HTML_Markup_with_a_Library_Designed_for_the_Job>`_ for more information on HTML Sanitization.
+Therefore, you need a library that can parse and clean HTML formatted text. Please see the `XSS Prevention Cheat Sheet on HTML Sanitization <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.236_-_Sanitize_HTML_Markup_with_a_Library_Designed_for_the_Job>`_ for more information on HTML Sanitization.
 
 Validation Functionality in Libraries and Frameworks
 -----------------------------------------------------
@@ -110,7 +110,7 @@ Vulnerabilities Prevented
 
 * Input validation reduces the attack surface of applications and can sometimes make attacks more difficult against an application.
 * Input validation is a technique that provides security to certain forms of data, specific to certain attacks and cannot be reliably applied as a general security rule.
-* Input validation should not be used as the primary method of preventing `[XSS <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet>`_, `SQL Injection <https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet>`_ and other attacks.
+* Input validation should not be used as the primary method of preventing `XSS <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet>`_, `SQL Injection <https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet>`_ and other attacks.
 
 References
 -----------

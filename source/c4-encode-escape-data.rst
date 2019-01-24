@@ -30,7 +30,7 @@ PHP Encoding Examples
 Zend Framework 2
 """"""""""""""""
 
-In Zend Framework 2 (ZF2), ``Zend\Escaper`` can be used for encoding the output. For contextual encoding examples see `Context-specific escaping with zend-escaper<https://framework.zend.com/blog/2017-05-16-zend-escaper.html>`_.
+In Zend Framework 2 (ZF2), ``Zend\Escaper`` can be used for encoding the output. For contextual encoding examples see `Context-specific escaping with zend-escaper <https://framework.zend.com/blog/2017-05-16-zend-escaper.html>`_.
 
 Other Types of Encoding and Injection Defense
 ----------------------------------------------

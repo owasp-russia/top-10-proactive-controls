@@ -27,7 +27,7 @@ Passwords should comply with the following requirements at the very least:
 * all printing ASCII characters as well as the space character should be acceptable in memorized secrets
 * encourage the use of long passwords and passphrases
 * remove complexity requirements as these have been found to be of limited effectiveness. Instead, the adoption of MFA or longer password lengths is recommended
-* ensure that passwords used are not commonly used passwords that have been already been leaked in a previous compromise.  You may choose to block the top 1000 or 10000 most common passwords which meet the above length requirements and are found in compromised password lists.  The following link contains the most commonly found passwords: `https://github.com/danielmiessler/SecLists/tree/master/Passwords <https://github.com/danielmiessler/SecLists/tree/master/Passwords`_
+* ensure that passwords used are not commonly used passwords that have been already been leaked in a previous compromise.  You may choose to block the top 1000 or 10000 most common passwords which meet the above length requirements and are found in compromised password lists.  The following link contains the most commonly found passwords: `https://github.com/danielmiessler/SecLists/tree/master/Passwords <https://github.com/danielmiessler/SecLists/tree/master/Passwords>`_
 
 Implement Secure Password Recovery Mechanism
 """"""""""""""""""""""""""""""""""""""""""""
@@ -111,7 +111,7 @@ Server-side sessions can be limiting for some forms of authentication. "Stateles
 JWT (JSON Web Tokens)
 ~~~~~~~~~~~~~~~~~~~~~~
 
-JSON Web Token (JWT) is an open standard (`RFC 7519 <https://tools.ietf.org/html/rfc7519)>`_ that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. A JWT token is created during authentication and is verified by the server (or servers) before any processing.
+JSON Web Token (JWT) is an open standard (`RFC 7519 <https://tools.ietf.org/html/rfc7519>`_) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. A JWT token is created during authentication and is verified by the server (or servers) before any processing.
 
 However, JWT's are often not saved by the server after initial creation. JWT's are typically created and then handed to a client without being saved by the server in any way. The integrity of the token is maintained through the use of digital signatures so a server can later verify that the JWT is still valid and was not tampered with since its creation.
 
