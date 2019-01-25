@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# JZDLin, 2019
 # Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
+# JZDLin, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -440,6 +440,10 @@ msgid ""
 "<https://www.owasp.org/index.php/Session_Management_Cheat_Sheet>`_ further "
 "details. ASVS Section 3 covers additional session management requirements."
 msgstr ""
+"Более подробную информацию см. в `Памятке по управлению сессиями "
+"<https://www.owasp.org/index.php/Session_Management_Cheat_Sheet>`_. "
+"Дополнительные требования к управлению сессиями содержатся в разделе 3 "
+"стандарта ASVS."
 
 # faa7fd5902474a3a877d30796e4ccb74
 #: ../../c6-implement-digital-identity.rst:97
@@ -497,6 +501,12 @@ msgid ""
 "site requests and provides protection against cross-site request forgery and"
 " information leakage attacks."
 msgstr ""
+"добавление атрибутов \"`samesite "
+"<https://www.owasp.org/index.php/SameSite>`_\" к куки-файлам предотвращает "
+"отправку некоторыми `современными браузерами "
+"<https://caniuse.com/#search=samesite>`_ куки-файлов с межсайтовыми "
+"запросами, а также обеспечивает защиту от межсайтовой подмены запросов и "
+"утечки данных."
 
 # 1503e0f691d5495d9055c574963b2b59
 #: ../../c6-implement-digital-identity.rst:107
@@ -537,6 +547,12 @@ msgid ""
 "digitally signed. A JWT token is created during authentication and is "
 "verified by the server (or servers) before any processing."
 msgstr ""
+"Веб-токены JSON (JWT) представляют открытый стандарт (`RFC 7519 "
+"<https://tools.ietf.org/html/rfc7519>`_) компактного и самодостаточного "
+"способа безопасной передачи данных между клиентами с помощью JSON-объектов. "
+"Эти данные могут быть проверены и подтверждены, поскольку имеют цифровую "
+"подпись. JWT-токены создаются во время аутентификации и проверяются сервером"
+" (или серверами) перед началом обработки данных."
 
 # c647525d504d40268152cb5fa754e8f7
 #: ../../c6-implement-digital-identity.rst:116
@@ -614,6 +630,8 @@ msgid ""
 "`OWASP Cheat Sheet: Authentication "
 "<https://www.owasp.org/index.php/Authentication_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Аутентификация "
+"<https://www.owasp.org/index.php/Authentication_Cheat_Sheet>`_"
 
 # 5b6cb357cf91408fb5c8df85c305890a
 #: ../../c6-implement-digital-identity.rst:135
@@ -621,6 +639,8 @@ msgid ""
 "`OWASP Cheat Sheet: Password Storage "
 "<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Хранение паролей "
+"<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_"
 
 # 312214a76b0b4648a528965bb8c33743
 #: ../../c6-implement-digital-identity.rst:136
@@ -628,6 +648,8 @@ msgid ""
 "`OWASP Cheat Sheet: Forgot Password "
 "<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Забытый пароль "
+"<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_"
 
 # 8f926dd6ed23492eb8aa9633d1aa4571
 #: ../../c6-implement-digital-identity.rst:137
@@ -635,6 +657,8 @@ msgid ""
 "`OWASP Cheat Sheet: Choosing and Using Security Questions "
 "<https://www.owasp.org/index.php/Choosing_and_Using_Security_Questions_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Выбор и использование контрольных вопросов "
+"<https://www.owasp.org/index.php/Choosing_and_Using_Security_Questions_Cheat_Sheet>`_"
 
 # 0b5d00ecca5a4428a16aba4cf1b7cd37
 #: ../../c6-implement-digital-identity.rst:138
@@ -642,6 +666,8 @@ msgid ""
 "`OWASP Cheat Sheet: Session Management "
 "<https://www.owasp.org/index.php/Session_Management_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Управление сессиями "
+"<https://www.owasp.org/index.php/Session_Management_Cheat_Sheet>`_"
 
 # a7f82e6fbe10492b80ff6abd1a63687d
 #: ../../c6-implement-digital-identity.rst:139
@@ -649,6 +675,8 @@ msgid ""
 "`OWASP Cheat Sheet: IOS Developer "
 "<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Для разработчиков iOS "
+"<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet>`_"
 
 # 770ed41af9d7442d9ce76252a18da22f
 #: ../../c6-implement-digital-identity.rst:140
@@ -656,6 +684,8 @@ msgid ""
 "`OWASP Testing Guide: Testing for Authentication "
 "<https://www.owasp.org/index.php/Testing_for_authentication>`_"
 msgstr ""
+"`Руководство OWASP по тестированию: Тестирование аутентификации "
+"<https://www.owasp.org/index.php/Testing_for_authentication>`_"
 
 # c26a8ebaaa57464d9c7915a9c4090554
 #: ../../c6-implement-digital-identity.rst:141
@@ -663,6 +693,8 @@ msgid ""
 "`NIST Special Publication 800-63 Revision 3 - Digital Identity Guidelines "
 "<https://pages.nist.gov/800-63-3/sp800-63-3.html>`_"
 msgstr ""
+"`Специальное издание NIST 800-63 (Редакция 3) - Руководство по цифровым "
+"идентификаторам <https://pages.nist.gov/800-63-3/sp800-63-3.html>`_"
 
 # a0155b80a0c34e4dbad2f20cb774d56c
 #: ../../c6-implement-digital-identity.rst:144
@@ -675,3 +707,5 @@ msgid ""
 "Daniel Miessler: `Most commonly found passwords "
 "<https://github.com/danielmiessler/SecLists/tree/master/Passwords>`_"
 msgstr ""
+"Дэниел Мисслер (Daniel Miessler): Наиболее часто встречающиеся пароли "
+"<https://github.com/danielmiessler/SecLists/tree/master/Passwords>`_"

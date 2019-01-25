@@ -108,6 +108,11 @@ msgid ""
 " and the `OWASP Cheat Sheet on Query Parameterization "
 "<https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet>`_."
 msgstr ""
+"Примеры параметризации запросов для ASP, ColdFusion, C#, Delphi, .NET, Go, "
+"Java, Perl, PHP, PL/SQL, PostgreSQL, Python, R, Ruby и Scheme можно найти на"
+" сайте `http://bobby-tables.com <http://bobby-tables.com/>`_ и в `памятке "
+"OWASP по параметризации запросов "
+"<https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet>`_."
 
 # 129d948f9f884f73a5f421c15ba5f603
 #: ../../c3-secure-database-access.rst:24
@@ -190,6 +195,11 @@ msgid ""
 "unencrypted). It is a good practice to only use the secure communications "
 "options per the *Protect Data Everywhere* control."
 msgstr ""
+"Большинство СУБД поддерживают несколько способов связи (например, через "
+"службы или API), которые могут быть безопасными (аутентифицированными, "
+"зашифрованными) и небезопасными (неаутентифицированными или "
+"незашифрованными). Рекомендуется использовать только безопасные методы "
+"связи, как это описано в разделе *Повсеместная защита данных*."
 
 # c709c70f70e14805adaefea85d696cb6
 #: ../../c3-secure-database-access.rst:44
@@ -202,6 +212,8 @@ msgid ""
 "`OWASP Top 10 2017- A1: Injection "
 "<https://www.owasp.org/index.php/Top_10-2017_A1-Injection>`_"
 msgstr ""
+"`Топ-10 OWASP 2017 - A1: Внедрение "
+"<https://www.owasp.org/index.php/Top_10-2017_A1-Injection>`_"
 
 # cdf9a495f13b4e94b3ad7753f9f2b719
 #: ../../c3-secure-database-access.rst:47
@@ -209,6 +221,8 @@ msgid ""
 "`OWASP Mobile Top 10 2014-M1 Weak Server Side Controls "
 "<https://www.owasp.org/index.php/Mobile_Top_10_2014-M1>`_"
 msgstr ""
+"`Топ-10 OWASP 2014 (мобильные устройства) - M1: Ненадежные настройки на "
+"стороне сервера <https://www.owasp.org/index.php/Mobile_Top_10_2014-M1>`_"
 
 # fcff32dd993d49f69baf7d47f05849a8
 #: ../../c3-secure-database-access.rst:50
@@ -221,6 +235,8 @@ msgid ""
 "`OWASP Cheat Sheet: Query Parameterization "
 "<https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Параметризация запросов "
+"<https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet>`_"
 
 # a0a8452fbea24f209835a13397a4ff85
 #: ../../c3-secure-database-access.rst:53
@@ -228,6 +244,8 @@ msgid ""
 "`Bobby Tables: A guide to preventing SQL injection <http://bobby-"
 "tables.com/>`_"
 msgstr ""
+"`Bobby Tables: Руководство по предотвращению внедрений SQL-кода <http"
+"://bobby-tables.com/>`_"
 
 # e940f67270fa42e1b40c4c39110c905c
 #: ../../c3-secure-database-access.rst:54
@@ -235,3 +253,5 @@ msgid ""
 "`CIS Database Hardening Standards <https://www.cisecurity.org/cis-"
 "benchmarks/>`_"
 msgstr ""
+"`Стандарты CIS по улучшению безопасности баз данных "
+"<https://www.cisecurity.org/cis-benchmarks/>`_"

@@ -53,6 +53,9 @@ msgid ""
 "*semantically* valid (in that order) before using it in any way (including "
 "displaying it back to the user)."
 msgstr ""
+"Приложение должно проверять данные на соответствие *синтаксической* и "
+"*семантической* норме (именно в этом порядке) перед их использованием "
+"(включая отображение пользователю)."
 
 # 0899c0144b444b749cb72fc57bea1abb
 #: ../../c5-validate-all-inputs.rst:14
@@ -64,6 +67,13 @@ msgid ""
 "entered by the user is exactly four digits in length, and consists only of "
 "numbers (in addition to utilizing proper query parameterization)."
 msgstr ""
+"*Синтаксическая норма* означает соответствие данных ожидаемой форме "
+"представления. Например, в приложении пользователь может указывать "
+"четырехзначный \"идентификатор\" для выполнения некоторых операций. "
+"Злоумышленник может ввести данные, позволяющие ему внедрить SQL-код, поэтому"
+" приложение должно проверять, что вводимые данные представляют собой именно "
+"цифры и именно в количестве четырех символов (помимо использования "
+"соответствующей параметризации запросов)."
 
 # 2a476fc0f27a477da0a04659105abf33
 #: ../../c5-validate-all-inputs.rst:16
@@ -72,6 +82,9 @@ msgid ""
 "acceptable range for the given application functionality and context. For "
 "example, a start date must be before an end date when choosing date ranges."
 msgstr ""
+"*Семантическая норма* означает использование только входных данных, не "
+"выходящих за рамки определенной функциональности и контекста. Например, при "
+"указании временных рамок дата начала должна предшествовать дате завершения."
 
 # 19894b096667436499b7a15b6f4e7f49
 #: ../../c5-validate-all-inputs.rst:19
@@ -96,6 +109,12 @@ msgid ""
 "prevent XSS. However, this defense could be evaded with a lower case script "
 "tag or a script tag of mixed case."
 msgstr ""
+"*Черные списки* или *проверки по черному списку* предназначены для поиска в "
+"данных \"потенциально вредоносного\" контента. Например, веб-приложение "
+"может блокировать входные данные, содержащие слово ``<SCRIPT>``, с целью "
+"предотвращения межсайтового выполнения сценариев. Однако подобную меру "
+"защиты можно обойти, используя для тега script строчные буквы или комбинацию"
+" из строчных и прописных букв."
 
 # cdc8e7b6165942bb89be9edc3eb0ac2a
 #: ../../c5-validate-all-inputs.rst:24
@@ -105,6 +124,10 @@ msgid ""
 "rule for a US state would be a 2-letter code that is only one of the valid "
 "US states."
 msgstr ""
+"*Белые списки* или *проверки по белому списку* предназначены для "
+"подтверждения соответствия данных требованиям набора \"проверенных\" правил."
+" Например, проверка штата США по белому списку будет представлять собой "
+"поиск 2-буквенного кода в списке существующих штатов США."
 
 # 82e62e047fac4b92864d90bf5e9a8de4
 #: ../../c5-validate-all-inputs.rst:26
@@ -117,6 +140,14 @@ msgid ""
 "ensuring data is of the right syntactic and semantic validity, "
 "*blacklisting* helps detect and potentially stop obvious attacks."
 msgstr ""
+"При создании безопасного ПО как минимум рекомендуется использовать белые "
+"списки. Черные списки могут содержать ошибки, их можно обойти различными "
+"способами, а также они сами по себе могут представлять опасность. Несмотря "
+"на возможность обхода ограничений черных списков, они могут помочь "
+"обнаружить очевидные атаки. Таким образом, *белые списки* помогают "
+"ограничить возможность проведения атаки путем проверки соответствия данных "
+"синтаксической и семантической нормам, а *черные списки* помогают обнаружить"
+" и предотвратить очевидные атаки."
 
 # 5d3d5204ec204186835e166a15a96907
 #: ../../c5-validate-all-inputs.rst:29
@@ -191,6 +222,11 @@ msgid ""
 "_ReDoS>`_). Various tools can test to verify that regular expressions are "
 "not vulnerable to ReDoS."
 msgstr ""
+"При создании регулярных выражений необходимо соблюдать осторожность. Плохо "
+"продуманные выражения могут привести к отказу в обслуживании (т. н. `ReDoS "
+"<https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-"
+"_ReDoS>`_ — отказ в обслуживании из-за регулярных выражений). Для проверки "
+"регулярных выражений на ReDoS существует много разных инструментов."
 
 # bfc7669dc8d34830b9df7dd3a463578f
 #: ../../c5-validate-all-inputs.rst:52
@@ -225,6 +261,13 @@ msgid ""
 "validation should always be applied to data such as query parameterization "
 "or escaping."
 msgstr ""
+"**Проверка входных данных не всегда делает их \"безопасными\", поскольку "
+"некоторые сложные типы данных могут являться \"допустимыми\" и в то же время"
+" опасными. Например, допустимый адрес электронной почты может содержать "
+"вредоносный SQL-код, а допустимый URL-адрес может привести к межсайтовому "
+"выполнению сценариев**. Помимо проверок входных данных необходимо "
+"использовать дополнительные меры защиты, например, экранирование или "
+"параметризацию запросов."
 
 # dcd787f5d0bf43ccaf9f4ef428557601
 #: ../../c5-validate-all-inputs.rst:63
@@ -390,6 +433,8 @@ msgid ""
 "More examples are available in the `OWASP Mass Assignment Cheat Sheet "
 "<https://www.owasp.org/index.php/Mass_Assignment_Cheat_Sheet>`_."
 msgstr ""
+"Дополнительные примеры можно найти в `Памятке OWASP по массовому назначению "
+"<https://www.owasp.org/index.php/Mass_Assignment_Cheat_Sheet>`_."
 
 # dd8b174574ec40eea13b93fe418070f1
 #: ../../c5-validate-all-inputs.rst:94
@@ -435,6 +480,12 @@ msgid ""
 ".236_-_Sanitize_HTML_Markup_with_a_Library_Designed_for_the_Job>`_ for more "
 "information on HTML Sanitization."
 msgstr ""
+"Таким образом, для обработки и преобразования (очистки) HTML-текста "
+"необходима специальная библиотека. Дополнительную информацию по очистке HTML"
+" см. в `Памятке по предотвращению межсайтового выполнения сценариев в "
+"разделе Очистка HTML "
+"<https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_"
+".236_-_Sanitize_HTML_Markup_with_a_Library_Designed_for_the_Job>`_."
 
 # 2805bd29970f48f4a66b0e33b5f2dc74
 #: ../../c5-validate-all-inputs.rst:104
@@ -460,6 +511,20 @@ msgid ""
 "<https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer_Project>`_ or "
 "`DOMPurify <https://github.com/cure53/DOMPurify>`_."
 msgstr ""
+"Все языки и большинство фреймворков имеют библиотеки или функции, которые "
+"рекомендуется использовать для проверки данных. Подобные библиотеки, как "
+"правило, обеспечивают проверку стандартных типов данных, требований к длине,"
+" диапазонов целых чисел, \"нулевых данных\" и т. п. Большинство библиотек и "
+"фреймворков позволяют создавать собственные регулярные выражения или логику "
+"проверок, позволяя программистам использовать данную функцию в приложениях. "
+"Примеры реализации функции проверки: `функции фильтрации "
+"<https://secure.php.net/manual/en/filter.examples.validation.php>`_ PHP или "
+"`Hibernate Validator <http://hibernate.org/validator/>`_ для Java. Примеры "
+"инструментов для очистки HTML: `метод очистки Ruby on Rails "
+"<http://edgeapi.rubyonrails.org/classes/ActionView/Helpers/SanitizeHelper.html>`_,"
+" `средство очистки HTML на Java от OWASP "
+"<https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer_Project>`_ или "
+"`DOMPurify <https://github.com/cure53/DOMPurify>`_."
 
 # dc998c84e0cd4a1daf92fc9cf8bb7ea1
 #: ../../c5-validate-all-inputs.rst:109
@@ -496,6 +561,12 @@ msgid ""
 "<https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet>`_ and"
 " other attacks."
 msgstr ""
+"Проверка входных данных не должна использоваться в качестве основного "
+"средства предотвращения `Межсайтовых выполнений сценариев "
+"<https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet>`_,"
+" `Внедрений SQL-кода "
+"<https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet>`_ и "
+"прочих атак."
 
 # c6500811d0a7461d8899effcbb2f92a9
 #: ../../c5-validate-all-inputs.rst:116
@@ -508,6 +579,8 @@ msgid ""
 "`OWASP Cheat Sheet: Input Validation "
 "<https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Проверка входных данных "
+"<https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet>`_"
 
 # ac6edcea50544f73ab716e0b3bce2e82
 #: ../../c5-validate-all-inputs.rst:119
@@ -515,6 +588,9 @@ msgid ""
 "`OWASP Cheat Sheet: iOS - Security Decisions via Untrusted Inputs "
 "<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet#Security_Decisions_via_Untrusted_Inputs_.28M7.29>`_"
 msgstr ""
+"`Памятка OWASP: iOS - Решения по безопасности с использованием непроверенных"
+" входных данных "
+"<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet#Security_Decisions_via_Untrusted_Inputs_.28M7.29>`_"
 
 # c0e9bd51148841bd9cda5776e4ea54e5
 #: ../../c5-validate-all-inputs.rst:120
@@ -522,6 +598,8 @@ msgid ""
 "`OWASP Testing Guide: Testing for Input Validation "
 "<https://www.owasp.org/index.php/Testing_for_Input_Validation>`_"
 msgstr ""
+"`Руководство OWASP по тестированию: Тестирование проверки входных данных "
+"<https://www.owasp.org/index.php/Testing_for_Input_Validation>`_"
 
 # fe4528e1e7ac477188e00643da0509ec
 #: ../../c5-validate-all-inputs.rst:123
@@ -534,16 +612,18 @@ msgid ""
 "`OWASP Java HTML Sanitizer Project "
 "<https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer>`_"
 msgstr ""
+"`Средства очистки HTML на Java от OWASP "
+"<https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer>`_"
 
 # 9e30b00812cc48a78989d512c20633aa
 #: ../../c5-validate-all-inputs.rst:126
 msgid "`Java JSR-303/JSR-349 Bean Validation <http://beanvalidation.org/>`_"
-msgstr ""
+msgstr "`Java JSR-303/JSR-349 Bean Validation <http://beanvalidation.org/>`_"
 
 # 104f180b537d4b4da1be52ba1317f2e7
 #: ../../c5-validate-all-inputs.rst:127
 msgid "`Java Hibernate Validator <http://hibernate.org/validator/>`_"
-msgstr ""
+msgstr "`Java Hibernate Validator <http://hibernate.org/validator/>`_"
 
 # f623358082aa406c892f43d2adf52f2d
 #: ../../c5-validate-all-inputs.rst:128
@@ -551,6 +631,8 @@ msgid ""
 "`JEP-290 Filter Incoming Serialization Data "
 "<http://openjdk.java.net/jeps/290>`_"
 msgstr ""
+"`JEP-290 фильтр входящих сериализованных данных "
+"<http://openjdk.java.net/jeps/290>`_"
 
 # 3087791c779d4392ab8363233a4029ae
 #: ../../c5-validate-all-inputs.rst:129
@@ -558,9 +640,12 @@ msgid ""
 "`Apache Commons Validator <https://commons.apache.org/proper/commons-"
 "validator/>`_"
 msgstr ""
+"`Apache Commons Validator <https://commons.apache.org/proper/commons-"
+"validator/>`_"
 
 # 0752d4243b8b43f3bc8a0bbe192f912b
 #: ../../c5-validate-all-inputs.rst:130
 msgid ""
 "PHP’s `filter functions <https://secure.php.net/manual/en/book.filter.php>`_"
 msgstr ""
+"`Функции фильтрации <https://secure.php.net/manual/en/book.filter.php>`_ PHP"

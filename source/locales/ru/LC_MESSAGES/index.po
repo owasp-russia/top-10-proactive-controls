@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # JZDLin, 2019
 # 
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:20+0000\n"
 "Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
@@ -21,14 +22,14 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# 7750c9d7ac3a4d9d805b3c909e26a6e2
+# 4f65293acb4445a8923de990c185f748
 #: ../../index.rst:7
 msgid "OWASP Top 10 Proactive Controls 2018"
 msgstr "Проактивная защита OWASP: Топ-10 2018"
 
-# 1aa88b7bae5b46a994073d81b7b3233a
+# 4d6227bbcbdf4cd4bfbe191612bd8660
 #: ../../index.rst:11
 msgid "*10 Critical Security Areas That Software Developers Must Be Aware Of*"
 msgstr ""
-"\"10 аспектов безопасности, на которые разработчики ПО должны обращать "
-"внимание\""
+"*10 аспектов безопасности, на которые разработчики ПО должны обращать "
+"внимание*"

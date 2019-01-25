@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# JZDLin, 2019
 # Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
+# JZDLin, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -169,10 +169,11 @@ msgid ""
 "wants the system to do for them. A user story takes the form of \"As a user,"
 " I can do x, y, and z\"."
 msgstr ""
-"Сценарий эксплуатации предполагает наличие пользователя, администратора или "
-"злоумышленника, а также описывает функциональные возможности системы на "
-"основе ожиданий пользователя. Сценарий эксплуатации заказчика представляется"
-" в следующей форме: \"В качестве пользователя я могу выполнить x, y и z\"."
+"Сценарий эксплуатации приложения предполагает наличие пользователя, "
+"администратора или злоумышленника, а также описывает функциональные "
+"возможности системы на основе ожиданий пользователя. Сценарий эксплуатации "
+"заказчика представляется в следующей форме: \"В качестве пользователя я могу"
+" выполнить x, y и z\"."
 
 # 4095c39946284aabb1c05d96a5805c65
 #: ../../c1-security-requirements.rst:31
@@ -351,3 +352,5 @@ msgid ""
 "`OWASP Top Ten "
 "<https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>`_"
 msgstr ""
+"`Топ-10 OWASP "
+"<https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>`_"

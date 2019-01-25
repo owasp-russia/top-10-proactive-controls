@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# JZDLin, 2019
 # Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
+# JZDLin, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:20+0000\n"
-"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -321,6 +321,8 @@ msgid ""
 "`OWASP Top 10 2017 - A3: Sensitive Data Exposure "
 "<https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure>`_"
 msgstr ""
+"`Топ-10 OWASP 2017 - А3: Разглашение конфиденциальных данных "
+"<https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure>`_"
 
 # 70b23c75d76c4cb5a5c996f09224de44
 #: ../../c8-protect-data-everywhere.rst:62
@@ -328,6 +330,8 @@ msgid ""
 "`OWASP Mobile Top 10 2014-M2 Insecure Data Storage "
 "<https://www.owasp.org/index.php/Mobile_Top_10_2014-M2>`_"
 msgstr ""
+"`Топ-10 OWASP 2014 (мобильные устройства) - M2: Небезопасное хранение данных"
+" <https://www.owasp.org/index.php/Mobile_Top_10_2014-M2>`_"
 
 # 9bca20a1af1c417a81b7d041f5b7559c
 #: ../../c8-protect-data-everywhere.rst:65
@@ -340,6 +344,8 @@ msgid ""
 "`OWASP Cheat Sheet: Transport Layer Protection "
 "<https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Защита транспортного уровня "
+"<https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet>`_"
 
 # a6103f47520147cdaed50bf8f6eff778
 #: ../../c8-protect-data-everywhere.rst:68
@@ -347,6 +353,8 @@ msgid ""
 "`Ivan Ristic: SSL/TLS Deployment Best Practices "
 "<https://www.ssllabs.com/projects/best-practices/index.html>`_"
 msgstr ""
+"`Ivan Ristic: Рекомендации по реализации SSL/TLS "
+"<https://www.ssllabs.com/projects/best-practices/index.html>`_"
 
 # 94b9a1173d36405a862a3e32d6a9eaaa
 #: ../../c8-protect-data-everywhere.rst:69
@@ -354,6 +362,8 @@ msgid ""
 "`OWASP Cheat Sheet: HSTS "
 "<https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Принудительное использование HTTPS (HSTS) "
+"<https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet>`_"
 
 # 96841c66100b4abfacc6a41d8eb7cfe3
 #: ../../c8-protect-data-everywhere.rst:70
@@ -361,6 +371,8 @@ msgid ""
 "`OWASP Cheat Sheet: Cryptographic Storage "
 "<https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Хранение в зашифрованном виде "
+"<https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet>`_"
 
 # d254c43554a94aa381064613004adc46
 #: ../../c8-protect-data-everywhere.rst:71
@@ -368,6 +380,8 @@ msgid ""
 "`OWASP Cheat Sheet: Password Storage "
 "<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Хранение паролей "
+"<https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet>`_"
 
 # 8d0f9970b35a47df9fbd4431269201fe
 #: ../../c8-protect-data-everywhere.rst:72
@@ -375,6 +389,8 @@ msgid ""
 "`OWASP Cheat Sheet: IOS Developer - Insecure Data Storage "
 "<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet#Insecure_Data_Storage_.28M1.29>`_"
 msgstr ""
+"`Памятка OWASP: Для разработчиков iOS - Небезопасное хранение данных "
+"<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet#Insecure_Data_Storage_.28M1.29>`_"
 
 # 6b211b0e7c26419ebe41f87f911295c7
 #: ../../c8-protect-data-everywhere.rst:73
@@ -383,6 +399,9 @@ msgid ""
 "<https://www.owasp.org/index.php/Testing_for_Weak_SSL/TLS_Ciphers,_Insufficient_Transport_Layer_Protection_"
 "(OTG-CRYPST-001)>`_"
 msgstr ""
+"`Руководство OWASP по тестированию: Тестирование TLS "
+"<https://www.owasp.org/index.php/Testing_for_Weak_SSL/TLS_Ciphers,_Insufficient_Transport_Layer_Protection_"
+"(OTG-CRYPST-001)>`_"
 
 # e2c4f82e925d484b889ffcc1e151b0f1
 #: ../../c8-protect-data-everywhere.rst:76
@@ -395,6 +414,8 @@ msgid ""
 "`SSLyze <https://github.com/nabla-c0d3/sslyze>`_ - SSL configuration "
 "scanning library and CLI tool"
 msgstr ""
+"`SSLyze <https://github.com/nabla-c0d3/sslyze>`_ — интерфейс командной "
+"строки и библиотека для сканирования конфигураций SSL"
 
 # 7d47219a2e794feeae463d19d0351177
 #: ../../c8-protect-data-everywhere.rst:79
@@ -402,6 +423,8 @@ msgid ""
 "`SSLLabs <https://www.ssllabs.com/ssltest/>`_ - Free service for scanning "
 "and checking TLS/SSL configuration"
 msgstr ""
+"`SSLLabs <https://www.ssllabs.com/ssltest/>`_ — бесплатная служба для "
+"сканирования и проверки конфигураций TLS/SSL"
 
 # fa7dfd6c3e7a42e7ad7ea7fc95504ce6
 #: ../../c8-protect-data-everywhere.rst:80
@@ -409,6 +432,8 @@ msgid ""
 "`OWASP O-Saft TLS Tool <https://www.owasp.org/index.php/O-Saft>`_ - TLS "
 "connection testing tool"
 msgstr ""
+"`OWASP O-Saft TLS Tool <https://www.owasp.org/index.php/O-Saft>`_ — "
+"инструмент для тестирования TLS-соединений"
 
 # b17b30e7cd2149989794c47345df0740
 #: ../../c8-protect-data-everywhere.rst:81
@@ -416,6 +441,8 @@ msgid ""
 "`GitRob <https://github.com/michenriksen/gitrob>`_ - Command line tool to "
 "find sensitive information in publicly available files on GitHub"
 msgstr ""
+"`GitRob <https://github.com/michenriksen/gitrob>`_ — инструмент командной "
+"строки для поиска критичных данных в общедоступных файлах на GitHub"
 
 # 6e63deaa0c5049048a4e8f3c29917500
 #: ../../c8-protect-data-everywhere.rst:82
@@ -423,19 +450,23 @@ msgid ""
 "`TruffleHog <https://github.com/dxa4481/truffleHog>`_  - Searches for "
 "secrets accidentally committed"
 msgstr ""
+"`TruffleHog <https://github.com/dxa4481/truffleHog>`_  — инструмент для "
+"поиска случайно закоммиченных секретов"
 
 # fac8f7f4a24b4a25baf1f2a1edcaee37
 #: ../../c8-protect-data-everywhere.rst:83
 msgid "`KeyWhiz <https://github.com/square/keywhiz>`_ - Secrets manager"
-msgstr ""
+msgstr "`KeyWhiz <https://github.com/square/keywhiz>`_ — менеджер секретов"
 
 # bc89e5b4e9554592b9d1840a856a27b2
 #: ../../c8-protect-data-everywhere.rst:84
 msgid "`Hashicorp Vault <https://www.vaultproject.io/>`_ - Secrets manager"
-msgstr ""
+msgstr "`Hashicorp Vault <https://www.vaultproject.io/>`_ — менеджер секретов"
 
 # 6d86201533834a6ab787fd100e9a3af2
 #: ../../c8-protect-data-everywhere.rst:85
 msgid ""
 "`Amazon KMS <https://aws.amazon.com/kms/>`_ - Manage keys on Amazon AWS"
 msgstr ""
+"`Amazon KMS <https://aws.amazon.com/kms/>`_ — инструмент управления ключами "
+"на Amazon AWS"

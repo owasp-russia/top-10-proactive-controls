@@ -5,6 +5,7 @@
 # 
 # Translators:
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +39,9 @@ msgid ""
 "*specific requests* from a user, program, or process. Access control also "
 "involves the act of *granting and revoking those privileges*."
 msgstr ""
+"Контроль доступа (или Авторизация) заключается в разрешении или запрещении "
+"специфических запросов, поступающих от пользователей, программ или "
+"процессов, а также предполагает выдачу и отзыв подобных привилегий."
 
 # cae272cbd7d144a9b914948f28a8a298
 #: ../../c7-enforce-access-controls.rst:9
@@ -356,6 +360,8 @@ msgid ""
 "`OWASP Top 10 2017-A5-Broken Access Control "
 "<https://www.owasp.org/index.php/Top_10-2017_A5-Broken_Access_Control>`_"
 msgstr ""
+"`Топ-10 OWASP 2017 - А5: Недостатки контроля доступа "
+"<https://www.owasp.org/index.php/Top_10-2017_A5-Broken_Access_Control>`_"
 
 # 39c5e959381c46c7ba58e0fba5cb392c
 #: ../../c7-enforce-access-controls.rst:88
@@ -363,6 +369,8 @@ msgid ""
 "`OWASP Mobile Top 10 2014-M5 Poor Authorization and Authentication "
 "<https://www.owasp.org/index.php/Mobile_Top_10_2014-M5>`_"
 msgstr ""
+"`Топ-10 OWASP 2014 (мобильные устройства) - M5: Ненадежная авторизация и "
+"аутентификация <https://www.owasp.org/index.php/Mobile_Top_10_2014-M5>`_"
 
 # b9c20cff5ede4c84a826622474fe6920
 #: ../../c7-enforce-access-controls.rst:91
@@ -375,6 +383,8 @@ msgid ""
 "`OWASP Cheat Sheet: Access Control "
 "<https://www.owasp.org/index.php/Access_Control_Cheat_Sheet>`_"
 msgstr ""
+"`Памятка OWASP: Контроль доступа "
+"<https://www.owasp.org/index.php/Access_Control_Cheat_Sheet>`_"
 
 # 8a2428582c0f40dc944f17afa90620d8
 #: ../../c7-enforce-access-controls.rst:94
@@ -382,6 +392,9 @@ msgid ""
 "`OWASP Cheat Sheet:  iOS Developer - Poor Authorization and Authentication "
 "<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet#Remediations_5>`_"
 msgstr ""
+"`Памятка OWASP: Для разработчиков iOS - Ненадежная авторизация и "
+"аутентификация "
+"<https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet#Remediations_5>`_"
 
 # 26b72a35dfd04c62b2a8e752cc3045f6
 #: ../../c7-enforce-access-controls.rst:95
@@ -389,6 +402,8 @@ msgid ""
 "`OWASP Testing Guide: Testing for Authorization "
 "<https://www.owasp.org/index.php/Testing_for_Authorization>`_"
 msgstr ""
+"`Руководство OWASP по тестированию: Тестирование авторизации "
+"<https://www.owasp.org/index.php/Testing_for_Authorization>`_"
 
 # 1b7ef8a163404384b0c49477a2fb6c45
 #: ../../c7-enforce-access-controls.rst:98
@@ -402,3 +417,6 @@ msgid ""
 " Control Testing <https://github.com/zaproxy/zap-"
 "extensions/wiki/HelpAddonsAccessControlConcepts>`_ add-on"
 msgstr ""
+"`OWASP ZAP <https://www.owasp.org/index.php/ZAP>`_ с дополнительным "
+"компонентом для `Тестирования контроля доступа <https://github.com/zaproxy"
+"/zap-extensions/wiki/HelpAddonsAccessControlConcepts>`_"

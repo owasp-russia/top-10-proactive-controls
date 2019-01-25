@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# JZDLin, 2019
 # Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
+# JZDLin, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-24 16:38+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
+"Last-Translator: JZDLin, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -265,11 +265,14 @@ msgstr ""
 #: ../../c9-implement-security-logging-monitoring.rst:54
 msgid "`OWASP Log injection <https://www.owasp.org/index.php/Log_Injection>`_"
 msgstr ""
+"`OWASP - Внедрение данных в журналы "
+"<https://www.owasp.org/index.php/Log_Injection>`_"
 
 # 05b6e5c9e25b43c882645438bc62f7e6
 #: ../../c9-implement-security-logging-monitoring.rst:55
 msgid "`OWASP Log forging <https://www.owasp.org/index.php/Log_Forging>`_"
 msgstr ""
+"`OWASP - Подделка журналов <https://www.owasp.org/index.php/Log_Forging>`_"
 
 # d83f126d2398490383b56cd8433fae83
 #: ../../c9-implement-security-logging-monitoring.rst:56
@@ -288,6 +291,8 @@ msgid ""
 "`OWASP Development Guide: Logging "
 "<https://www.owasp.org/index.php/Error_Handling,_Auditing_and_Logging#Logging>`_"
 msgstr ""
+"`Руководство разработчика OWASP: Журналирование "
+"<https://www.owasp.org/index.php/Error_Handling,_Auditing_and_Logging#Logging>`_"
 
 # a707aa0429b04f4c8140527c08bdb298
 #: ../../c9-implement-security-logging-monitoring.rst:58
@@ -309,8 +314,10 @@ msgid ""
 "`OWASP Security Logging Project "
 "<https://www.owasp.org/index.php/OWASP_Security_Logging_Project>`_"
 msgstr ""
+"`Проект OWASP: Журналирование событий безопасности "
+"<https://www.owasp.org/index.php/OWASP_Security_Logging_Project>`_"
 
 # a830e53329614341bdefa5296be3509b
 #: ../../c9-implement-security-logging-monitoring.rst:64
 msgid "`Apache Logging Services <https://logging.apache.org/>`_"
-msgstr ""
+msgstr "`Службы журналирования Apache <https://logging.apache.org/>`_"
