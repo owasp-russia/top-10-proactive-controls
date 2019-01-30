@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # JZDLin, 2019
 # 
 #, fuzzy
@@ -77,7 +78,7 @@ msgstr ""
 # 257308bbf9d44b94b52e736f1542b1e7
 #: ../../c4-encode-escape-data.rst:12
 msgid "Contextual Output Encoding"
-msgstr "Контекстуальное кодирование выходных данных"
+msgstr "Контекстное кодирование выходных данных"
 
 # 9b4ca64f9c774d23a9ffcab7d541289e
 #: ../../c4-encode-escape-data.rst:14
@@ -91,19 +92,19 @@ msgid ""
 "interfaces includes HTML Entity Encoding, HTML Attribute Encoding, "
 "JavaScript Encoding, and URL Encoding."
 msgstr ""
-"Контекстуальное кодирование выходных данных является ключевым для "
-"безопасного программирования и предотвращения межсайтового выполнения "
-"сценариев. Подобная мера защиты применяется при создании интерфейсов "
-"пользователя, непосредственно перед динамическим добавлением непроверенных "
-"данных к HTML-коду. Тип кодирования будет зависеть от места (или контекста) "
-"отображения или хранения данных в документе. Типы кодирования, рекомендуемые"
-" к использованию при создании безопасного интерфейса: кодирование сущностей "
-"или атрибутов HTML, а также кодирование JavaScript и URL."
+"Контекстное кодирование выходных данных является ключевым для безопасного "
+"программирования и предотвращения межсайтового выполнения сценариев. "
+"Подобная мера защиты применяется при создании интерфейсов пользователя, "
+"непосредственно перед динамическим добавлением непроверенных данных к HTML-"
+"коду. Тип кодирования будет зависеть от места (или контекста) отображения "
+"или хранения данных в документе. Типы кодирования, рекомендуемые к "
+"использованию при создании безопасного интерфейса: кодирование сущностей или"
+" атрибутов HTML, а также кодирование JavaScript и URL."
 
 # 962e9b0968f149f4b93de54f19c8485a
 #: ../../c4-encode-escape-data.rst:17
 msgid "Java Encoding Examples"
-msgstr "Примеры кодирования Java"
+msgstr "Примеры кодирования на Java"
 
 # e339e71d2cac472eab8543076aeec07b
 #: ../../c4-encode-escape-data.rst:19
@@ -112,7 +113,7 @@ msgid ""
 "see: `OWASP Java Encoder Project Examples "
 "<https://www.owasp.org/index.php/OWASP_Java_Encoder_Project#tab=Use_the_Java_Encoder_Project>`_."
 msgstr ""
-"Примеры использования кодировщика Java, обеспечивающего контекстуальное "
+"Примеры использования кодировщика Java, обеспечивающего контекстное "
 "кодирование выходных данных, можно посмотреть на `сайте проекта кодировщика "
 "Java от OWASP "
 "<https://www.owasp.org/index.php/OWASP_Java_Encoder_Project#tab=Use_the_Java_Encoder_Project>`_."
@@ -120,7 +121,7 @@ msgstr ""
 # 00b07595d0bf46ff905a18b8a25bdc29
 #: ../../c4-encode-escape-data.rst:23
 msgid ".NET Encoding Examples"
-msgstr "Примеры кодирования .NET"
+msgstr "Примеры кодирования в .NET"
 
 # b3cafe6cd6274c05924e88dfad1cf2d2
 #: ../../c4-encode-escape-data.rst:25
@@ -143,7 +144,7 @@ msgstr ""
 # 8659828b443e49d4969b6c203e6a6472
 #: ../../c4-encode-escape-data.rst:28
 msgid "PHP Encoding Examples"
-msgstr "Примеры кодирования PHP"
+msgstr "Примеры кодирования на PHP"
 
 # f9c5db7e6e8e4c13b70e50d68da64f11
 #: ../../c4-encode-escape-data.rst:31
