@@ -5,15 +5,16 @@
 # 
 # Translators:
 # JZDLin, 2019
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OWASP Proactive Controls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 14:27+0300\n"
+"POT-Creation-Date: 2019-01-30 12:02+0300\n"
 "PO-Revision-Date: 2019-01-16 10:21+0000\n"
-"Last-Translator: JZDLin, 2019\n"
+"Last-Translator: Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/owasp/teams/95217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,16 +22,89 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-# 972f2d33beb949a9955a2f79cda40461
-#: ../../structure.md:1
+# 4c6985140fe14931bfc660829886048f
+#: ../../structure.rst:2
 msgid "DOCUMENT STRUCTURE"
 msgstr "СТРУКТУРА ДОКУМЕНТА"
 
-# 29dbf8a157614e899c8a396af7e8a233
-#: ../../structure.md:3
+# 3907e41a67614dd6b9f37c97b7766e60
+#: ../../structure.rst:4
 msgid ""
 "This document is structured as a list of security controls. Each control is "
 "described as follows:"
 msgstr ""
 "Данный документ представлен в виде списка требований к безопасности. Каждое "
 "требование описывается следующим образом:"
+
+# c1e5931ba0494597b2826d1f44a7cc9a
+#: ../../structure.rst:8
+msgid "Cx: Control Name"
+msgstr "Cx: Название требования"
+
+# 234c259f9ba84666ab617494dad230bf
+#: ../../structure.rst:12
+msgid "Description"
+msgstr "Описание"
+
+# a50c8499be034e69bd28456a0dc82a36
+#: ../../structure.rst:14
+msgid ""
+"A detailed description of the control including some best practices to "
+"consider."
+msgstr "Подробное описание требования, включая некоторые рекомендации."
+
+# b6751cefe9d045a99450f38f23729eab
+#: ../../structure.rst:17
+msgid "Implementation"
+msgstr "Реализация"
+
+# 3bb1538245f747a789af1c2deb1fff2c
+#: ../../structure.rst:19
+msgid ""
+"Implementation best practices  and examples to illustrate how to implement "
+"each control."
+msgstr ""
+"Рекомендации по реализации и примеры, иллюстрирующие способы реализации "
+"каждого требования."
+
+# 7088d02ecf9f49fea5a9ea70157d685c
+#: ../../structure.rst:22
+msgid "Vulnerabilities Prevented"
+msgstr "Предотвращаемые уязвимости"
+
+# 625c3fad30174965bba27851dffad378
+#: ../../structure.rst:24
+msgid ""
+"List of prevented vulnerabilities or risks addressed (OWASP TOP 10 Risk, "
+"CWE, etc.)"
+msgstr ""
+"Список предотвращаемых уязвимостей или угроз (например, Топ-10 угроз OWASP "
+"или CWE)."
+
+# 953e2e0be0df4fd3a1259b9936acc1ea
+#: ../../structure.rst:27
+msgid "References"
+msgstr "Ссылки"
+
+# e75e309eac53426cae48e977294cdf7c
+#: ../../structure.rst:29
+msgid ""
+"List of references for further study (OWASP Cheat sheet, Security Hardening "
+"Guidelines, etc.)"
+msgstr ""
+"Перечень справочных источников для дальнейшего изучения (например, памятки "
+"OWASP или руководства по улучшению безопасности)."
+
+# 0a3163ec03c14245a6eb04ad5a65e4aa
+#: ../../structure.rst:33
+msgid "Tools"
+msgstr "Инструменты"
+
+# f2bdd7b54d564212b9d893d1ce9d1732
+#: ../../structure.rst:35
+msgid ""
+"Set of tools/projects to easily introduce/integrate security controls into "
+"your software."
+msgstr ""
+"Перечень инструментов или проектов, позволяющих реализовать или "
+"интегрировать требования безопасности в ПО."
