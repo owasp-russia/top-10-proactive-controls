@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Taras Ivashchenko <oxdef+transifex@oxdef.info>, 2019
 # JZDLin, 2019
 # 
 #, fuzzy
@@ -77,7 +78,7 @@ msgid ""
 "dangerous commands against the operating system hosting your database, "
 "thereby giving an attacker a foothold on your network."
 msgstr ""
-"SQL-код может быть внедрен, если непроверенные входные данные динамически "
+"SQL-код может быть внедрен, если недоверенные входные данные динамически "
 "добавляются в SQL-запросы, обычно путем присоединения к основной строке. "
 "Внедрение SQL-кода представляет одну из наиболее серьезных угроз "
 "безопасности приложения. Внедрение SQL-кода легко осуществить; эксплуатация "

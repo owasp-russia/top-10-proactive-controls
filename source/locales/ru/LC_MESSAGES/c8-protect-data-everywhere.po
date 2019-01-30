@@ -321,7 +321,7 @@ msgid ""
 "`OWASP Top 10 2017 - A3: Sensitive Data Exposure "
 "<https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure>`_"
 msgstr ""
-"`Топ-10 OWASP 2017 - А3: Разглашение конфиденциальных данных "
+"`Топ-10 OWASP 2017 - А3: Разглашение критичных данных "
 "<https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure>`_"
 
 # 70b23c75d76c4cb5a5c996f09224de44
@@ -353,7 +353,7 @@ msgid ""
 "`Ivan Ristic: SSL/TLS Deployment Best Practices "
 "<https://www.ssllabs.com/projects/best-practices/index.html>`_"
 msgstr ""
-"`Ivan Ristic: Рекомендации по реализации SSL/TLS "
+"`Ivan Ristic: Рекомендации по внедрению SSL/TLS "
 "<https://www.ssllabs.com/projects/best-practices/index.html>`_"
 
 # 94b9a1173d36405a862a3e32d6a9eaaa
@@ -414,7 +414,7 @@ msgid ""
 "`SSLyze <https://github.com/nabla-c0d3/sslyze>`_ - SSL configuration "
 "scanning library and CLI tool"
 msgstr ""
-"`SSLyze <https://github.com/nabla-c0d3/sslyze>`_ — интерфейс командной "
+"`SSLyze <https://github.com/nabla-c0d3/sslyze>`_ — инструмент командной "
 "строки и библиотека для сканирования конфигураций SSL"
 
 # 7d47219a2e794feeae463d19d0351177

@@ -103,7 +103,7 @@ msgid ""
 "required behaviour into your software."
 msgstr ""
 "для снижения вероятности атак используйте инкапсуляцию библиотек и только "
-"необходимый для вашего ПО функционал."
+"необходимую для вашего ПО функциональность."
 
 # 98a33c5a5d004390af59856d72f5af9c
 #: ../../c2-leverage-security-frameworks-libraries.rst:20
