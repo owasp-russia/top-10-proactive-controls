@@ -158,7 +158,7 @@ msgid ""
 " exist, and also carries with it the guidance that no default passwords "
 "should be used within the application."
 msgstr ""
-"Данное требование описывает проверку на отсутствия паролей по умолчанию и "
+"Данное требование описывает проверку на отсутствие паролей по умолчанию и "
 "запрет на использование паролей по умолчанию в приложении."
 
 # 04375eef85474830b974477d3fa8b2db
@@ -343,7 +343,7 @@ msgid ""
 "`OWASP Mobile Application Security Verification Standard (MASVS) "
 "<https://github.com/OWASP/owasp-masvs>`_"
 msgstr ""
-"`Стандарт подтверждения безопасности мобильных приложений OWASP (MASVS "
+"`Стандарт подтверждения безопасности мобильных приложений OWASP (MASVS) "
 "<https://github.com/OWASP/owasp-masvs>`_"
 
 # cbf3662ccffb491b83bc746e7fdaf698
